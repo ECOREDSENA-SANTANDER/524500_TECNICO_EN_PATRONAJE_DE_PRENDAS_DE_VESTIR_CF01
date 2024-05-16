@@ -17,3 +17,244 @@
 
   100%
     transform: translateY(0px)
+
+//utilidades
+
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+
+  ///// Utildiades texto --------------------------------------
+.cstmH3
+  display: inline-block
+  padding-bottom: 7px
+  margin-bottom: 2rem
+  border-bottom: 3px solid #FF6B00
+.txt--green
+  color: #39A900 !important
+
+///// colores --------------------------------------
+.clr--gris
+  background-color: #f3f3f3
+.clr--pink
+  background-color: #FFAFB2
+.clr--pink02
+  background-color: #FFDFE0
+.clr--orange
+  background-color: #FF6B00
+.clr--gray
+  background-color: #F9F9F9
+.clr--paleBlue
+  background-color: #ECF3FB
+.clr--paleGreen
+  background-color: #DEF2F4
+.clr-paleYellow
+  background-color: #FFF8D9
+
+.anexo.cstm
+  background-color: white
+  &:hover    
+    .anexo__texto
+      p   
+        color: #2e5d97
+
+.color-morado-claro
+  background-color: #D1BCFF !important
+   
+.color-morado-fuerte
+  background-color: #673AB7 !important
+
+.lista-ul--color li > i:first-of-type 
+    color: #673AB7 !important
+
+.gris
+  background-color: #DADDDF !important
+
+.ul-vinetan-new
+  
+
+//// Linea de pasos
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  border-color: #D1BCFF !important
+  background-color: #D1BCFF  !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #9D9D9D !important
+
+.pasos-b__header__item:last-child .pasos-b__header__item__line-container:after 
+    background-color: transparent !important
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #9D9D9D !important
+
+.pasos-b__header__btn--left .pasos-b__header__btn--right
+    min-width: 50px
+    max-width: 50px
+    min-height: 50px
+    max-height: 50px
+    //flex: auto
+    border-radius: 50%
+    border: 2px solid #12263F !important
+    background-color: #FFD54F !important
+    position: relative
+    cursor: pointer
+    transition: border-color 0.2s ease-in-out
+ 
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DADDDF
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #E8E4FF !important
+
+/// otros
+
+.cajon.color-primario
+  background-color: #D1BCFF
+
+.borde-redondo
+  border-radius: 20px
+
+// tarjetas animadas
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(254, 245, 229, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+// tarjetas con avatar
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+
+  ////// Number --------------------------------------
+.number
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: attr(data-number)   
+    position: absolute
+    top: -6rem
+    left: 0rem
+    width: 100%
+    height: 100%
+    font-weight: 700
+    font-size: 120pt
+    color: #E1E2E5
+    z-index: 0
