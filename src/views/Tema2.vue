@@ -46,7 +46,12 @@
     .row
       .col-1
       .col-md-10
-        img(src='@/assets/curso/temas/tema2/imagen1.png')
+        p.mb-0 Línea guía: eje de simetría.
+        p.mb-0 Línea sólida: croquis de prenda.
+        p.mb-4 Línea intermitente: pespuntes o costuras.
+        figure
+          figcaption(style="background-color: white") Figura 1. Tipos de línea.
+          img(src='@/assets/curso/temas/tema2/imagen1.png')
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -353,12 +358,6 @@
         h2 2.8.  Ficha técnica
       p Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
 
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Interfaz programa CAD.
-
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen10.png')})`}"
@@ -371,11 +370,14 @@
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Tipos
+        h3(style="color: #673AB7") \\\ Tipos de ficha técnica
+      p Según el volumen, la cantidad, la rigurosidad de la producción y el cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.
     .row.mb-5
       .col-1
       .col-md-10
-        img(src='@/assets/curso/temas/tema2/imagen11.png')
+        figure
+          figcaption(style="background-color:white") Figura 3. Tipos de ficha técnica
+          img(src='@/assets/curso/temas/tema2/imagen11.png')
 
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")

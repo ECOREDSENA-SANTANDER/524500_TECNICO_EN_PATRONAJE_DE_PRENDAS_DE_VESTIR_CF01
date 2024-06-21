@@ -59,25 +59,10 @@
 
 
     .row.bm-5.mt-5
-      .col-1
-        h3(style="color: #673AB7") Naturales: 
-      .col-3
-        p animales, minerales, vegetales. 
+      h3(style="color: #673AB7") Naturales: 
+      p Son fibras que se extraen de los animales o de origen vegetal, se caracterizan por ser fragmentos, hebras o pelo y que pueden hilarse para dar lugar a hilos o cuerdas.
 
     TabsA.color-acento-botones
-      .tarjeta.color-acento-botones.p-4(titulo="Fibras naturales" style='background-color: #FEF5E5')
-        h4 Fibras naturales
-        p Son fibras que se extraen de los animales o de origen vegetal, se caracterizan por ser fragmentos, hebras o pelo y que pueden hilarse para dar lugar a hilos o cuerdas. 
-        ul.lista-ul
-          li.mb-0
-            i.lista-ul__vineta.color-primario
-            | Fibras animales.
-          li.mb-0
-            i.lista-ul__vineta.color-primario
-            | Fibras vegetales.
-          li.mb-0
-            i.lista-ul__vineta.color-primario
-            | Fibras minerales.
       .tarjeta.color-acento-botones.p-4(titulo="Fibras animales" style='background-color: #FEF5E5')
         .row
           h4 Fibras animales
