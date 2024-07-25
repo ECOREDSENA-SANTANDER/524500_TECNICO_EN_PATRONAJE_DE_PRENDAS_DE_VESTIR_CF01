@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/actividad-didactica.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Validación de conceptos
-        p.mb-4 #[b Validar el conocimiento teórico, práctico y dominio de conceptos básicos en diseño y moda, dibujo plano, ficha técnica, fundamentación textil y reconocimiento de materiales, de prendas de vestir.] 
+        p.mb-4 Validar el conocimiento teórico, práctico y dominio de conceptos básicos en diseño y moda, dibujo plano, ficha técnica, fundamentación textil y reconocimiento de materiales, de prendas de vestir. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

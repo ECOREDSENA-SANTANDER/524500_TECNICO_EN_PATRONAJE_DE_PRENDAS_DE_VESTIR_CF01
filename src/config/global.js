@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Características de diseño y fundamentación textil',
     descripcionCurso:
       'En este componente formativo aprenderá a identificar las características, partes, composición, categorización y detalles en el análisis y comprensión de prendas de vestir. Dentro del proceso se hace una contextualización del lenguaje técnico empleado en el diseño de modas, con el fin de apoyar una parte del proceso en la construcción de prendas de vestir.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/imagen_portada.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/imagen-portada.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     //imagenesDecorativasBanner: [
     //  {
@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '1.	Diseño y moda',
+        titulo: 'Diseño y moda',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -43,22 +43,22 @@ export default {
           {
             numero: '1.2',
             titulo: 'Universos de vestuario',
-            hash: 't_1_1',
+            hash: 't_1_2',
           },
           {
             numero: '1.3',
             titulo: 'Perfil y estilo de consumidor',
-            hash: 't_1_1',
+            hash: 't_1_3',
           },
           {
             numero: '1.4',
             titulo: 'Tendencias',
-            hash: 't_1_1',
+            hash: 't_1_4',
           },
           {
             numero: '1.5',
             titulo: '<em>Moodboard</em> - Cuadro metamórfico',
-            hash: 't_1_1',
+            hash: 't_1_5',
           },
         ],
       },
@@ -66,87 +66,87 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '2.	Ficha técnica de diseño (software de diseño)',
+        titulo: 'Ficha técnica de diseño (software de diseño)',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
             titulo: 'Conceptos de dibujo plano',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo: 'Categorización de prendas',
-            hash: 't_1_1',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo: 'Técnica de achurados y acabados',
-            hash: 't_1_1',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
             titulo: 'Dibujo de bitácora de formas',
-            hash: 't_1_1',
+            hash: 't_2_4',
           },
           {
             numero: '2.5',
             titulo: 'Dibujo plano de prendas',
-            hash: 't_1_1',
+            hash: 't_2_5',
           },
           {
             numero: '2.6',
             titulo: 'Análisis de proporciones prendas superiores e inferiores',
-            hash: 't_1_1',
+            hash: 't_2_6',
           },
           {
             numero: '2.7',
             titulo: 'Interfaz programa CAD',
-            hash: 't_1_1',
+            hash: 't_2_7',
           },
           {
             numero: '2.8',
             titulo: 'Ficha técnica',
-            hash: 't_1_1',
+            hash: 't_2_8',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '3.	Fundamentación textil',
+        titulo: 'Fundamentación textil',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
             titulo:
               'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Identificación fibras por combustión',
-            hash: 't_1_1',
+            hash: 't_3_2',
           },
           {
             numero: '3.3',
             titulo: 'Clasificación de los hilos',
-            hash: 't_1_1',
+            hash: 't_3_3',
           },
           {
             numero: '3.4',
             titulo: 'Clasificación de tejidos',
-            hash: 't_1_1',
+            hash: 't_3_4',
           },
           {
             numero: '3.5',
             titulo: 'Caracterización de los tejidos',
-            hash: 't_1_1',
+            hash: 't_3_5',
           },
           {
             numero: '3.6',
             titulo: 'Procesos textiles',
-            hash: 't_1_1',
+            hash: 't_3_6',
           },
         ],
       },
@@ -182,7 +182,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        //download: 'downloads/prueba.pdf',
       },
       {
         icono: 'fas fa-download',

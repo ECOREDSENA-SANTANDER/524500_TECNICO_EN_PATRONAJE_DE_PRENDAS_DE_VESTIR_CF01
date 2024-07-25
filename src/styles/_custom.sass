@@ -23,7 +23,7 @@
 .img65
   width: 65px  
 .img90
-  width: 90px  
+  width: 90px
 .img250
   width: 250px  
 .brd--rad
@@ -128,6 +128,9 @@
 
 .acordion__activo
   background-color: #E8E4FF !important
+
+.tarjeta--gris 
+    background-color: #DADDDF
 
 /// otros
 
@@ -258,3 +261,87 @@
     font-size: 120pt
     color: #E1E2E5
     z-index: 0
+
+  //linea de tiempo nueva
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  border-color: #B0C0D2
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left
+  background-color: #FFD54F
+
+//parametrización linea porque nos vestimos ?
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #FFD54F
+    color: black 
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    background-color: #E8E4FF
+
+.fondo-moradoclaro
+  background-color:#E8E4FF
+
+.linea-tiempo-d__item__content__slot
+  background-color:#E8E4FF
+
+// nueva tabla
+
+.bgmoradoclaro
+  background-color: #D1BCFF
+
+.bgmoradooscuro
+  background-color: #673AB7
+
+.bgblanco
+  background-color: white
+
+.tabla-b 
+  border-color: #AFAFAF !important
+
+// arrego de fondo de la tarjeta
+.fondo
+  border-radius: 0px
+  background-image: url('../assets/curso/temas/tema1/fondo-tarjeta.svg')
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFD54F
+
+//correccion avatar grande
+
+.crd--avatarHorizontal::before
+    background-color: #673AB7
+
+.crd--first::before, .crd--last::before
+    background-color: #D1BCFF     !important;
+
+.img-avatar
+  width: 350px  
+
+// correccion tamaño borde tarjeta
+
+.ancho-bordeclaro  
+  border: 5px solid #D1BCFF !important
+
+.ancho-bordeoscuro
+  border: 5px solid #673AB7 !important
+
+// correccion tabs y slyder
+
+.tabs-a__tab
+  background-color: #DADDDF
+
+.slyder-f__btn i 
+  color: #ffd54f !important

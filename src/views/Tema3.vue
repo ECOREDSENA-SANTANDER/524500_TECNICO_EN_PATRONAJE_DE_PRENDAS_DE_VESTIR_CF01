@@ -11,13 +11,7 @@
       .titulo-segundo.color-primario
         h2 3.1 Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)
       p Las fibras son una composición de filamentos que al entrelazarse componen los hilos, los hilos son el punto de partida para la producción de un textil; la composición unitaria de una materia sólida con cualquier estructura compone una fibra.
-
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Interfaz programa CAD.
-  
+ 
     .row.bm-4
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Proceso productivo textil
@@ -27,11 +21,13 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <strong>¿Qué es una fibra?.</strong>
-          br
-          br
-          | Materia sólida unitaria de cualquier estructura textil.Fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas.
-          | Filamentos: término utilizado para identificar fibras de longitud indeterminada.   
+        p.mb-0 <strong>Fibras - Hilos - Tejidos - Telas - Acabados - Confección</strong>
+        <br> <br>
+        p.mb-0 <strong>¿Qué es una fibra?</strong>
+        <br> <br>
+        p Materia sólida unitaria de cualquier estructura textil.Fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas.
+        <br> <br>
+        p Filamentos: término utilizado para identificar fibras de longitud indeterminada.   
 
     .row.bm-5.mt-5
       .titulo-segundo.color-acento-contenido
@@ -61,6 +57,7 @@
     .row.bm-5.mt-5
       h3(style="color: #673AB7") Naturales: 
       p Son fibras que se extraen de los animales o de origen vegetal, se caracterizan por ser fragmentos, hebras o pelo y que pueden hilarse para dar lugar a hilos o cuerdas.
+
 
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones.p-4(titulo="Fibras animales" style='background-color: #FEF5E5')
@@ -180,8 +177,8 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta1/imagen1.png')          
-        h2.text-center Fibras artificiales
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta1/imagen1.png')          
+        h3.text-center Fibras artificiales
         p Son aquellas obtenidas a partir de fibras naturales, mediante un proceso químico de transformación; se logra transformar los polímeros naturales utilizados como materia prima en nuevas fibras artificiales con características propias y aplicaciones específicas.
         ul.lista-ul
           li.mb-0
@@ -194,8 +191,8 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta1/imagen2.png')
-        h2.text-center Fibras sintéticas
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta1/imagen2.png')
+        h3.text-center Fibras sintéticas
         p Fibras textiles que provienen de productos derivados del petróleo / polímeros sintéticos, son enteramente químicas; tanto la síntesis de la materia prima como la fabricación del filamento.
         ul.lista-ul
           li.mb-0
@@ -223,37 +220,33 @@
       .col-3
       .col-md-4
         h3(style="color: #673AB7") Renovables o sostenibles
-    .row
+    .row.mb-5
       .col-3
       .col-md-6.p-3(style="background-color: #DADDDF")
         p Pet reciclado, algodón orgánico, cuero vegetal, nylon regenerado, algas marinas.
 
-    .row.mb-4.p-5
-      .col-1
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema3/tela.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Clasificación de las fibras textiles
-              p.mb-0 Revisa el documento que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.p-4(src='@/assets/curso/temas/tema3/tela.png')
+            .col-sm-12.col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3 Clasificación de las fibras textiles
+                  p.mb-0 Revisa el documento que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/zjp1OL2DCug" target="_blank")
+                    span.text-sistm Ir al sitio
+                    i.fas.fa-file-download.text-sistm
+
+    Separador
 
     .row.mb-4
-      .titulo-segundo.color-primario
+      #t_3_2.titulo-segundo.color-primario
         h2 3.2. Identificación fibras por combustión
-
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Identificación de fibras
-      p.mt-5 Conocer la composición de una fibra es la base de su utilidad, con la composición se logra identificar su comportamiento al ser manipuladas y permite garantizar la idoneidad en la elección frente a la función del diseño y del uso para el que están destinadas. La combustión es el proceso más común para la identificación de cada componente.
+      p Conocer la composición de una fibra es la base de su utilidad, con la composición se logra identificar su comportamiento al ser manipuladas y permite garantizar la idoneidad en la elección frente a la función del diseño y del uso para el que están destinadas. La combustión es el proceso más común para la identificación de cada componente.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -268,6 +261,7 @@
     .row.mt-4
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Procedimiento
+      p El procedimiento para identificar las fibras que componen una determinada tela depende de la naturaleza de la muestra, de la experiencia del analista y del equipo disponible. Para determinar de forma exacta su composición se deberán combinar varias pruebas de identificación. Una de las más sencillas es la prueba de identificación mediante el análisis por combustión.
     
     .row(style='background-color: #D1BCFF')
       .col-1
@@ -319,7 +313,7 @@
         .row
           .col-3.position-relative
             .avatar
-              img(src="@/assets/curso/temas/tema3/imagen15.svg")
+              img(src="@/assets/curso/temas/tema3/imagen15.png")
           .col-9.p-5(style='background-color: #FEF5E5')
             .row
               .col-1
@@ -435,7 +429,7 @@
                 | Analizar el olor que se desprende durante la combustión. Comprobar si el olor es a papel quemado, a pelo quemado, a vinagre, a apio cocido, a cera fundida, dulzón, aromático o desagradable.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/paso1/imagen4.svg', alt='Humo')
+              img(src='@/assets/curso/temas/tema3/paso1/imagen4.png', alt='Humo')
         .row(titulo="Paso5")
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--color.p-5
@@ -450,19 +444,14 @@
                 | Repetir el proceso para verificar los resultados obtenidos
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/paso1/imagen5.svg', alt='Residuos de ceniza')
+              img(src='@/assets/curso/temas/tema3/paso1/imagen5.png', alt='Residuos de ceniza')
 
+    Separador
+    
     .row.mt-5
-      .titulo-segundo.color-primario
+      #t_3_3.titulo-segundo.color-primario
         h2 3.3.  Clasificación de los hilos
-
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Identificación de fibras.
-    .row.mb-4
-      p Los hilos son un conjunto de fibras textiles que son sometidas a un proceso de torsión, el cual permite que se genere un recorrido de gran longitud. Dentro de su clasificación se identifican elementos como los tipos de torsiones, titulación o numeración; la lectura de esta información es lo que permite determinar la idoneidad al momento de seleccionar los insumos para la elaboración de una prenda. 
+      p Los hilos son un conjunto de fibras textiles que son sometidas a un proceso de torsión, el cual permite que se genere un recorrido de gran longitud. Dentro de su clasificación se identifican elementos como los tipos de torsiones, titulación o numeración; la lectura de esta información es lo que permite determinar la idoneidad al momento de seleccionar los insumos para la elaboración de una prenda.
 
     .row
       .col-4.p-5(style='background-color: #FEF5E5')
@@ -490,7 +479,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen6.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 <strong>¿Qué es un hilo?</strong>
@@ -681,23 +670,23 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Sistemas de numeración
 
-    TabsB.color-primario
-      .py-4.py-md-0(titulo="Sistemas directos ")
+    TabsC.color-acento-botones
+      .py-4.py-md-0(titulo="<strong>Sistemas directos</strong>")
         .row(style='background-color: #FEF5E5')
           .col-6.p-5
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta3/imagen1.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta3/imagen1.png')
           .col-md-6.p-5
             p (Longitud constante y peso variable) Cuanto más elevado es el número, más grueso es el hilado o fibra.
             p <strong>Tex:</strong> peso en gramos de 1.000 metros de hilo. 
             p <strong>- 1Tex = 10D Tex - Decitex (D Tex):</strong> es el peso en gramos de 10.000 metros de hilado. 
             p <strong>- 1 DTex = 0.9 Den - Denier (Den):</strong> es el peso en gramos de 9000 metros de hilado o fibra.
             p Esta medida está reservada para la seda y los hilos artificiales y sintéticos.
-      .py-4.py-md-0(titulo="Sistemas indirectos")
+      .py-4.py-md-0(titulo="<strong>Sistemas indirectos</strong>")
         .row(style='background-color: #FEF5E5')
           .col-6.p-5
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta3/imagen2.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta3/imagen2.png')
           .col-md-6.p-5
             p (Peso constante y longitud variable). Cuanto más elevado es el número, más fino es el hilado o fibra.
             p <strong>Número métrico (Nm):</strong> número de metros que pesan un gramo o miles de metros por kilogramo. (el más utilizado).
@@ -714,29 +703,32 @@
           p.mb-0 <strong>¿Para qué elegir el calibre?</strong>
           p.mb-0 La selección de calibre del hilo depende de la clase de tela y de prenda que va a coser. El tipo de tejido a trabajar, según la necesidad. El calibre de la aguja varía según el tejido e hilo.
           
-    .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema3/hilo.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Clasificación de los hilos
-              p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre la clasificación de los hilos.
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.p-4(src='@/assets/curso/temas/tema3/hilo.png')
+            .col-sm-12.col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3 Clasificación de los hilos
+                  p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre la clasificación de los hilos.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/qUdbl6B18Bg" target="_blank")
+                    span.text-sistm Ir al sitio
+                    i.fas.fa-file-download.text-sistm
+
+    Separador
 
     .row.mb-5
-      .titulo-segundo.color-primario
+      #t_3_4.titulo-segundo.color-primario
         h2 3.4.  Clasificación de tejidos
       p Los tejidos son una composición de fibras o hilos que en su unión generan características como ancho, largo, grosor, resistencia, que permiten asignarle al tejido ciertas características, las cuales son primordiales en la segmentación o clasificación, como lo son los tejidos planos, tejidos de punto o aglomerados.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen9.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen9.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 <strong>¿Qué son los tejidos? </strong>
@@ -781,7 +773,7 @@
               | Dobby, jacquard, riso, afelpados, etc.
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema3/acordeon1/imagen1.svg', alt='Textura')
+            img(src='@/assets/curso/temas/tema3/acordeon1/imagen1.png', alt='Textura')
       .row(titulo="Telas no tejidas")
         .col-md-6.mb-4.mb-md-0
           ul.lista-ul--color
@@ -790,7 +782,7 @@
               | Interlones – guatas.
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema3/acordeon1/imagen2.svg', alt='Textura')
+            img(src='@/assets/curso/temas/tema3/acordeon1/imagen2.png', alt='Textura')
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -801,15 +793,15 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta4/imagen1.png')          
-        h2.text-center Urdimbre
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta4/imagen1.png')          
+        h3.text-center Urdimbre
         p La serie longitudinal de los hilos recibe el nombre de urdimbre y cada uno de los elementos que la constituyen se denomina hilo. Los hilos verticales son la urdimbre.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta4/imagen2.png')
-        h2.text-center Trama
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta4/imagen2.png')
+        h3.text-center Trama
         p La serie transversal recibe el nombre de trama y cada una de sus unidades se denomina pasada. Las pasadas horizontales son la trama.
 
     .row.mt-5
@@ -821,7 +813,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen1.svg")
+              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen1.png")
           .crd_hover_txt--body
             h4.mb-3 Urdimbre
             p.mb-0 La dirección de los hilos verticales es la urdimbre, en la misma dirección en la que va el orillo de la tela. Es más fuerte, estable y no suele ceder.
@@ -830,7 +822,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen2.svg")
+              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen2.png")
           .crd_hover_txt--body
             h4.mb-3 Sesgo o bies
             p.mb-0 Cuando se coloca el patrón a 45° grados con respecto a la dirección de la urdimbre de la tela, aportará mejor caída y cierta elasticidad.
@@ -839,7 +831,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen3.svg")
+              img(src="@/assets/curso/temas/tema3/tarjeta5/imagen3.png")
           .crd_hover_txt--body
             h4.mb-3 Trama
             p.mb-0 Es más fina y en ocasiones puede contener fibras elásticas, ya que estas fibras ceden al estirar la tela de orilla a orilla. Cortar en diferentes direcciones en la tela.
@@ -903,33 +895,13 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Color de las telas
       p Crudo - Pre Teñido - Teñido en pieza - Blanco – Estampado.
-  
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema3/imagen11.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Los tejidos
-              p.mb-0 Revisa el documento que pueden resultar útil para aprender más de los tejidos
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
+    Separador
 
     .row.mb-4
-      .titulo-segundo.color-primario
+      #t_3_5.titulo-segundo.color-primario
         h2 3.5 Caracterización de los tejidos
-
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Caracterización de los textiles.
-      p.mt-5 Los textiles suelen ser organizados en función de su comportamiento, esto permite que la idea o el desarrollo de producto sea mucho más certero y esté enfocado al requerimiento funcional del diseño.
+      p Los textiles suelen ser organizados en función de su comportamiento, esto permite que la idea o el desarrollo de producto sea mucho más certero y esté enfocado al requerimiento funcional del diseño.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -975,7 +947,7 @@
             p Paño - Tweed - Jacquard - Pana - Lino - Oxford - Faya - Shantung - Popelina - Tafetán - Bengalina – Satén.
           .col-sm-6.p-2
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.png')
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h3 Fluidez
@@ -984,7 +956,7 @@
             p Chiffon - Gasa - Chalis - Interlock - Georgette - Crepé - Jersey - Malla - Encaje - Género – Velvet / terciopelo - Lamé - Crepé texturizado - Género de punto.
           .col-sm-6.p-2
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen2.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen2.png')
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h3 Expansión
@@ -993,7 +965,7 @@
             p Acolchado - Redecillas - Tarlatana - De piel o peluche - Tules - Organza - Plisados - Crepé de satén plisados.
           .col-sm-6.p-2
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen3.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen3.png')
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h3 Compresión
@@ -1004,7 +976,7 @@
             p Punto canalé - Pana stretch - Power lycra - Punto de algodón stretch - Doble punto - Power net.
           .col-sm-6.p-2
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen4.svg')
+              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen4.png')
              
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -1051,16 +1023,16 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta7/imagen1.png')          
-        h2.text-center Entretelas tejidas
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta7/imagen1.png')          
+        h3.text-center Entretelas tejidas
         p Pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas normales (urdimbre / trama). 
         p Usualmente, cuando se cortan al sesgo, estiran más y se utilizan entonces para dar forma.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta7/imagen2.png')
-        h2.text-center Entretelas NO tejidas
+              img.p-5(src='@/assets/curso/temas/tema3/tarjeta7/imagen2.png')
+        h3.text-center Entretelas NO tejidas
         p Por lo general están hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras.
         p Las fibras son distribuidas al azar y juntadas por acción química o térmica. Ya que no tienen una dirección de hilo o grano, no se desmechan y pueden ser cortadas en cualquier dirección o ángulo.
 
@@ -1103,32 +1075,28 @@
         .col-md-12.mb-4.mb-md-0
           p Las entretelas cosibles se unen a la tela o a las costuras de una prenda, ya sea a mano o a máquina. Son especialmente útiles para textiles con textura, como el terciopelo, así como para aquellos sensibles al calor, incluyendo textiles metalizados o plastificados que no toleran la presión o el calor directo de la plancha. 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema3/imagen13.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Caracterización de los textiles
-              p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre la caracterización de los textiles.
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
+    br
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.p-4(src='@/assets/curso/temas/tema3/imagen13.png')
+            .col-sm-12.col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3 Caracterización de los textiles
+                  p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre la caracterización de los textiles.
+                .col-sm-auto
+                  a.boton.color-boton(href=" https://youtu.be/mc1kARHDHrs" target="_blank")
+                    span.text-sistm Ir al sitio
+                    i.fas.fa-file-download.text-sistm
 
+    Separador
+    
     .row.mb-4
-      .titulo-segundo.color-primario
+      #t_3_6.titulo-segundo.color-primario
         h2 3.6 Procesos textiles
-
-    .row.mb-5
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Caracterización de los textiles.
-      
-    .row.mb-5
       p.mb-5 Los tratamientos posteriores a las operaciones de coloración tienen por objeto mejorar el aspecto y las propiedades de los materiales textiles antes de su comercialización, así como proporcionarles algunas cualidades que mejoren su comportamiento al uso y mantenimiento. También eliminar o minimizar algunas cualidades no deseables de los mismos.
 
     .row.mb-5
@@ -1254,20 +1222,24 @@
       .col-12.p-3(style='background-color: #DADDDF')
         p Resistencia a pliegues y arrugas, planchado durable, repelente al agua / impermeabilización, control de encogimiento, resistencia a la suciedad, antiestática, antibacterial, resistente a polillas, ignición retardada, resistencia al moho.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema3/imagen14.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Acabados
-              p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre los acabados.
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.p-4(src='@/assets/curso/temas/tema3/imagen14.png')
+            .col-sm-12.col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3 Acabados
+                  p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre los acabados.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/RecKnCBkD5g" target="_blank")
+                    span.text-sistm Ir al sitio
+                    i.fas.fa-file-download.text-sistm
+
+
+
 
 </template>
 
