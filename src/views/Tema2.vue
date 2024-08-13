@@ -43,7 +43,7 @@
           span
             |  Tipos de línea.
         figure
-          img(src='@/assets/curso/temas/tema2/imagen1.png')
+          img(src='@/assets/curso/temas/tema2/imagen1.png' alt="La figura describe y ejemplifica 3 tipos: Línea guía: ejes de simetría. Línea sólida: croquis de la prenda. Línea intermitente: pespuntes o costuras.")
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -129,7 +129,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen3.png')})`}"
            )
-            h3.text-center.p-5 Qués es una tipología?
+            h3.text-center.p-5 Qué es una tipología?
           .bloque-texto-g__texto.p-2
             p.text-center Es el estudio de los tipos o modelos que se usan para clasificar diversas cosas.
 
@@ -197,6 +197,7 @@
     .row.mt-4
       #t_2_3.titulo-segundo.color-primario
         h2 2.3.  Técnica de achurados y acabados
+    p.mb-4 En el siguiendo video, se presenta la realización del proceso de una manera clara y didáctica:
 
     .row.mb-4
       figure
@@ -209,6 +210,7 @@
     .row.mt-4
       #t_2_4.titulo-segundo.color-primario
         h2 2.4 Dibujo de bitácora de formas
+    p.mb-4 En el siguiente video explicativo se detalla la manera de realizar el proceso:
 
     .row.mb-4
       figure
@@ -221,6 +223,7 @@
     .row.mt-4
       #t_2_5.titulo-segundo.color-primario
         h2 2.5.  Dibujo plano de prendas
+    p.mb-4 En el video que se presenta a continuación, se detallan los conceptos más importantes para tener en cuenta en la realización de dibujos bidimensionales de prendas de vestir: 
 
     .row.mb-4
       figure
@@ -249,6 +252,7 @@
     .row.mt-4
       #t_2_6.titulo-segundo.color-primario
         h2 2.6.  Análisis de proporciones prendas superiores e inferiores
+    p.mb-4 A continuación se presentan dos videos con explicación de los procesos :
 
     .row.mb-4
       figure

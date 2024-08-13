@@ -62,7 +62,6 @@
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones.p-4(titulo="Fibras animales" style='background-color: #FEF5E5')
         .row
-          h4 Fibras animales
           p Las fibras de origen animal son de lana, pelo y secreciones, como la seda, folículos pilosos.
         .row
           .col-3
@@ -95,7 +94,6 @@
                 | Conejo angora
       .tarjeta.color-acento-botones.p-4(titulo="Fibras vegetales" style='background-color: #FEF5E5')
         .row
-          h4 Fibras vegetales
           p Entre las fibras de origen vegetal están las que se extraen:
         .row
           .col-2
@@ -148,7 +146,6 @@
                 | Zacatón
       .tarjeta.color-acento-botones.p-4(titulo="Fibras minerales" style='background-color: #FEF5E5')
         .row
-          h4 Fibras minerales
           p Las fibras de origen mineral se obtienen de minerales de estructura fibrosa.
         .row
           .col-3
@@ -183,10 +180,10 @@
         ul.lista-ul
           li.mb-0
             i.lista-ul__vineta.color-acento-botones
-              | Rayón o seda artificial.
+            | Rayón o seda artificial.
           li.mb-0
             i.lista-ul__vineta.color-color-acento-botones
-              | Fibra de vidrio.
+            | Fibra de vidrio.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -197,16 +194,16 @@
         ul.lista-ul
           li.mb-0
             i.lista-ul__vineta.color-acento-botones
-              | Fibras de poliamida o nailon.
+            | Fibras de poliamida o nailon.
           li.mb-0
             i.lista-ul__vineta.color-color-acento-botones
-              | Nailon 6 y nylon 6-6.
+            | Nailon 6 y nylon 6-6.
           li.mb-0
             i.lista-ul__vineta.color-acento-botones
-              | Aramidas.
+            | Aramidas.
           li.mb-0
             i.lista-ul__vineta.color-color-acento-botones
-              | Elástano o spandex.
+            | Elástano o spandex.
       
     .row
       .col-3
@@ -441,7 +438,7 @@
                 | Comprobar la cantidad de ceniza y su forma, determinar también si es blanda, dura o quebradiza.
               li
                 i.lista-ul__vineta.mb-0
-                | Repetir el proceso para verificar los resultados obtenidos
+                | Repetir el proceso para verificar los resultados obtenidos.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen5.png', alt='Residuos de ceniza')
@@ -713,11 +710,11 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3 Clasificación de los hilos
-                  p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre la clasificación de los hilos.
+                  p.mb-0 Revisa el video que pueden resultar útil para conocer más sobre la clasificación de los hilos.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/qUdbl6B18Bg" target="_blank")
                     span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+                    i.fas.fa-video.text-sistm
 
     Separador
 
@@ -765,12 +762,12 @@
               | Espina / espiga.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Sarga interrumpida (broken twill).
+              | Sarga interrumpida (<em>broken twill</em>).
           p <strong>Otros</strong>
           ul.lista-ul--color
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | Dobby, jacquard, riso, afelpados, etc.
+              | <em>Dobby</em>, <em>jacquard</em>, riso, afelpados, etc.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema3/acordeon1/imagen1.png', alt='Textura')
@@ -938,42 +935,43 @@
     .tarjeta.color-acento-contenido.p-3
       SlyderA(tipo="b")
         .row.p-5
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0
             h3 Estructura
-            p Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. Caída: la tela ha de mantenerse en su lugar y no caer cuando se le suelta. División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal, sport.
-            p <strong>Textiles</strong>
-            p Paño - Tweed - Jacquard - Pana - Lino - Oxford - Faya - Shantung - Popelina - Tafetán - Bengalina – Satén.
+            p.mb-0 Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. Caída: la tela ha de mantenerse en su lugar y no caer cuando se le suelta.
+            p.mb-0 División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal, <em>sport</em>.
+            p.mt-4 <strong>Textiles</strong>
+            p Paño - <em>Tweed</em> - <em>Jacquard</em> - Pana - Lino - <em>Oxford</em> - <em>Faya</em> - <em>Shantung</em> - Popelina - Tafetán - Bengalina – Satén.
             p <strong>Textiles plastificados - Recubiertos</strong>
-            p Paño - Tweed - Jacquard - Pana - Lino - Oxford - Faya - Shantung - Popelina - Tafetán - Bengalina – Satén.
-          .col-sm-6.p-2
+            p Microfibras de <em>nylon</em> y <em>poliester</em>, algunas veces con propiedades hidrófugas.
+          .col-sm-5.p-2
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.png')
         .row.p-5
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0
             h3 Fluidez
             p Estas telas son suaves y fluidas, incapaces de sostener su propio peso debido a su caída natural. La fluidez de estas telas está intrínsecamente ligada al tipo de hilo empleado en su fabricación, que suele ser altamente torsionado, ya sea de hebras hiladas o de multifilamento. Al caer sobre el cuerpo, estas telas son generalmente ligeras y de peso medio.
             p <strong>Textiles</strong>
-            p Chiffon - Gasa - Chalis - Interlock - Georgette - Crepé - Jersey - Malla - Encaje - Género – Velvet / terciopelo - Lamé - Crepé texturizado - Género de punto.
-          .col-sm-6.p-2
+            p <em>Chiffon</em> - Gasa - <em>Chalis</em> - <em>Interlock</em> - <em>Georgette</em> - <em>Crepé</em> - <em>Jersey</em> - Malla - Encaje - Género – <em>Velvet</em> / terciopelo - <em>Lamé</em> - <em>Crepé</em> texturizado - Género de punto.
+          .col-sm-5.p-2
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen2.png')
         .row.p-5
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0
             h3 Expansión
             p En el grupo de textiles por expansión se incluye el concepto del plisado, este efecto permite expandir la silueta. El concepto de acolchado se incluye en esta categoría, este es un método natural para crear calidez mediante la combinación de capas de tela, se puede aplicar el acolchado medio y acolchado grueso.
             p <strong>Textiles</strong>
-            p Acolchado - Redecillas - Tarlatana - De piel o peluche - Tules - Organza - Plisados - Crepé de satén plisados.
-          .col-sm-6.p-2
+            p Acolchado - Redecillas - Tarlatana - De piel o peluche - Tules - Organza - Plisados - <em>Crepé</em> de <em>satén</em> plisados.
+          .col-sm-5.p-2
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen3.png')
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h3 Compresión
             p El objetivo principal de este es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos.
-            p Stretch confort: tejidos con un 2 % a 5 % de fibra de spandex, proporciona una compresión suave.
-            p Stretch fuerte: contiene un 14 % a 20 % de fibra de spandex, proporciona una compresión continua que resta silueta al cuerpo.
+            p <em>Stretch confort</em>: tejidos con un 2 % a 5 % de fibra de spandex, proporciona una compresión suave.
+            p <em>Stretch fuerte</em>: contiene un 14 % a 20 % de fibra de spandex, proporciona una compresión continua que resta silueta al cuerpo.
             p <strong>Textiles</strong>
-            p Punto canalé - Pana stretch - Power lycra - Punto de algodón stretch - Doble punto - Power net.
+            p Punto canalé - Pana <em>stretch</em> - <em>Power lycra</em> - Punto de algodón <em>stretch</em> - Doble punto - <em>Power net</em>.
           .col-sm-6.p-2
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen4.png')
@@ -1071,7 +1069,7 @@
       .row(titulo="Fusionado manual")
         .col-md-12.mb-4.mb-md-0
           p Debe tener en cuenta el tipo de entretela, algunas se fusionan con vapor y presión y otras con una plancha seca sin vapor. Debe tener una adecuada temperatura la plancha, vapor o sin vapor, húmedo o seco. 
-      .row(titulo="Fusionado manual")
+      .row(titulo="Fusionado cosibles")
         .col-md-12.mb-4.mb-md-0
           p Las entretelas cosibles se unen a la tela o a las costuras de una prenda, ya sea a mano o a máquina. Son especialmente útiles para textiles con textura, como el terciopelo, así como para aquellos sensibles al calor, incluyendo textiles metalizados o plastificados que no toleran la presión o el calor directo de la plancha. 
 
@@ -1151,9 +1149,9 @@
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
           p.text-center(style="color: #673AB7") <strong>Acción que lo origine / modifica característica:</strong>
           p <strong>Físico/estético</strong> 
-          p No modifica la estructura interna de la fibra, solo apariencia
+          p No modifica la estructura interna de la fibra, solo apariencia.
           p <strong>Químico/funcional</strong>
-          p Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra
+          p Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra.
           p <strong>Químico-físico / estético-funcional</strong>
       .col-md-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
@@ -1232,11 +1230,11 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3 Acabados
-                  p.mb-0 Revisa el documento que pueden resultar útil para conocer más sobre los acabados.
+                  p.mb-0 Revisa el video que pueden resultar útil para conocer más sobre los acabados.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/RecKnCBkD5g" target="_blank")
                     span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+                    i.fas.fa-video.text-sistm
 
 
 

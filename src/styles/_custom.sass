@@ -87,9 +87,7 @@
 
 .gris
   background-color: #DADDDF !important
-
-.ul-vinetan-new
-  
+ 
 
 //// Linea de pasos
 
@@ -345,3 +343,48 @@
 
 .slyder-f__btn i 
   color: #ffd54f !important
+
+
+// sangría viñeta
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+//viñeta amarilla
+
+.lista-ul--color.vamarillo li > i:first-of-type 
+    color: #ffd54f !important
+    font-size: 22px
+
+//viñeta morada oscura
+
+.lista-ul--color.vmorada li > i:first-of-type 
+    color: #673AB7 !important
+    font-size: 22px
+
+//borde tabla
+
+.tabla-b.bordenegro
+  border: 2px solid black !important
+  border-color: black !important
+
+// Banner interno - subtitulo
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+
