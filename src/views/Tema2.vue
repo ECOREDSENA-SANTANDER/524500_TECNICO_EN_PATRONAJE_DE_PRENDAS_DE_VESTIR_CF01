@@ -176,21 +176,22 @@
             h3.text-center Talles
           p.text-center Talle alto, talle medio, talle bajo. Cuellos - puños - bolsillos de parche - bolsillos de ribete - pantalón - largos - bolsillos - talles – detalles.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img.p-4(src='@/assets/curso/temas/tema2/imagen12.png')
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 Categoría de prendas - Tipologías – Bitácora de formas
-                  p.mb-0 Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de la categorización de prendas.
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                    span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+        .tarjeta(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-1.col-md-1.d-none.d-lg-block
+              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/imagen12.png")
+            .col-sm-12.col-md-10.col-lg-10
+              .row.justify-content-center.align-items-center
+                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
+                  h3.mt-3.text-white Categoría de prendas - Tipologías – Bitácora de formas
+                  p.mb-3.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de la categorización de prendas.
+                .col-sm-2-col-md-2.col-lg-2
+                  a.boton.color-boton(href="https://youtu.be/J0Uk-4OU2fg" target="_blank")
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
@@ -202,7 +203,7 @@
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/Di4R3jHoNkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de  Técnica de achurados y acabados.
 
     Separador
@@ -215,7 +216,7 @@
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/ppEdTvy94eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Dibujo de bitácora de formas.
 
     Separador
@@ -228,24 +229,25 @@
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/xptK7CFsF7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Dibujo plano de prendas.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img.p-4(src='@/assets/curso/temas/tema2/imagen7.png')
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 Dibujo plano para prendas
-                  p.mb-0 Revisa el documento que pueden resultar útil para aprender más sobre la creación de dibujos planos para prendas.
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                    span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+        .tarjeta(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-1.col-md-1.d-none.d-lg-block
+              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/dibujo-de-vestido.png")
+            .col-sm-12.col-md-10.col-lg-10
+              .row.justify-content-center.align-items-center
+                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
+                  h3.mt-3.text-white Dibujo plano para prendas
+                  p.mb-3.text-white Revisa el documento que pueden resultar útil para aprender más sobre la creación de dibujos planos para prendas.
+                .col-sm-2-col-md-2.col-lg-2
+                  a.boton.color-boton(href="https://youtu.be/J0Uk-4OU2fg" target="_blank")
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
@@ -257,30 +259,15 @@
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/oJRhtnimo6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Análisis de proporciones prendas superiores e inferiores.
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/17OxTDMX_xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Análisis de proporciones prendas inferiores. 
 
-    .row.mb-4.p-5
-      .col-1
-      .col-10
-        .tarjeta.actividad.p-3.color-primario
-          .row.justify-content-around.align-items-center      
-            .col-1.justify-content-around.align-items-center
-              figure
-                img(src='@/assets/curso/temas/tema2/imagen8.png')
-            .col-8.justify-content-around.align-items-center
-              h3.mb-0 Análisis de Proporciones Prendas Superiores e Inferiores
-              p.mb-0 Revisa el documento que pueden resultar útil para aprender más sobre el análisis de proporciones de prendas superiores e inferiores.
-            .col-2.justify-content-around.align-items-center
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Descargar
-                i.fas.fa-puzzle-piece
-    
+
     Separador
 
     .row.mt-4
@@ -328,9 +315,9 @@
 
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Especificaciones técnicas de diseño")
-        .col-md-6.mb-4.mb-md-0
-          ul.lista-ul--color
+      .row.justify-content-center.align-items-center(titulo="Especificaciones técnicas de diseño")
+        .col-sm-12.col-md-5.col-lg-5.mb-4.mb-md-0
+          ul.lista-ul--color.vmorada.fa-ul
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Dibujo plano.
@@ -346,46 +333,46 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Acotaciones (cotas).
-        .col-md-6
+        .col-6.col-md-6.col-lg-6
           figure
             img(src='@/assets/curso/temas/tema2/acordeon1/imagen1.png', alt='Imagen diseñando')
-      .row(titulo="Especificaciones técnicas de patronaje")
-        .col-md-6.mb-4.mb-md-0
-          ul.lista-ul--color
+      .row.justify-content-center.align-items-center(titulo="Especificaciones técnicas de patronaje")
+        .col-sm-12.col-md-5.col-lg-5.mb-4.mb-md-0
+          ul.lista-ul--color.vmorada.fa-ul
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | Medidas bases: bases para la construcción de la moldería, dependiendo del requerimiento antropométrico (prendas inferiores o superiores)..
+              span.mb-0 Medidas bases: bases para la construcción de la moldería, dependiendo del requerimiento antropométrico (prendas inferiores o superiores)..
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Básico: moldería BASE de construcción, superiores o inferiores. Punto de partida para la construcción del plano.
+              span.mb-0 Básico: moldería BASE de construcción, superiores o inferiores. Punto de partida para la construcción del plano.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Interpretación: modificaciones al patrón base para la correcta lectura del diseño o prenda a trabajar.
+              span.mb-0 Interpretación: modificaciones al patrón base para la correcta lectura del diseño o prenda a trabajar.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Señalización: convenciones o marcación para la correcta lectura del plano.    
-        .col-md-6
+              span.mb-0 Señalización: convenciones o marcación para la correcta lectura del plano.    
+        .col-6.col-md-6.col-lg-6
           figure
             img(src='@/assets/curso/temas/tema2/acordeon1/imagen2.png', alt='Imagen trazando')
-      .row(titulo="Especificaciones técnicas de escalado")
-        .col-md-6.mb-4.mb-md-0
-          ul.lista-ul--color
+      .row.justify-content-center.align-items-center(titulo="Especificaciones técnicas de escalado")
+        .col-sm-12.col-md-5.col-lg-5.mb-4.mb-md-0
+          ul.lista-ul--color.vmorada.fa-ul
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | Despiece de moldería: juego de piezas para la construcción de una prenda o producto en una talla o modelo específico.
+              span.mb-0 Despiece de moldería: juego de piezas para la construcción de una prenda o producto en una talla o modelo específico.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Proporciones: diferencia entre talla y talla para el incremento o disminución entre la talla base y los requerimientos de producción.
+              span.mb-0 Proporciones: diferencia entre talla y talla para el incremento o disminución entre la talla base y los requerimientos de producción.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Nido de escalado: malla o nido de la diferencia entre talla y talla del trazo o plano. 
-        .col-md-6
+              span.mb-0 Nido de escalado: malla o nido de la diferencia entre talla y talla del trazo o plano. 
+        .col-6.col-md-6.col-lg-6
           figure
             img(src='@/assets/curso/temas/tema2/acordeon1/imagen3.png', alt='Imagen colocando un parámetro para coser')
-      .row(titulo="Especificaciones técnicas de trazo y corte")
-        .col-md-6.mb-4.mb-md-0
+      .row.justify-content-center.align-items-center(titulo="Especificaciones técnicas de trazo y corte")
+        .col-sm-12.col-md-5.col-lg-5.mb-4.mb-md-0
           p Para realizar el corte de una prenda o producto es necesario identificar por talla, referencia, material, color y demás instrucciones de corte.
-          ul.lista-ul--color
+          ul.lista-ul--color.vmorada.fa-ul
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Cantidad de corte por talla.
@@ -395,17 +382,16 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Referencia por color.
-        .col-md-6
+        .col-6.col-md-6.col-lg-6
           figure
             img(src='@/assets/curso/temas/tema2/acordeon1/imagen4.png', alt='Imagen midiendo con un cartabon una prenda de vestir')
 
-    .row.mt-5(style='background-color: #D1BCFF')
-      .col-1
-      .col-3.p-5 
-        img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
-      .col-7.p-5
-        br
-        p <strong>Socialización de formatos</strong>  <br>
+
+    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')
+      .col-2.col-md-2.col-lg-2
+        img.mt-5.mb-5(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
+      .col-sm-12.col-md-7.col-lg-7.p-5
+        p <strong>Socialización de formatos</strong>
         p <strong>Nota:</strong>  todo el texto tiene imágenes visuales de ref., las cuales complementan la información entregada - Anexar imágenes ppt de referencia..  
 
 </template>

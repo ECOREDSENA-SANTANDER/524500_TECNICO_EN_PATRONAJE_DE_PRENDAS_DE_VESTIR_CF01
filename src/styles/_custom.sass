@@ -82,13 +82,9 @@
 .color-morado-fuerte
   background-color: #673AB7 !important
 
-.lista-ul--color li > i:first-of-type 
-    color: #673AB7 !important
-
 .gris
   background-color: #DADDDF !important
  
-
 //// Linea de pasos
 
 .pasos-b__header__item--before .pasos-b__header__item__dot 
@@ -344,6 +340,12 @@
 .slyder-f__btn i 
   color: #ffd54f !important
 
+.slyder-a__bullets__item 
+  background-color:  #673AB7
+
+.slyder-a__bullets__item--active 
+  background-color:  #ffd54f;
+  border-color:  #ffd54f;
 
 // sangría viñeta
 
@@ -369,13 +371,21 @@
 
 .lista-ul--color.vamarillo li > i:first-of-type 
     color: #ffd54f !important
-    font-size: 22px
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
 
 //viñeta morada oscura
 
 .lista-ul--color.vmorada li > i:first-of-type 
     color: #673AB7 !important
-    font-size: 22px
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
 
 //borde tabla
 
@@ -388,3 +398,28 @@
 .banner-interno__fondo    
   background-image: url("../assets/curso/temas/mini-portada.png") !important
 
+// adecuacion espacios viñeta
+
+.lista-ul--color li>i:first-of-type, .lista-ul--separador li>i:first-of-type, .lista-ul li>i:first-of-type 
+    position: relative !important
+    top: 4px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+//color boton siempre negro
+
+.texto-negro
+  font-color: black !important
+
+.texto-morado100
+  color: #673AB7 !important
+  font-size: 30px
+
+// borde morado tarjetas nuevas
+
+.borde-morado100
+  border: 5px solid #673AB7 !important
+
+.estilo500
+  background-color: white !important
+  border: 5px solid #673AB7 !important

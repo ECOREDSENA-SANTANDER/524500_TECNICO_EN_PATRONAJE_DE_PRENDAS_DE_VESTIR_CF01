@@ -69,21 +69,21 @@
                 br
                 h1.text-center ¿Qué es diseño de moda?
             .tarjeta-slide__contenido.color-morado-claro.p-4.p-xl-5
-              h1 ¿Qué es diseño de moda?
-              p Producción de indumentaria para el sistema de moda, donde su principal foco es la innovación y la interpretación, respondiendo a una necesidad de manera funcional.
+              h1.mb-5 ¿Qué es diseño de moda?
+              p.mb-0 Producción de indumentaria para el sistema de moda, donde su principal foco es la innovación y la interpretación, respondiendo a una necesidad de manera funcional.
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Evolución de la moda
       p La moda ha ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores que han afectado la sociedad. Quienes han aportado a estos cambios diferenciadores en la moda han dejado una gran huella.
 
+    
     .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')
-      .col-3
+      .col-3.col-md-3.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema1/imagen1.svg', alt='Modista') 
-      .col-7.p-xl-5.mt-4
-        p El vestirse surge desde el momento en que las prendas pasan de ser una obligación de protegerse del clima a convertirse en una necesidad vital. 
-        br
+      .col-sm-12.col-md-7.col-lg-7.p-5
+        p.mb-2 El vestirse surge desde el momento en que las prendas pasan de ser una obligación de protegerse del clima a convertirse en una necesidad vital. 
         p El vestido muestra la cultura, riqueza y grado de desarrollo de las civilizaciones y da una visión de las condiciones geográficas, económicas y culturales de los pueblos.
 
     .row.mt-5
@@ -328,30 +328,27 @@
       br
       p Cuando se habla de determinantes o factores del ¿por qué? nos vestimos, el mercado no se queda atrás, la segmentación, gamas de mercados, categorización de productos frente a los escenarios del consumo va de la mano con la categorización de las prendas.
 
-    .row.mb-5
-      .col-1(style='background-color: #FEF5E5')
-      .col-7(style='background-color: #FEF5E5')
-        col-sm.mb-5.p-5
-          ul.lista-ul--color.vmorado.fa-ul.mt-4
-            li
-              i.lista-ul__vineta
-              span.mb-0 <strong>Gama de mercado:</strong> Conjunto de productos de un segmento de mercado que una empresa ofrece a sus consumidores.
-            li 
-              i.lista-ul__vineta
-              span.mb-0 <strong>Gama:</strong> Cualquier serie de cosas que varían gradualmente.
-            li 
-              i.lista-ul__vineta
-              span.mb-0 <strong>Mercado:</strong> Espacio físico o virtual en el que tienen lugar transacciones económicas.
-            li 
-              i.lista-ul__vineta
-              span.mb-0 <strong>Consumidor:</strong> Es un agente económico con una serie de necesidades.
-            li 
-              i.lista-ul__vineta
-              span.mb-0 <strong>Segmento:</strong> Es una parte o algo que junto con otras se encuentra formando un todo.
-      .col-3.p-3(style='background-color: #FEF5E5')
-        img(src='@/assets/curso/temas/tema1/imagen3.png', alt='Vestier')
-      .col-1(style='background-color: #FEF5E5')
-
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #FEF5E5')
+      .col-sm-12.col-md-7.col-lg-7
+        ul.lista-ul--color.vmorada.fa-ul.mt-5
+          li.mb-0
+            i.lista-ul__vineta
+            span.mb-2 <strong>Gama de mercado:</strong> Conjunto de productos de un segmento de mercado que una empresa ofrece a sus consumidores.
+          li.mb-0
+            i.lista-ul__vineta
+            span.mb-0 <strong>Gama:</strong> Cualquier serie de cosas que varían gradualmente.
+          li.mb-0
+            i.lista-ul__vineta
+            span.mb-0 <strong>Mercado:</strong> Espacio físico o virtual en el que tienen lugar transacciones económicas.
+          li.mb-0
+            i.lista-ul__vineta
+            span.mb-0 <strong>Consumidor:</strong> Es un agente económico con una serie de necesidades.
+          li.mb-0
+            i.lista-ul__vineta
+            span.mb-5 <strong>Segmento:</strong> Es una parte o algo que junto con otras se encuentra formando un todo.
+      .col-3.col-md-3.col-lg-3(style='background-color: #FEF5E5')
+        img.mt-2(src='@/assets/curso/temas/tema1/imagen3.png', alt='Vestier')
+ 
     .row.mb-4
       p En gamas de mercado para el sistema moda, se encuentran movimientos que se han ido adaptando a lo largo de la historia, a través de las necesidades, evoluciones y revoluciones, cada una de las segmentaciones son movimientos transitorios, algunos de ellos perdurando con el paso de los años:
       .col-1
@@ -660,19 +657,19 @@
             
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img.p-4(src="@/assets/curso/temas/tema1/imagen5.png")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 Universos de vestuario - Gamas de mercado
-                  p.mb-0 Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de los universos de vestuario.
-                .col-sm-auto
+        .tarjeta(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-1.col-md-1.d-none.d-lg-block
+              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/imagen5.png")
+            .col-sm-12.col-md-10.col-lg-10
+              .row.justify-content-center.align-items-center
+                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
+                  h3.mt-3.text-white Universos de vestuario - Gamas de mercado
+                  p.mb-3.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de los universos de vestuario.
+                .col-sm-2-col-md-2.col-lg-2
                   a.boton.color-boton(href="https://youtu.be/VsTacEciP3k" target="_blank")
-                    span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
@@ -683,11 +680,11 @@
     .row.mb-4
       p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
     .row.justify-content-center.align-items-center.mb-4(style='background-color: #D1BCFF')
-      .col-4.p-5
+      .col-3.col-md-3.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen6.png', alt='Maniquí')
-      .col-7.p-5
-        h4 ¿Quién es el consumidor? 
-        p Se entiende por consumidor al individuo que requiere satisfacer cierta necesidad a través de la compra u obtención de determinados productos. El consumidor no es un simple agente <strong>pasivo</strong> que espera a que le ofrezcan productos, es un agente <strong>activo</strong> con el poder suficiente para lograr cambios en las ofertas y hasta en las mismas empresas, para que se ajusten a sus requerimientos y necesidades.
+      .col-sm-12.col-md-7.col-lg-7
+        h4.mt-5.ps-3 ¿Quién es el consumidor? 
+        p.mb-5.ps-3 Se entiende por consumidor al individuo que requiere satisfacer cierta necesidad a través de la compra u obtención de determinados productos. El consumidor no es un simple agente <strong>pasivo</strong> que espera a que le ofrezcan productos, es un agente <strong>activo</strong> con el poder suficiente para lograr cambios en las ofertas y hasta en las mismas empresas, para que se ajusten a sus requerimientos y necesidades.
   
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -697,42 +694,42 @@
 
     .tarjeta.fondo.p-4
       SlyderA(tipo="b")
-        .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Tradicional
             p Es un consumidor que participa en un ambiente social exigente en el que busca reconocimiento, aceptación y afirmación de los demás; invierte mucho dinero, tiempo y energía en sobresalir y destacarse.
             p.mb-3 <strong>Características:</strong>
-            ul.ul.lista-ul--color.vmorada
+            ul.ul.lista-ul--color.vmorada.fa-ul
+              li.mb-0
+                i.lista-ul__vineta
+                span.mb-0 Las tradiciones permanecen.
+              li.mb-0
+                i.lista-ul__vineta.mb-0
+                span.mb-0 Es rígido, formal y exigente con la etiqueta y el protocolo.
+              li.mb-0
+                i.lista-ul__vineta.mb-0
+                span.mb-0 Presenta resistencia al cambio.
               li.mb-0 
                 i.lista-ul__vineta.mb-0
-                | Las tradiciones permanecen.
+                span.mb-0 Mantiene su estilo a través del tiempo.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Es rígido, formal y exigente con la etiqueta y el protocolo.
+                span.mb-0 Es reservado y se toma tiempo para involucrar nuevos conceptos y productos innovadores.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Presenta resistencia al cambio.
-              li.mb-0 
-                i.lista-ul__vineta.mb-0
-                | Mantiene su estilo a través del tiempo.
-              li.mb-0
-                i.lista-ul__vineta.mb-0
-                | Es reservado y se toma tiempo para involucrar nuevos conceptos y productos innovadores.
-              li.mb-0
-                i.lista-ul__vineta.mb-0
-                | Busca siempre un sello de tradición y distinción.
+                span.mb-0 Busca siempre un sello de tradición y distinción.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es fiel a las marcas, busca en ellas el estatus.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Mantiene y aprecia los referentes del pasado.
-          .col-sm-5.p-5
+                span.mb-0 Mantiene y aprecia los referentes del pasado.
+          .col-4.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen1.svg')
 
-        .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Neo tradicional
             p Es un consumidor evolucionado y sintonizado con el desarrollo del entorno. Tiene un mayor nivel de sensibilidad y flexibilidad. Se detiene a observar y se deja influenciar por nuevos referentes, conceptos y propuestas de moda. Mantiene un punto de equilibrio entre la tradición y la innovación, integrando los fenómenos de la moda, la evolución cultural y social a su estilo personal.
             p.mb-3 <strong>Características:</strong>
@@ -761,12 +758,12 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Aprecia los referentes actuales.
-          .col-sm-5.p-5
+          .col-4.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen2.svg')
 
-        .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Contemporáneo
             p Surge de los cambios sociales, económicos y tecnológicos de las últimas décadas, dando origen a un nuevo modelo de comportamiento, donde se encuentran un perfil original y auténtico que está en permanente evolución. Es multicultural, dinámico y explorador constante de su propio desarrollo personal, emocional y profesional.
             p.mb-3 <strong>Características:</strong>
@@ -785,19 +782,19 @@
                 | La mujer juega un rol profesional, laboral, político y familiar.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                span.mb-0 Sensible al cambio, adopta fácilmente nuevas alternativas para estar en constante evolución.
+                span.mb-2 Sensible al cambio, adopta fácilmente nuevas alternativas para estar en constante evolución.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es dinámico.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es citadino y urbano. 
-          .col-sm-5.p-5
+          .col-4.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen3.svg')
 
-        .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Vanguardista
             p Es un destacado grupo social inconforme y extremadamente original. Genera cambios y origina nuevos conceptos, es innovador, rompe esquemas y paradigmas de su entorno directo generando cambios que se reflejan como tendencias globales.
             p.mb-3 <strong>Características:</strong>
@@ -826,12 +823,12 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es atrevido, le gusta el juego, el riesgo, lo novedoso.
-          .col-sm-5.p-5
+          .col-4.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen4.svg')
              
         .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Exhibicionista
             p Resulta de un deseo personal por destacarse, llamar la atención y proyectarse como “distinto” a los demás. El estilo es lo de menos, la imagen es todo.
             p.mb-3 <strong>Características:</strong>
@@ -844,14 +841,14 @@
                 | Rompe todos los esquemas para no pasar desapercibido.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                span.mb-0 Concentra su atención en todas aquellas rarezas y excentricidades que el mercado le ofrece o de las que él mismo se apropia.
+                span.mb-2 Concentra su atención en todas aquellas rarezas y excentricidades que el mercado le ofrece o de las que él mismo se apropia.
               li.mb-0 
                 i.lista-ul__vineta.mb-0
                 | Prefiere proyectar una imagen nueva a regirse por un canon establecido.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Su apariencia personal es original e innovadora pero extremadamente llamativa.
-          .col-sm-5.p-5
+          .col-4.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen5.svg')
       
@@ -861,16 +858,16 @@
       p.mb-5 Coherencia entre el ser y el parecer. La relación que tiene el modelo de pensamiento y la actitud personal define el estilo de cada individuo. El estilo refleja todos los aspectos de una persona, el pensamiento, las acciones y la relación con los demás y los objetos, además sus gustos, preferencias, motivaciones, valoraciones necesidades y actividades reflejadas en sus actitudes.
 
     .row.justify-content-center.align-items-center.mb-4(style='background-color: #FEF5E5')
-      .col-3
-        img.p-4(src='@/assets/curso/temas/tema1/imagen7.png')
-      .col-7
+      .col-3.col-md-3.col-lg-3
+        img.mt-4.mb-4(src='@/assets/curso/temas/tema1/imagen7.png')
+      .col-sm-12.col-md-7.col-lg-7
         h4 ¿Qué es el estilo?
         p Es una selección y acumulación de vivencias, referentes, culturas e influencias que se prioriza, valora y manifiesta con nuestra actitud y expresión a través de los objetos que elegimos para llevar en nuestra indumentaria y nuestro diario vivir, lo que se contribuye en la coherencia en el habitus, hábito, hábitat que determinará un estilo personal, particular y plural.
 
     .tarjeta.fondo.p-4
       SlyderA(tipo="b")
         .row.ps-3
-          .col-md-7.mb-4.mb-md-0
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Clásico
             p Obra que se tiene por modelo digno de imitación; genialidad en la idea o diseño donde el valor y el aprecio permanece en el tiempo y son sensibles a evolucionar.
             p.mb-2 <strong>Características:</strong>
@@ -881,13 +878,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Es tener prendas claves que se editan, que se pueden combinar y que permanecen en el tiempo.
-            p.p-3.borde-redondo(style='background-color: #FEF5E5') “¡Innovación! Uno no puede ser innovador por siempre. Yo quiero crear clásicos.” <strong>(Coco Chanel)</strong> 
-          .col-sm-5.p-3
+            .cajon.borde-redondo(style='background-color: #FEF5E5')
+              p.p-4.mb-0 “¡Innovación! Uno no puede ser innovador por siempre. Yo quiero crear clásicos.” 
+              p.text-center.mb-0.mt-0 <strong>(Coco Chanel)</strong> 
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen1.svg')
 
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Bohemio
             p El estilo boho o bohemio, es un estilo originalmente popularizado por los bohemios en la década de los 60, un grupo de gente que rechazaba los valores morales tradicionales vivían un estilo de vida nómada. No solía ser considerado de moda por los estándares del momento. Originalmente se usaba por comodidad y para desafiar las normas de vestir tradicionales.
             p.mb-2 <strong>Características:</strong>
@@ -901,13 +900,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Las mujeres optan por vestidos sueltos, túnicas, faldas de volados y pantalones amplios o tipo gaucho.
-            p.p-3.borde-redondo(style='background-color: #FEF5E5') “No se puede tener un estilo bohemio usando prendas ajustadas; esto no funciona. Tiene que tener la posibilidad de moverse, bailar y escalar.”  <strong>(Diane Von Furstenberg)</strong>
-          .col-sm-5.p-3
+            .cajon.borde-reondo(style='background-color: #FEF5E5') 
+              p.p-4.mb-0 “No se puede tener un estilo bohemio usando prendas ajustadas; esto no funciona. Tiene que tener la posibilidad de moverse, bailar y escalar.”  
+              p.text-center.mb-0.mt-0 <strong>(Diane Von Furstenberg)</strong>
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen2.svg')
 
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.ps-3.mt-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Minimalista
             p El concepto nació en los años sesenta, con la idea de “menos es más”, del arquitecto Mies Van Der Rohe, quien propuso un estilo de vida que rescata la importancia de la persona, frente a una sociedad consumista. A grandes rasgos, trata no sólo de usar poco, sino de encontrar el equilibrio entre reducir y exagerar en la decoración, los detalles y las siluetas.
             p.mb-2 <strong>Características:</strong>
@@ -921,13 +922,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Son muy fieles a algunas marcas que les garantizan cortes y diseños perfectos, telas de alta calidad y tecnológicas.
-            p.p-3.borde-redondo(style='background-color: #FEF5E5') “En el minimalismo no se trata de abandonar los diseños o los estampados. Yo veo al minimalismo como la filosofía que envuelve el total sentido del balance, conociendo cuándo quitar o sustraer algo. Es un vicio por los cortes absolutamente impecables, juegos tranquilos del color siluetas muy fuertes y limpias.”  <strong>(Calvin Klein)</strong>
-          .col-sm-5.p-3
+            .cajon.borde-redondo(style='background-color: #FEF5E5')
+              p.p-4.mb-0.mt-0 “En el minimalismo no se trata de abandonar los diseños o los estampados. Yo veo al minimalismo como la filosofía que envuelve el total sentido del balance, conociendo cuándo quitar o sustraer algo. Es un vicio por los cortes absolutamente impecables, juegos tranquilos del color siluetas muy fuertes y limpias.”  
+              p.text-center <strong>(Calvin Klein)</strong>
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen3.svg')
 
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo <em>Street Fashion</em>
             p Este estilo único y original se observa en las calles de todo el mundo, donde las personas adoptan la indumentaria de manera muy personal. Estas personas no siguen las tendencias de moda establecidas; por el contrario, son ellas quienes inspiran a los diseñadores a crear nuevas colecciones.
             p.mb-2 <strong>Características:</strong>
@@ -944,12 +947,12 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Les interesa la autenticidad de cada persona, antes que lo que está de moda en el mercado.
-          .col-sm-5.p-3
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen4.svg')
 
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Ecléctico
             p Una persona ecléctica es aquella que selecciona sus prendas de todos los estilos y la mezcla de una manera única. No hay una fórmula ni elementos favoritos, es una invención permanente.
             p.mb-2 <strong>Características:</strong>
@@ -966,12 +969,12 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Se pueden incorporar objetos exóticos, prendas de otras décadas, accesorios de todo de todo tipo, como si se tratara de un collage.
-          .col-sm-5.p-3
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen5.svg')
 
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.ps-3
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estilo Nostálgico
             p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques vintage y colores pasteles y empolvados.
             p.mb-2 <strong>Características:</strong>
@@ -985,7 +988,7 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Las flores y los volúmenes se destacan.
-          .col-sm-5.p-3
+          .col-4.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen6.svg')
 
@@ -1020,29 +1023,33 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Características de las tendencias
 
-    .row
-      .col-sm-2
-      .col-sm-3.p-5(style='background-color: #FEF5E5')
-          img(src='@/assets/curso/temas/tema1/imagen11.png')
-      .col-sm-5.mb-5.mb-sm-2(style='background-color: #FEF5E5')
-        br
-        ol.lista-ol--cuadro.fa-ol
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | <strong>Ritmo:</strong> Forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | <strong>Información:</strong> Toda la variedad de información que puedan complementar el concepto de la tendencia
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | <strong>Diversificación:</strong> Diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | <strong>Tecnología:</strong> Medios por los cuales se revela la información y su implementación.
+
+    .row.justify-content-center.align-items-center.mt-5.mb-5(data-aos="zoom-in-left")
+      .avatar
+        .col-3
+          img(src='@/assets/curso/temas/tema1/imagen11.png' alt='AvatarTop')
+      .col-sm-12.col-md-8.col-lg-8
+        .cajon(style='background-color: #FEF5E5')
+          .row
+            .col-3
+            .col-8.ps-5.mt-3
+              ol.lista-ol--cuadro.fa-ol
+                li.mb-0 
+                  .lista-ol--cuadro__vineta(style='color: black')
+                    span.mb-0 1
+                  p.mb-0 <strong>Ritmo:</strong> Forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
+                li.mb-0
+                  .lista-ol--cuadro__vineta(style='color: black')
+                    span.mb-0 2
+                  p.mb-0 <strong>Información:</strong> Toda la variedad de información que puedan complementar el concepto de la tendencia
+                li.mb-0
+                  .lista-ol--cuadro__vineta(style='color: black')
+                    span.mb-0 3
+                  p.mb-0 <strong>Diversificación:</strong> Diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
+                li.mb-0 
+                  .lista-ol--cuadro__vineta(style='color: black')
+                    span.mb-0 4
+                  p.mb-0 <strong>Tecnología:</strong> Medios por los cuales se revela la información y su implementación.
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -1134,32 +1141,28 @@
             h4.mb-3 PECLERS PARIS
             p.mb-0 https://www.peclersparis.com/fr/
 
-    .row.mt-5(style='background-color: #D1BCFF')
-      .col-1
-      .col-3.p-5 
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')
+      .col-2.col-md-2.col-lg-2
         img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
-      .col-7.p-5
-        br
+      .col-sm-12.col-md-7.col-lg-7.p-5
         p <strong>La clave es:</strong> identifiquemos los principales factores que afectan el pronóstico de las tendencias. <br>
         p <strong>Estaciones:</strong> las tendencias se basan en las estaciones de primavera (<em>Spring</em>), verano (<em>Summer</em>), otoño (<em>Autumn</em>) e invierno (<em>Winter</em>). 
 
-    br
-    br
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img.p-4(src='@/assets/curso/temas/tema1/revista.png')
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 Tendencias
-                  p.mb-0 Revisa el documento que pueden resultar útil para aprender más sobre el entorno de las tendencias.
-                .col-sm-auto
+        .tarjeta(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-1.col-md-1.d-none.d-lg-block
+              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/revista.png")
+            .col-sm-12.col-md-10.col-lg-10
+              .row.justify-content-center.align-items-center
+                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
+                  h3.mt-3.text-white Tendencias
+                  p.mb-3.text-white Revisa el documento que pueden resultar útil para aprender más sobre el entorno de las tendencias.
+                .col-sm-2-col-md-2.col-lg-2
                   a.boton.color-boton(href="https://youtu.be/zqxRNVjvi8Q" target="_blank")
-                    span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
@@ -1255,31 +1258,28 @@
           .col-2.mb-0
               img(src='@/assets/curso/temas/tema1/tarjeta8/imagen3.png')
 
-    .row.mt-5.mb-5(style='background-color: #D1BCFF')
-      .col-1
-      .col-3.p-5 
+    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')
+      .col-2.col-md-2.col-lg-2
         img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
-      .col-7.p-5
-        br
-        p <strong>La clave es:</strong> identifiquemos los principales factores que afectan el pronóstico de las tendencias. <br>
-        p <strong>Estaciones:</strong>  las tendencias se basan en las estaciones de primavera (spring), verano (Summer), otoño (Autumn) e invierno (Winter).  
+      .col-sm-12.col-md-7.col-lg-7.p-5
+        p <strong>La clave es:</strong> cada variación debe ser coherente con el concepto, las siluetas, formas, sensibilidad y demás percepciones definidas en los conceptos.
+        p <strong>Estaciones:</strong> las tendencias se basan en las estaciones de primavera (<em>Spring</em>), verano (<em>Summer</em>), otoño (<em>Autumn</em>) e invierno (<em>Winter</em>). 
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img.p-4(src='@/assets/curso/temas/tema1/imagen13.png')
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 <em>Moodboard</em> Tableros Creativos y Cuadro Metamórfico 
-                  p.mb-0 Revisa el documento que pueden resultar útil  para aprender más sobre la creación de un moodboard y un cuadro metamórfico.
-                .col-sm-auto
+        .tarjeta(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-1.col-md-1.d-none.d-lg-block
+              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/imagen13.png")
+            .col-sm-12.col-md-10.col-lg-10
+              .row.justify-content-center.align-items-center
+                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
+                  h3.mt-3.text-white <em>Moodboard</em> Tableros Creativos y Cuadro Metamórfico 
+                  p.mb-3.text-white Revisa el documento que pueden resultar útil  para aprender más sobre la creación de un moodboard y un cuadro metamórfico.
+                .col-sm-2-col-md-2.col-lg-2
                   a.boton.color-boton(href="https://youtu.be/J0Uk-4OU2fg" target="_blank")
-                    span.text-sistm Ir al sitio
-                    i.fas.fa-file-download.text-sistm
-
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
 </template>
 
