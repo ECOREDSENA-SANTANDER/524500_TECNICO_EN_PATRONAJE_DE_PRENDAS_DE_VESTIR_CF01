@@ -120,7 +120,7 @@
 
     .row
       #t_2_2.titulo-segundo.color-primario
-        h2 2.2.  Categorización de prendas
+        h2 2.2 Categorización de prendas
       p En la segmentación de productos se implementa el término tipología, el cual sirve para categorizar de manera básica, “lógica” por tipo los productos, lo que se busca es identificar características similares que componen el producto y así ir categorizando para facilitar todo el proceso, desde la parte creativa hasta la parte operativa. 
 
     .row(data-aos="zoom-in-left")  
@@ -130,7 +130,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen3.png')})`}"
            )
             br
-            h3.text-center.p-5 Qué es una tipología?
+            h3.text-center.p-5 ¿Qué es una tipología?
             br
             br
           .bloque-texto-g__texto.p-2
@@ -202,7 +202,7 @@
 
     .row.mt-4
       #t_2_3.titulo-segundo.color-primario
-        h2 2.3.  Técnica de achurados y acabados
+        h2 2.3 Técnica de achurados y acabados
     p.mb-4 En el siguiendo video, se presenta la realización del proceso de una manera clara y didáctica:
 
     .row.mb-4
@@ -228,7 +228,7 @@
 
     .row.mt-4
       #t_2_5.titulo-segundo.color-primario
-        h2 2.5.  Dibujo plano de prendas
+        h2 2.5 Dibujo plano de prendas
     p.mb-4 En el video que se presenta a continuación, se detallan los conceptos más importantes para tener en cuenta en la realización de dibujos bidimensionales de prendas de vestir: 
 
     .row.mb-4
@@ -261,7 +261,7 @@
 
     .row.mt-4
       #t_2_6.titulo-segundo.color-primario
-        h2 2.6.  Análisis de proporciones prendas superiores e inferiores
+        h2 2.6 Análisis de proporciones prendas superiores e inferiores
     p.mb-4 A continuación se presentan dos videos con explicación de los procesos :
 
     .row.mb-4
@@ -280,7 +280,7 @@
 
     .row.mt-4
       #t_2_7.titulo-segundo.color-primario
-        h2 2.7.  Interfaz programa CAD
+        h2 2.7 Interfaz programa CAD
       p Para el desarrollo de dibujos planos, se implementa #[em software] que permite agilizar y detallar de manera más certera un producto. Para el uso de los programas se hace necesario contar con la licencia que autoriza la implementación legal del mismo. El SENA cuenta con las licencias requeridas para el acceso del aprendiz sin ningún inconveniente. 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
@@ -303,7 +303,7 @@
 
     .row.mt-4
       #t_2_8.titulo-segundo.color-primario
-        h2 2.8.  Ficha técnica
+        h2 2.8 Ficha técnica
       p Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  

@@ -9,7 +9,7 @@
 
     .row.mb-4
       #t_1_1.titulo-segundo.color-primario
-        h2 1.1  Fundamentación de moda
+        h2 1.1 Fundamentación de moda
     
     .row.mb-0
       p En la actualidad una de las mayores falencias en la industria de la moda, es la articulación entre el diseñador (área creativa) y el patronista (área operativa); por lo tanto, es importante ofrecer al patronista una contextualización en el manejo de la terminología y así afianzar la articulación entre las dos áreas.
@@ -215,13 +215,13 @@
       .col-md-10
 
         LineaTiempoD.color-primario(data-aos="zoom-in-left")
-          .row.align-items-center.justify-content-center.text-bold(numero="1" titulo="Físicos")
+          .row.align-items-center.justify-content-center(numero="1" titulo="Físicos")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 #[b Clima: ] el clima influye según la geografía, dependiendo de la temporada del año las prendas se acomodan teniendo en cuenta que en algunos países tiene 4 estaciones o climas estables. 
+                    span.mb-0 #[b Clima:] el clima influye según la geografía, dependiendo de la temporada del año las prendas se acomodan teniendo en cuenta que en algunos países tiene 4 estaciones o climas estables. 
                   li 
                     i.lista-ul__vineta
                     span.mb-0 #[b Edad: ] las prendas es uno de los aspectos que debe evolucionar conforme a la etapa/edad que se vive. Para cada edad hay un estilo que encaja con la condición de cada persona. 
@@ -236,7 +236,7 @@
                     span.mb-0 #[b Salud: ] teniendo en cuenta el estado de salud que se presente, existen muchas prendas que se adaptan. Algunas prendas deben adaptarse o construir con cierta especialidad.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen1.svg', alt='Mostrando prendas de vestir')
 
-          .row.align-items-center.justify-content-center.text-bold(numero="2" titulo="Sociales - culturales")
+          .row.align-items-center.justify-content-center(numero="2" titulo="Sociales - culturales")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -258,7 +258,7 @@
                     span.mb-0 #[b Tribus urbanas: ] personas que comparten un universo de intereses comunes.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen2.svg', alt='Mujeres de raza negra')
 
-          .row.align-items-center.justify-content-center.text-bold(numero="3" titulo="Psicológicas")
+          .row.align-items-center.justify-content-center(numero="3" titulo="Psicológicas")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -268,7 +268,7 @@
                 p.ps-5 "Cuando estamos estresados, utilizamos solo un 90% de prendas que guardamos en nuestro guardarropa".(Harpersbazaar, 2019). 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen3.png', alt='Mujer en un vestier')
 
-          .row.align-items-center.justify-content-center.text-bold(numero="4" titulo="Desórdenes")
+          .row.align-items-center.justify-content-center(numero="4" titulo="Desórdenes")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -280,14 +280,14 @@
                     span.mb-0 #[b  Alimenticios: ] depende de cómo se siente respecto a su propia imagen y a su propio cuerpo. 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen4.png', alt='Mujer con cara de desagrado en un closet')
 
-          .row.align-items-center.justify-content-center.text-bold(numero="5" titulo="Sexualidad")
+          .row.align-items-center.justify-content-center(numero="5" titulo="Sexualidad")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 p Depende de todas las anteriores: cultural, físico, social, psicológico, no solo depende de la orientación sexual si no también el lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. 
                 p También hay prendas de vestir con una finalidad erótica.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.png', alt='Tres mujeres amigas')
 
-          .row.align-items-center.justify-content-center.text-bold(numero="6" titulo="Moda")
+          .row.align-items-center.justify-content-center(numero="6" titulo="Moda")
             p Puede constituir un pensamiento histórico en un momento determinado de la época. Cómo vestirse según la mercadotecnia, tendencias de moda, temporadas y diseñadores. Se incentiva a las personas a que consuman y se "actualicen". En este sentido, existen dos grupos de personas:
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
@@ -304,7 +304,7 @@
 
     .row
       #t_1_2.titulo-segundo.color-primario
-        h2 1.2  Universos de vestuario
+        h2 1.2 Universos de vestuario
     
     .row.mb-4
       p.mb-2 Son conceptos de moda que responden a la necesidad de categorizar, segmentar y agrupar prendas de vestir, accesorios e indumentaria con características similares, los universos de vestuario deben ser organizados según el consumidor o mercado objetivo de cada marca.  
@@ -655,7 +655,7 @@
     .row.mb-4
       br
       #t_1_3.titulo-segundo.color-primario.mb-4
-        h2 1.3.  Perfil y estilo de consumidor
+        h2 1.3 Perfil y estilo de consumidor
     .row.mb-4
       p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
     
@@ -976,7 +976,7 @@
 
     .row
       #t_1_4.titulo-segundo.color-primario
-        h2 1.4.  Tendencias
+        h2 1.4 Tendencias
     p Las tendencias se definen a través de una serie de formas visuales y características específicas que identifican un momento concreto; esta información determina el comportamiento de consumo. Las tendencias mueven las industrias, no solo la industria de la moda, si no las de consumo, servicios, incluso pensamiento.
 
     .row.justify-content-center.align-content-center.mt-4(data-aos="zoom-in-left")
@@ -1018,7 +1018,7 @@
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 2
-                  p.mb-0 #[b Información: ] Toda la variedad de información que puedan complementar el concepto de la tendencia
+                  p.mb-0 #[b Información: ] Toda la variedad de información que puedan complementar el concepto de la tendencia.
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 3
@@ -1056,7 +1056,7 @@
               img(src='@/assets/curso/temas/tema1/tarjeta6/imagen3.png')
           
         h2.text-center Microtendencias
-        p Son las que dan origen a las llamadas “modas pasajeras”, cambian cada temporada, revolucionan el mercado, abren un abanico de posibilidades y promueven el consumo..
+        p Son las que dan origen a las llamadas “modas pasajeras”, cambian cada temporada, revolucionan el mercado, abren un abanico de posibilidades y promueven el consumo.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -1163,7 +1163,7 @@
 
     .row
       #t_1_5.titulo-segundo.color-primario
-        h2 1.5.  #[em Moodboard ] - #[b Cuadro metamórfico ]
+        h2 1.5 #[em Moodboard ] - #[b Cuadro metamórfico ]
 
     .row.mb-5
       p Los moodboards son tableros creativos que permiten visualizar y conceptualizar ideas para el desarrollo de productos o servicios, consiste en recolectar imágenes que muestran lo que se quiere expresar, esta es una forma implementada en las áreas de diseño para dar a conocer las ideas de una manera mucho más dinámica.

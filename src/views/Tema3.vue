@@ -242,7 +242,7 @@
 
     .row.mb-4
       #t_3_2.titulo-segundo.color-primario
-        h2 3.2. Identificación fibras por combustión
+        h2 3.2 Identificación fibras por combustión
       p Conocer la composición de una fibra es la base de su utilidad, con la composición se logra identificar su comportamiento al ser manipuladas y permite garantizar la idoneidad en la elección frente a la función del diseño y del uso para el que están destinadas. La combustión es el proceso más común para la identificación de cada componente.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
@@ -444,7 +444,7 @@
     
     .row.mt-5
       #t_3_3.titulo-segundo.color-primario
-        h2 3.3.  Clasificación de los hilos
+        h2 3.3 Clasificación de los hilos
       p Los hilos son un conjunto de fibras textiles que son sometidas a un proceso de torsión, el cual permite que se genere un recorrido de gran longitud. Dentro de su clasificación se identifican elementos como los tipos de torsiones, titulación o numeración; la lectura de esta información es lo que permite determinar la idoneidad al momento de seleccionar los insumos para la elaboración de una prenda.
 
     
@@ -555,28 +555,28 @@
             br
             p #[b Doblados ]
           .col-7
-            ul.lista-ul
+            ul.lista-ul.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-acento-botones
-                | Cardados
+                | Cardados.
               li.mb-0
                 i.lista-ul__vineta.color-color-acento-botones
-                | Peinados
+                | Peinados.
               li.mb-3
                 i.lista-ul__vineta.color-color-acento-botones
-                | Con efecto
+                | Con efecto.
               li.mb-0
                 i.lista-ul__vineta.color-acento-botones
-                | Con torsión
+                | Con torsión.
               li.mb-0
                 i.lista-ul__vineta.color-color-acento-botones
-                | Retorcidos
+                | Retorcidos.
               li.mb-0
                 i.lista-ul__vineta.color-acento-botones
-                | Cableados
+                | Cableados.
               li.mb-0
                 i.lista-ul__vineta.color-color-acento-botones
-                | Sin torsión  
+                | Sin torsión.  
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -711,7 +711,7 @@
 
     .row.mb-5
       #t_3_4.titulo-segundo.color-primario
-        h2 3.4.  Clasificación de tejidos
+        h2 3.4 Clasificación de tejidos
       p Los tejidos son una composición de fibras o hilos que en su unión generan características como ancho, largo, grosor, resistencia, que permiten asignarle al tejido ciertas características, las cuales son primordiales en la segmentación o clasificación, como lo son los tejidos planos, tejidos de punto o aglomerados.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")
@@ -722,7 +722,7 @@
         p.mb-0 #[b ¿Qué son los tejidos?  ]
           br
           br
-          | Manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión
+          | Manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -733,16 +733,16 @@
         .col-md-6.mb-4.mb-md-0
           p #[b Plano ]
           p #[b Ligamentos fundamentales ]
-          ul.lista-ul--color.vmorada.mb-0
+          ul.lista-ul--color.fa-ul.vmorada.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | Tafetán
+              | Tafetán.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Sarga (diagonal)
+              | Sarga (diagonal).
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Raso
+              | Raso.
           p #[b Ligamentos derivados ]
           ul.lista-ul--color.vmorada.mb-0
             li.mb-0 
@@ -859,13 +859,13 @@
                 ul.lista-ul--color.vmorada.fa-ul
                   li.mb-0 
                     i.fas.fa-angle-right.mb-3
-                    | Tafetán - Sarga - Raso o Satín
+                    | Tafetán - Sarga - Raso o Satín.
                   li.mb-0
                     i.fas.fa-angle-right.mb-3
-                    | Esterilla 2x1 - Espina - Broken- Esterilla 2x2 – #[em Dobby]
+                    | Esterilla 2x1 - Espina - Broken- Esterilla 2x2 – #[em Dobby].
                   li.mb-0
                     i.fas.fa-angle-right.mb-2
-                    | #[em Corduroy] – Terciopelo
+                    | #[em Corduroy] – Terciopelo.
                   li.mb-0
                     i.fas.fa-angle-right.mb-3
                     span.mb-2 Proceso de fabricación de telas en que se utilizan agujas para formar una serie de mallas entrelazadas a partir de uno o más hilos, o bien, un conjunto de hilos. 
@@ -877,7 +877,7 @@
                     | #[em Tricot, raschell.]
                   li.mb-0
                     i.fas.fa-angle-right.mb-3
-                    | Tipo de telas producidas al formar una red con fibra que se unen por procedimientos mecánicos, térmicos o químicos, pero sin ser tejidas. Fieltros o aglomerados - Películas – Espumas
+                    | Tipo de telas producidas al formar una red con fibra que se unen por procedimientos mecánicos, térmicos o químicos, pero sin ser tejidas. Fieltros o aglomerados - Películas – Espumas.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -1033,7 +1033,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Fabricación y aplicación")
         .col-md-10.mb-4.mb-md-0
-          p Las entretelas pueden ser tejidas, no tejidas o de punto. Pueden usarse fusionándose, cosiéndose
+          p Las entretelas pueden ser tejidas, no tejidas o de punto. Pueden usarse fusionándose, cosiéndose.
       .row(titulo="Elásticas o estables")
         .col-md-10.mb-4.mb-md-0
           p Las entretelas se catalogan bajo estas dos categorías: 
