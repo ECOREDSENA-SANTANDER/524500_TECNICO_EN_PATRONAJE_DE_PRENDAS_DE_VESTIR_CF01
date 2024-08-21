@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="389" viewBox="0 0 400 389">
-  <g id="Grupo_1078642" data-name="Grupo 1078642" transform="translate(-147 -586.981)">
-    <path id="Trazado_841085" data-name="Trazado 841085" d="M20,0H380c11.046,0,20,7.318,20,16.345V372.655c0,9.027-8.954,16.345-20,16.345H20c-11.046,0-20-7.318-20-16.345V16.345C0,7.318,8.954,0,20,0Z" transform="translate(147 586.981)" fill="#ffd54f"/>
-    <g id="Grupo_32240" data-name="Grupo 32240" transform="translate(186.241 659.494)">
+  <g id="Grupo_1078882" data-name="Grupo 1078882" transform="translate(-180 -590)">
+    <g id="Grupo_1078881" data-name="Grupo 1078881">
+      <path id="Trazado_841085" data-name="Trazado 841085" d="M20,0H380c11.046,0,20,7.318,20,16.345V372.655c0,9.027-8.954,16.345-20,16.345H20c-11.046,0-20-7.318-20-16.345V16.345C0,7.318,8.954,0,20,0Z" transform="translate(180 590)" fill="#ffd54f"/>
+    </g>
+    <text id="_Qué_es_diseño_" data-name="¿Qué es diseño?" transform="translate(184 916)" fill="#12263f" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="107.301" y="23">¿Qué es diseño?</tspan></text>
+    <g id="Grupo_32240" data-name="Grupo 32240" transform="translate(219.241 662.513)">
       <g id="Grupo_32170" data-name="Grupo 32170" transform="translate(0 0)">
         <path id="Trazado_61762" data-name="Trazado 61762" d="M330.246,246.015H74.985c-25.241-22.717-34.04-62.679-22.561-94.639S95.84,95.905,129.767,94.438c16.354-.707,32.865,3.241,49.01.538,20.332-3.4,37.31-16.786,54.055-28.81s35.765-23.548,56.342-22.3c20.923,1.269,39.312,16.148,49.3,34.577s12.695,39.951,12.8,60.912C351.446,174.5,343.341,213.405,330.246,246.015Z" transform="translate(-47.46 -34.495)" fill="#d1bcff"/>
         <path id="Trazado_61763" data-name="Trazado 61763" d="M210.728,75.7c6.318-1.233,12.671-2.961,18.063-6.477s9.751-9.073,10.508-15.465c.884-7.471-3.329-14.877-9.269-19.493s-13.38-6.853-20.76-8.311c-10.224-2.02-20.942-2.7-30.975.113S158.967,35.6,154.894,45.2C138.732,83.256,190.166,79.709,210.728,75.7Z" transform="translate(-102.374 -24.187)" fill="#d1bcff"/>

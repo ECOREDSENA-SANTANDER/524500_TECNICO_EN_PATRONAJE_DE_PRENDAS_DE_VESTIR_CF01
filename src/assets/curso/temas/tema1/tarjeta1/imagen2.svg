@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="389" viewBox="0 0 400 389">
-  <g id="Grupo_1078643" data-name="Grupo 1078643" transform="translate(11780.168 11089.587)">
-    <path id="Trazado_841087" data-name="Trazado 841087" d="M20,0H380c11.046,0,20,7.318,20,16.345V372.655c0,9.027-8.954,16.345-20,16.345H20c-11.046,0-20-7.318-20-16.345V16.345C0,7.318,8.954,0,20,0Z" transform="translate(-11780.168 -11089.587)" fill="#ffd54f"/>
-    <g id="Grupo_32308" data-name="Grupo 32308" transform="translate(-11737.041 -11063.265)">
+  <g id="Grupo_1078883" data-name="Grupo 1078883" transform="translate(-600 -1017)">
+    <path id="Trazado_841087" data-name="Trazado 841087" d="M20,0H380c11.046,0,20,7.318,20,16.345V372.655c0,9.027-8.954,16.345-20,16.345H20c-11.046,0-20-7.318-20-16.345V16.345C0,7.318,8.954,0,20,0Z" transform="translate(600 1017)" fill="#ffd54f"/>
+    <text id="_Qué_es_moda_" data-name="¿Qué es moda?" transform="translate(634 1329)" fill="#12263f" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="83.842" y="23">¿Qué es moda?</tspan></text>
+    <g id="Grupo_32308" data-name="Grupo 32308" transform="translate(643.127 1043.322)">
       <g id="BACKGROUND" transform="translate(11.447 0)">
         <g id="Grupo_32241" data-name="Grupo 32241">
           <path id="Trazado_61861" data-name="Trazado 61861" d="M109.142,115.843c14.45-.5,28.422,4.564,42.244,8.805s28.616,7.728,42.606,4.08c18.811-4.9,31.934-21.4,43.718-36.855s25.115-31.857,44.015-36.407c17.648-4.249,36.688,3.368,49.533,16.194s20.257,30.164,24.884,47.718c11.458,43.478,5.928,93.6-23.843,127.3-23.818,26.958-59.774,40.2-95.289,45.922-25.619,4.129-52.254,4.818-77.167-2.445a126.074,126.074,0,0,1-72.836-56.947C68.4,201.25,51.144,117.846,109.142,115.843Z" transform="translate(-69.318 -34.696)" fill="#d1bcff"/>

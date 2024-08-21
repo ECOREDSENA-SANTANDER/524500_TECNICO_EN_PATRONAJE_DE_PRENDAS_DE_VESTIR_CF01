@@ -14,60 +14,28 @@
     .row.mb-0
       p En la actualidad una de las mayores falencias en la industria de la moda, es la articulación entre el diseñador (área creativa) y el patronista (área operativa); por lo tanto, es importante ofrecer al patronista una contextualización en el manejo de la terminología y así afianzar la articulación entre las dos áreas.
 
-    .row
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.color-morado-claro.p-4.p-xl-5
               h1 ¿Qué es diseño?
-              p La palabra diseño viene del italiano <em>disegnare</em> que significa dibujar, que a su vez se deriva del latín designare que evoca marcar, trazar, ordenar y disponer. El diseño es una actividad creativa orientada a soluciones idóneas a ciertas problemáticas. 
+              p La palabra diseño viene del italiano  #[em disegnare ] que significa dibujar, que a su vez se deriva del latín designare que evoca marcar, trazar, ordenar y disponer. El diseño es una actividad creativa orientada a soluciones idóneas a ciertas problemáticas. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta1/imagen1.svg')})`}")
-              .tarjeta-slide_contenido.p-4.mt-5
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                br 
-              h1.text-center ¿Qué es diseño?
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-12.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas//tema1/tarjeta1/imagen2.svg')})`}")
-              .tarjeta-slide_contenido.p-4.mt-5
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                h1.text-center ¿Qué es moda?
             .tarjeta-slide__contenido.color-morado-claro.p-4.p-xl-5
               h1 ¿Qué es moda?
               p La definición viene del francés mode, y éste del latín modus, "modo" o "medida". La moda regula las elecciones que hacen las personas, definiendo ciertos patrones de comportamiento dentro de un grupo social; indica a la gente qué debe consumir, utilizar o hacer.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+      .col-sm-12.col-xl-4.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.derecha.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas//tema1/tarjeta1/imagen3.svg')})`}")
-              .tarjeta-slide_contenido.p-4.p-xl-5
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                br
-                h1.text-center ¿Qué es diseño de moda?
             .tarjeta-slide__contenido.color-morado-claro.p-4.p-xl-5
               h1.mb-5 ¿Qué es diseño de moda?
               p.mb-0 Producción de indumentaria para el sistema de moda, donde su principal foco es la innovación y la interpretación, respondiendo a una necesidad de manera funcional.
@@ -78,8 +46,8 @@
       p La moda ha ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores que han afectado la sociedad. Quienes han aportado a estos cambios diferenciadores en la moda han dejado una gran huella.
 
     
-    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')
-      .col-3.col-md-3.col-lg-3
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
+      .col-9.col-md-3.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema1/imagen1.svg', alt='Modista') 
       .col-sm-12.col-md-7.col-lg-7.p-5
@@ -91,100 +59,118 @@
         h3(style="color: #673AB7") \\\ Historia del vestuario
       p Es un reflejo de los cambios sociales, políticos y culturales que tienen lugar alrededor del mundo a medida de los años. Conforme el humano ha evolucionado, también lo ha hecho su vestimenta e indumentaria.
       
-    .tarjeta.tarjeta--gris.p-4
+    .tarjeta.tarjeta--gris.p-4(data-aos="zoom-in-left")
       LineaTiempoC.color-acento-contenido(text-small)
         .row.justify-content-center.align-items-center(titulo="Período Paleolítico")
-          .col-md-5
+          .col-12.col-md-5.col-lg-5
             img.p-2(src='@/assets/curso/temas/tema1/linea1/imagen1.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono1.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p Pieles, pelo de animales, hojas, huesos y conchas.
         .row.justify-content-center.align-items-center(titulo="Periodo Mesolítico")
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-4 Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono2.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen2.png', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center(titulo="Periodo Neolítico")
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen3.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono3.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-4 Vestimenta de fibras animales y vegetales, pulseras de marfil.
         .row.justify-content-center.align-items-center(titulo="Egipcios")
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-5 Shenti, con un cinturón de cuero, falda larga. Las sirvientas iban desnudas, calzado de fibras vegetales, cuero trenzado y papiro.
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono4.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen4.png', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center(titulo="Sumerios")
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen5.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono5.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-4 Traje de lujo, faldón, chal, kaunake, traje militar.
         .row.justify-content-center.align-items-center(titulo="Babilonia")
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-4 Tejedores de lana y de lino, túnica de talle recto y bordes con flecos, larga o corta, borlas y flecos.
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono6.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen6.png', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center(titulo="Creta")
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen7.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono7.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-5 Primer corsé, falda sujeta con un cinturón metal cubierto con un delantal, mangas ceñidas, anillos, pulseras y collares.
         .row.justify-content-center.align-items-center(titulo="Persas")
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-5 La prenda típica era una túnica, ropa interior y el bordado de aplicación, calzado anatómico, atados a los tobillos con correas y botones.
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono8.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen8.png', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center(titulo="Romanos")
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen9.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono9.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-3 Túnica que los hombres usaban hasta las rodillas y las mujeres hasta los pies, bordados en hilos de oro.
         .row.justify-content-center.align-items-center(titulo="Edad Media")
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-3 Zapatos a la polonesa, doble túnica hasta los pies, manto con broche en el centro, y un velo cubriendo la cabeza.
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono10.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen10.png', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center(titulo="Edad Moderna")
-          .col-md-4
+          .col-12.col-md-4.col-lg-4
             img(src='@/assets/curso/temas/tema1/linea1/imagen11.png', alt='Texto que describa la imagen')
-          .col-md-2
+          .col-6.col-md-2.col-lg-2
             img.p-4(src='@/assets/curso/temas/tema1/linea1/icono11.png', alt='Texto que describa la imagen')
-          .col-md-4
+          .col-sm-12.col-md-4.col-lg-4
             p.mt-3 Prendas confeccionadas por sastres, faldas acampanadas, cuellos de encaje, crinolina, gorguera, prendas ajustadas, corsé desde el busto hasta la cadera.
-        .row.justify-content-center.align-items-center(titulo="Edad Contemporánea")
-          .col-md-4
-            img(src='@/assets/curso/temas/tema1/linea1/imagen12a.png', alt='Texto que describa la imagen')
-          .col-md-4
-            img.p-5(src='@/assets/curso/temas/tema1/linea1/imagen12b.png', alt='Texto que describa la imagen')
-          .col-md-4
-            img.p-5(src='@/assets/curso/temas/tema1/linea1/imagen12c.png', alt='Texto que describa la imagen')
-     
+        .row.justify-content-center(titulo="Edad Contemporánea")
+          .col-sm-12.col-md-4.col-lg-4
+            .row
+              .col-6.col-md-6.col-lg-6
+                .row.justify-content-center.align-items-center
+                  img(src='@/assets/curso/temas/tema1/linea1/imagen12a.png', alt='Texto que describa la imagen')
+              .col-6.col-md-6.col-lg-6
+                img(src='@/assets/curso/temas/tema1/linea1/icono12a.png', alt='Texto que describa la imagen')
+                p.text-center Silueta imperio, vestidos delgados y vaporosos, vuelos y encajes en forma de cascada, vestido línea princesa, hombreras. cuello solapa.
+          .col-sm-12.col-md-4.col-lg-4
+            .row
+              .col-6.col-md-6.col-lg-6
+                .row.justify-content-center.align-items-center
+                  img(src='@/assets/curso/temas/tema1/linea1/imagen12b.png', alt='Texto que describa la imagen')
+              .col-6.col-md-6.col-lg-6
+                img(src='@/assets/curso/temas/tema1/linea1/icono12b.png', alt='Texto que describa la imagen')
+                p.text-center Silueta reloj de arena, el corsé de metal o de ballenas, faldas largas o blazers, sujetador, estética flapper, traje de baño, el uso del pantalón.
+          .col-sm-12.col-md-4.col-lg-4
+            .row
+              .col-6.col-md-6.col-lg-6
+                .row.justify-content-center.align-items-center
+                  img(src='@/assets/curso/temas/tema1/linea1/imagen12c.png', alt='Texto que describa la imagen')
+              .col-6.col-md-6.col-lg-6
+                img(src='@/assets/curso/temas/tema1/linea1/icono12c.png', alt='Texto que describa la imagen')
+                p.text-center Jeans de tiro bajo, minifaldas, shorts, zuecos o sandalias, estampados animal print, Fast fashion, pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.
+                
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Evolución de las prendas
       p Las prendas han ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores. Estos factores determinan la decisión que toma cada persona para elegir que ponerse a diario.
 
     
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-left")
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -197,7 +183,7 @@
           .col-8
             img.p-3(src='@/assets/curso/temas/tema1/tarjeta2/imagen2.svg' alt='AvatarTop')
         h3.text-center Sociales - culturales
-        p.text-center Clases sociales, labor, religión, trajes típicos..
+        p.text-center Clases sociales, labor, religión, trajes típicos.
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
@@ -228,94 +214,91 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-10
 
-        LineaTiempoD.color-primario
-          .row.align-items-center.justify-content-center(numero="<strong>1</strong>" titulo="<strong>Físicos</strong>")
+        LineaTiempoD.color-primario(data-aos="zoom-in-left")
+          .row.align-items-center.justify-content-center.text-bold(numero="1" titulo="Físicos")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Clima:</strong> el clima influye según la geografía, dependiendo de la temporada del año las prendas se acomodan teniendo en cuenta que en algunos países tiene 4 estaciones o climas estables. 
+                    span.mb-0 #[b Clima: ] el clima influye según la geografía, dependiendo de la temporada del año las prendas se acomodan teniendo en cuenta que en algunos países tiene 4 estaciones o climas estables. 
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Edad:</strong> las prendas es uno de los aspectos que debe evolucionar conforme a la etapa/edad que se vive. Para cada edad hay un estilo que encaja con la condición de cada persona. 
+                    span.mb-0 #[b Edad: ] las prendas es uno de los aspectos que debe evolucionar conforme a la etapa/edad que se vive. Para cada edad hay un estilo que encaja con la condición de cada persona. 
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Estructura corporal:</strong> la estructura varía depende del tipo de cuerpo, la talla, la contextura. Cada cuerpo de acuerdo con su estructura corporal tiene prendas que le favorecen más que otras.
+                    span.mb-0 #[b Estructura corporal: ] la estructura varía depende del tipo de cuerpo, la talla, la contextura. Cada cuerpo de acuerdo con su estructura corporal tiene prendas que le favorecen más que otras.
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Género:</strong> el género ha venido evolucionando en los últimos años, actualmente existe una gran diversidad de personas que no se identifican con un género en particular. Las marcas optan por ropa unisex - sin género.
+                    span.mb-0 #[b Género: ] el género ha venido evolucionando en los últimos años, actualmente existe una gran diversidad de personas que no se identifican con un género en particular. Las marcas optan por ropa unisex - sin género.
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Salud:</strong> teniendo en cuenta el estado de salud que se presente, existen muchas prendas que se adaptan. Algunas prendas deben adaptarse o construir con cierta especialidad.
+                    span.mb-0 #[b Salud: ] teniendo en cuenta el estado de salud que se presente, existen muchas prendas que se adaptan. Algunas prendas deben adaptarse o construir con cierta especialidad.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen1.svg', alt='Mostrando prendas de vestir')
 
-          .row.align-items-center.justify-content-center(numero="<strong>2</strong>" titulo="<strong>Sociales - culturales</strong>")
+          .row.align-items-center.justify-content-center.text-bold(numero="2" titulo="Sociales - culturales")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Estatus o clases sociales:</strong> está ligado con el poder adquisitivo y el presupuesto que invierta cada persona. Depende de esto se determina la cantidad de prendas y la calidad. Aspiracional: querer aparentar ser de una clase social - "wannabe". 
+                    span.mb-0 #[b Estatus o clases sociales: ] está ligado con el poder adquisitivo y el presupuesto que invierta cada persona. Depende de esto se determina la cantidad de prendas y la calidad. Aspiracional: querer aparentar ser de una clase social - "wannabe". 
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Religión:</strong> existe en el mundo muchas clases de normas ortodoxas que imponen ciertas reglas de indumentaria que se deben respetar de acuerdo con dichas creencias. 
+                    span.mb-0 #[b Religión: ] existe en el mundo muchas clases de normas ortodoxas que imponen ciertas reglas de indumentaria que se deben respetar de acuerdo con dichas creencias. 
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong> Actividad laboral:</strong> uniformes laborales de acuerdo con la profesión, tienen logos institucionales, vestidos de acuerdo con la imagen corporativa de la empresa. Algunas normas de seguridad y salud en el trabajo.
+                    span.mb-0 #[b  Actividad laboral: ] uniformes laborales de acuerdo con la profesión, tienen logos institucionales, vestidos de acuerdo con la imagen corporativa de la empresa. Algunas normas de seguridad y salud en el trabajo.
 
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Trajes típicos:</strong> los trajes típicos corresponden a la indumentaria que expresa la identidad cultural de una región, pueblo, cultura o nación. Estas prendas se pueden utilizar para el uso cotidiano o para eventos especiales.
+                    span.mb-0 #[b Trajes típicos: ] los trajes típicos corresponden a la indumentaria que expresa la identidad cultural de una región, pueblo, cultura o nación. Estas prendas se pueden utilizar para el uso cotidiano o para eventos especiales.
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Tribus urbanas:</strong> personas que comparten un universo de intereses comunes.
+                    span.mb-0 #[b Tribus urbanas: ] personas que comparten un universo de intereses comunes.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen2.svg', alt='Mujeres de raza negra')
 
-          .row.align-items-center.justify-content-center(numero="<strong>3</strong>" titulo="<strong>Psicológicas</strong>")
+          .row.align-items-center.justify-content-center.text-bold(numero="3" titulo="Psicológicas")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong>Estado de ánimo:</strong> el estado de ánimo determina la manera de vestir al iniciar el día; poderoso, triste, feliz, deprimido, entre otros. 
+                    span.mb-0 #[b Estado de ánimo: ] el estado de ánimo determina la manera de vestir al iniciar el día; poderoso, triste, feliz, deprimido, entre otros. 
                 p.ps-5 "Cuando estamos estresados, utilizamos solo un 90% de prendas que guardamos en nuestro guardarropa".(Harpersbazaar, 2019). 
-                img(src='@/assets/curso/temas/tema1/acordeon1/imagen3.svg', alt='Mujer en un vestier')
+                img(src='@/assets/curso/temas/tema1/acordeon1/imagen3.png', alt='Mujer en un vestier')
 
-          .row.align-items-center.justify-content-center(numero="4" titulo="<strong>Desórdenes</strong>")
+          .row.align-items-center.justify-content-center.text-bold(numero="4" titulo="Desórdenes")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong> Mentales:</strong> cuestiones de autoestima, personas que pueden ser introvertidas o extrovertidas, algunas se esmeran para mostrarse. 
+                    span.mb-0 #[b  Mentales: ] cuestiones de autoestima, personas que pueden ser introvertidas o extrovertidas, algunas se esmeran para mostrarse. 
                   li
                     i.lista-ul__vineta
-                    span.mb-0 <strong> Alimenticios:</strong> depende de cómo se siente respecto a su propia imagen y a su propio cuerpo. 
-                img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.svg', alt='Mujer con cara de desagrado en un closet')
+                    span.mb-0 #[b  Alimenticios: ] depende de cómo se siente respecto a su propia imagen y a su propio cuerpo. 
+                img(src='@/assets/curso/temas/tema1/acordeon1/imagen4.png', alt='Mujer con cara de desagrado en un closet')
 
-          .row.align-items-center.justify-content-center(numero="<strong>5</strong>" titulo="<strong>Sexualidad</strong>")
+          .row.align-items-center.justify-content-center.text-bold(numero="5" titulo="Sexualidad")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 p Depende de todas las anteriores: cultural, físico, social, psicológico, no solo depende de la orientación sexual si no también el lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. 
                 p También hay prendas de vestir con una finalidad erótica.
-                img(src='@/assets/curso/temas/tema1/acordeon1/imagen4.svg', alt='Tres mujeres amigas')
+                img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.png', alt='Tres mujeres amigas')
 
-
-
-
-          .row.align-items-center.justify-content-center(numero="<strong>6</strong>" titulo="<strong>Moda</strong>")
+          .row.align-items-center.justify-content-center.text-bold(numero="6" titulo="Moda")
             p Puede constituir un pensamiento histórico en un momento determinado de la época. Cómo vestirse según la mercadotecnia, tendencias de moda, temporadas y diseñadores. Se incentiva a las personas a que consuman y se "actualicen". En este sentido, existen dos grupos de personas:
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 <strong> Fashion victims:</strong> personas adictas al consumismo, al último grito de la moda, principales compradores del fast fashion. 
+                    span.mb-0 #[b  Fashion victims: ] personas adictas al consumismo, al último grito de la moda, principales compradores del fast fashion. 
                   li
                     i.lista-ul__vineta
-                    span.mb-0 <strong> Fashionistas:</strong> personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo vintage, son compradores activos, que están al corriente de las tendencias actuales.. 
-                img(src='@/assets/curso/temas/tema1/acordeon1/imagen6.svg', alt='Mujer con bolsas de compra a cada lado de la mano')
+                    span.mb-0 #[b  Fashionistas: ] personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo vintage, son compradores activos, que están al corriente de las tendencias actuales.. 
+                img(src='@/assets/curso/temas/tema1/acordeon1/imagen6.png', alt='Mujer con bolsas de compra a cada lado de la mano')
 
     Separador 
 
@@ -324,37 +307,36 @@
         h2 1.2  Universos de vestuario
     
     .row.mb-4
-      p Son conceptos de moda que responden a la necesidad de categorizar, segmentar y agrupar prendas de vestir, accesorios e indumentaria con características similares; los cuales deben ser organizados según el consumidor o mercado objetivo de cada marca. 
-      br
+      p.mb-2 Son conceptos de moda que responden a la necesidad de categorizar, segmentar y agrupar prendas de vestir, accesorios e indumentaria con características similares, los universos de vestuario deben ser organizados según el consumidor o mercado objetivo de cada marca.  
       p Cuando se habla de determinantes o factores del ¿por qué? nos vestimos, el mercado no se queda atrás, la segmentación, gamas de mercados, categorización de productos frente a los escenarios del consumo va de la mano con la categorización de las prendas.
 
-    .row.justify-content-center.align-items-center.mb-5(style='background-color: #FEF5E5')
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #FEF5E5')(data-aos="zoom-in-left")
       .col-sm-12.col-md-7.col-lg-7
         ul.lista-ul--color.vmorada.fa-ul.mt-5
           li.mb-0
             i.lista-ul__vineta
-            span.mb-2 <strong>Gama de mercado:</strong> Conjunto de productos de un segmento de mercado que una empresa ofrece a sus consumidores.
+            span.mb-2 #[b Gama de mercado: ] Conjunto de productos de un segmento de mercado que una empresa ofrece a sus consumidores.
           li.mb-0
             i.lista-ul__vineta
-            span.mb-0 <strong>Gama:</strong> Cualquier serie de cosas que varían gradualmente.
+            span.mb-0 #[b Gama: ] Cualquier serie de cosas que varían gradualmente.
           li.mb-0
             i.lista-ul__vineta
-            span.mb-0 <strong>Mercado:</strong> Espacio físico o virtual en el que tienen lugar transacciones económicas.
+            span.mb-0 #[b Mercado: ] Espacio físico o virtual en el que tienen lugar transacciones económicas.
           li.mb-0
             i.lista-ul__vineta
-            span.mb-0 <strong>Consumidor:</strong> Es un agente económico con una serie de necesidades.
+            span.mb-0 #[b Consumidor: ] Es un agente económico con una serie de necesidades.
           li.mb-0
             i.lista-ul__vineta
-            span.mb-5 <strong>Segmento:</strong> Es una parte o algo que junto con otras se encuentra formando un todo.
-      .col-3.col-md-3.col-lg-3(style='background-color: #FEF5E5')
+            span.mb-5 #[b Segmento: ] Es una parte o algo que junto con otras se encuentra formando un todo.
+      .col-10.col-md-3.col-lg-3(style='background-color: #FEF5E5')
         img.mt-2(src='@/assets/curso/temas/tema1/imagen3.png', alt='Vestier')
  
     .row.mb-4
       p En gamas de mercado para el sistema moda, se encuentran movimientos que se han ido adaptando a lo largo de la historia, a través de las necesidades, evoluciones y revoluciones, cada una de las segmentaciones son movimientos transitorios, algunos de ellos perdurando con el paso de los años:
       .col-1
       .col-8
-        p.mb-0 <strong>Principales.</strong> <em>Haute couture, pret a porter, fast fashion, slow fashion.</em>
-        p <strong>Transitorias.</strong> <em>Vegan fashion, ethical fashion, eco fashion, circle fashion.</em>
+        p.mb-0 #[b Principales. ]  #[em Haute couture, pret a porter, fast fashion, slow fashion. ]
+        p #[b Transitorias. ]  #[em Vegan fashion, ethical fashion, eco fashion, circle fashion. ]
 
     SlyderF(columnas="col-lg-6 col-xl-4")
 
@@ -362,104 +344,101 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tarjeta3/imagen3.svg' alt='AvatarTop')
-        h4.text-center <em>Haute couture</em> / Alta costura
+        h4.text-center  #[em Haute couture ] / Alta costura
         p.text-center Prendas exclusivas a la medida del cliente. Prendas hechas a medida, de forma artesanal.
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tarjeta3/imagen4.svg' alt='AvatarTop')
-        h4.text-center <em>Pret a Porter</em> / Listo para llevar
-        p.text-center Prendas producidas en serie con patrones que se repiten. Industrialización de la moda. No son personalizadas ni exclusivas. <em>Ready to wear</em>.
+        h4.text-center  #[em Pret a Porter ] / Listo para llevar
+        p.text-center Prendas producidas en serie con patrones que se repiten. Industrialización de la moda. No son personalizadas ni exclusivas.  #[em Ready to wear ].
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tarjeta3/imagen5.svg' alt='AvatarTop')
-        h4.text-center <em>Fast Fashion</em> / Moda rápida
+        h4.text-center  #[em Fast Fashion ] / Moda rápida
         p.text-center Trasladar propuestas de grandes casas de diseño, a tiendas para capturar alguna tendencia, lo más rápido posible. Producción de prendas en tiempos muy cortos a un bajo costo - cápsulas.
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tarjeta3/imagen6.svg' alt='AvatarTop')
-        h4.text-center <em>Slow Fashion</em> / Moda lenta
+        h4.text-center  #[em Slow Fashion ] / Moda lenta
         p.text-center Filosofía de consumo responsable. Concienciar sobre el impacto de las prendas de vestir en el medio ambiente, el agotamiento de recursos y la huella que está dejando la industria textil en la sociedad.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-xs-12.col-lg-10
+      .col-sm-12.col-md-10.col-lg-10
         .row.justify-content-center.align-items-center.mb-5.mt-5.borde-redondo(style='background-color: #FFF8E4')
-          .col-md-7
-            p.ps-5 Los universos de vestuario responden a la necesidad de establecer unas categorías bajo las cuales es posible agrupar productos indumentarios de acuerdo con unos parámetros de afinidad y correlación.
+          .col-sm-12.col-md-7.col-lg-7
+            p.ps-5.mt-4 Los universos de vestuario responden a la necesidad de establecer unas categorías bajo las cuales es posible agrupar productos indumentarios de acuerdo con unos parámetros de afinidad y correlación.
             p.ps-5 Están constituidos por conjuntos de prendas de vestir y accesorios con características similares que deben presentarse agrupados coherentemente bajo conceptos de moda y estar articulados según las necesidades específicas del consumidor o mercado objetivo de cada marca.
-            p.ps-5 <strong>Ocasión de uso:</strong> se refiere a los diferentes escenarios que hacen parte de la cotidianidad del consumidor, es decir, un espacio o una acción donde se aplica el concepto de universo de vestuario.
-          .col-md-5
+            p.ps-5 #[b Ocasión de uso: ] se refiere a los diferentes escenarios que hacen parte de la cotidianidad del consumidor, es decir, un espacio o una acción donde se aplica el concepto de universo de vestuario.
+          .col-10.col-md-5.col-lg-5
             img.p-5(src='@/assets/curso/temas/tema1/imagen4.png' alt='Maniquí')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-12.col-md-10.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span
-            |  Relación entre las ocasiones de uso y los universos de vestuario.   
-       
+            |  Relación entre las ocasiones de uso y los universos de vestuario.        
         .tabla-b.bordenegro.color-primario
           .tabla-b__header
-            h4.mb-0 Ocasiones de uso
-      
+            h4.mb-0 Ocasiones de uso      
           table
-            //caption Leyenda de la tabla
             tr
-                td.bgblanco 
-                td.bgmoradoclaro <strong>Protocolario</strong>   
-                td.bgmoradoclaro <strong>Multi-ocasión</strong>
-                td.bgmoradoclaro <strong>Informal</strong>
-                td.bgmoradoclaro <strong>Complementos</strong>
+                td.bgblanco.p-2
+                td.bgmoradoclaro.bordeizquierdocelda.text-center.p-2 #[b Protocolario ]
+                td.bgmoradoclaro.bordeizquierdocelda.text-center.p-2 #[b Multi-ocasión ]
+                td.bgmoradoclaro.bordeizquierdocelda.text-center.p-2 #[b Informal ]
+                td.bgmoradoclaro.bordeizquierdocelda.text-center.p-2 #[b Complementos ]
             tr
-                td.bgblanco 
-                td Gala 
-                td Causal 
-                td <em>Kaki Wear</em>
-                td <em>Swimwear</em>
+                td.bgblanco.p-2 
+                td.bordeizquierdocelda.bgblanco.p-2 Gala 
+                td.bgblanco.bordeizquierdocelda.p-2 Causal 
+                td.bgblanco.bordeizquierdocelda.p-2  #[em Kaki Wear ]
+                td.bgblanco.bordeizquierdocelda.p-2  #[em Swimwear ]
             tr 
-                td.bgblanco <strong>Universos de vestuario</strong>
-                td Formal 
-                td
-                td <em>Jeanswear</em> 
-                td <em>Beachwear</em>
+                td.bgblanco.text-center.p-2 #[b Universos de vestuario ]
+                td.bordeizquierdocelda.p-2 Formal 
+                td.bordeizquierdocelda.p-2
+                td.bordeizquierdocelda.p-2  #[em Jeanswear ] 
+                td.bordeizquierdocelda.p-2  #[em Beachwear ]
             tr
-                td.bgblanco 
-                td
-                td
-                td <em>Sportswear</em>
-                td <em>Sleepwear</em> 
+                td.bgblanco.p-2
+                td.bordeizquierdocelda.bgblanco.p-2
+                td.bgblanco.bordeizquierdocelda.p-2
+                td.bgblanco.bordeizquierdocelda.p-2  #[em Sportswear ]
+                td.bgblanco.bordeizquierdocelda.p-2  #[em Sleepwear ] 
             tr
-                td.bgblanco 
-                td
-                td
-                td <em>Activewear</em>
-                td <em>Underwear</em>
+                td.bgblanco.p-2 
+                td.bordeizquierdocelda.p-2
+                td.bordeizquierdocelda.p-2
+                td.bordeizquierdocelda.p-2  #[em Activewear ]
+                td.bordeizquierdocelda.p-2  #[em Underwear ]
             tr
-                td.bgblanco 
-                td
-                td
-                td <em>Leisurewear</em>
-                td 
+                td.bgblanco.p-2
+                td.bordeizquierdocelda.bgblanco.p-2
+                td.bgblanco.bordeizquierdocelda.p-2
+                td.bgblanco.bordeizquierdocelda.p-2  #[em Leisurewear ]
+                td.bgblanco.bordeizquierdocelda.p-2 
   
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Protocolario - Gala")
         .col-md-5.mb-4.mb-md-0
           p Ligados a tradiciónes culturales y monárquicas, para eventos y celebraciones protocolarias en los altos rangos sociales.
-          ul.lista-ul--color.vmorada.mb-0
+          ul.lista-ul--color.vmorada.fa-ul.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | Jerárquico
+              | Jerárquico.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Distintivo 
+              | Distintivo.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Diferenciador
+              | Diferenciador.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/gala.png', alt='Texto que describa la imagen')
@@ -467,7 +446,7 @@
       .row.justify-content-center(titulo="Protocolario - Formal")
         .col-md-5.mb-4.mb-md-0
           p Surge al momento de la aparición de la alta costura y la necesidad de diferenciar rangos sociales y laborales. Se usa en múltiples actividades como: ceremonias, mundo laboral y corporativo, eventos sociales.
-          ul.lista-ul--color.vmorada
+          ul.lista-ul--color.fa-ul.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Autocrático.
@@ -485,7 +464,7 @@
       .row.justify-content-center(titulo="Multi-ocasión - Casual")
         .col-md-5.mb-4.mb-md-0
           p Nace en los 60's. La participación femenina en el mundo permitió la incursión de nuevas estéticas dinamizando la moda ejecutiva de la época.
-          ul.lista-ul--color.vmorada
+          ul.lista-ul--color.fa-ul.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Democrático.
@@ -504,10 +483,10 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen2.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Informal - <em>Kaki wear</em>")
+      .row.justify-content-center(titulo="Informal -  <em> Kaki wear </em>")
         .col-md-5.mb-4.mb-md-0
           p Nace en los 80's, cuando los llamados YUPI proponen asistir a su entorno laboral de una manera menos formal y rígida en los viernes o actividades menos exigentes. Se usa en múltiples actividades del día a día como: vida universitaria, actividades laborales, informales, tiempo libre.
-          ul.lista-ul--color.vmorada
+          ul.lista-ul--color.fa-ul.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Dinámico.
@@ -526,10 +505,10 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen3.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Informal - <em>Jeanswear</em>")
+      .row.justify-content-center(titulo="Informal - <em> Jeanswear </em>")
         .col-md-5.mb-4.mb-md-0
           p Nace en lo más profundo de la cultura americana, primero con los mineros y vaqueros. En la década de los 50's se propone para uso cotidiano, de carácter rebelde. En los 80 ́s se convierte en una prenda para ambos sexos.
-          ul.lista-ul--color.vmorada
+          ul.lista-ul--color.fa-ul.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Dinámico.
@@ -548,10 +527,10 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen4.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Informal - <em>Sportswear</em>")
+      .row.justify-content-center(titulo="Informal -  <em>Sportswear</em>")
         .col-md-5.mb-4.mb-md-0
           p Aparece en los 70’s principalmente influenciado por los juegos olímpicos y por la creciente práctica de los deportes.
-          ul.lista-ul--color.vmorada
+          ul.lista-ul--color.fa-ul.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Tecnológico.
@@ -586,7 +565,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen6.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Informal - <em>Leisurewear</em>")
+      .row.justify-content-center(titulo="Informal - <em> Leisurewear </em>")
         .col-md-5.mb-4.mb-md-0
           p Nuevo concepto que surge en el año 2000, parte del estilo freeLance, incluye desde la ropa de dormir hasta aquella diseñada para estar en casa.
           ul.lista-ul--color.vmorada
@@ -605,7 +584,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen7.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Complementos - <em>Swim-Beachwea</em>")
+      .row.justify-content-center(titulo="Complementos - <em> Swim-Beachwea </em>")
         .col-md-5.mb-4.mb-md-0
           p Más que un universo se constituye en una ocasión de uso, sin embargo,deja de lado las prendas para nadar y se complementa con otros artículos, logrando un estilo de descanso y diversión.
           ul.lista-ul--color.vmorada
@@ -624,7 +603,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen8.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Complementos - <em>Sleepwear</em>")
+      .row.justify-content-center(titulo="Complementos - <em> Sleepwear </em>")
         .col-md-5.mb-4.mb-md-0
           p Ropa para dormir, para uso en horas de descanso dentro del hogar.
           ul.lista-ul--color.vmorada
@@ -656,17 +635,17 @@
       .col-2
             
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/imagen5.png")
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/imagen5.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Universos de vestuario - Gamas de mercado
-                  p.mb-3.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de los universos de vestuario.
-                .col-sm-2-col-md-2.col-lg-2
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Universos de vestuario - Gamas de mercado
+                  p.mb-0.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de los universos de vestuario.
+                .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/VsTacEciP3k" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
@@ -679,12 +658,13 @@
         h2 1.3.  Perfil y estilo de consumidor
     .row.mb-4
       p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
-    .row.justify-content-center.align-items-center.mb-4(style='background-color: #D1BCFF')
-      .col-3.col-md-3.col-lg-3
+    
+    .row.justify-content-center.align-items-center.mb-4(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
+      .col-10.col-md-3.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen6.png', alt='Maniquí')
       .col-sm-12.col-md-7.col-lg-7
         h4.mt-5.ps-3 ¿Quién es el consumidor? 
-        p.mb-5.ps-3 Se entiende por consumidor al individuo que requiere satisfacer cierta necesidad a través de la compra u obtención de determinados productos. El consumidor no es un simple agente <strong>pasivo</strong> que espera a que le ofrezcan productos, es un agente <strong>activo</strong> con el poder suficiente para lograr cambios en las ofertas y hasta en las mismas empresas, para que se ajusten a sus requerimientos y necesidades.
+        p.mb-5.ps-3 Se entiende por consumidor al individuo que requiere satisfacer cierta necesidad a través de la compra u obtención de determinados productos. El consumidor no es un simple agente #[b pasivo ] que espera a que le ofrezcan productos, es un agente #[b activo ] con el poder suficiente para lograr cambios en las ofertas y hasta en las mismas empresas, para que se ajusten a sus requerimientos y necesidades.
   
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -698,7 +678,7 @@
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Tradicional
             p Es un consumidor que participa en un ambiente social exigente en el que busca reconocimiento, aceptación y afirmación de los demás; invierte mucho dinero, tiempo y energía en sobresalir y destacarse.
-            p.mb-3 <strong>Características:</strong>
+            p.mb-3 #[b Características: ]
             ul.ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta
@@ -724,16 +704,16 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Mantiene y aprecia los referentes del pasado.
-          .col-4.col-md-4.col-lg-4
+          .col-8.col-md-4.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen1.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen1.png')
 
         .row.align-items-center.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Neo tradicional
             p Es un consumidor evolucionado y sintonizado con el desarrollo del entorno. Tiene un mayor nivel de sensibilidad y flexibilidad. Se detiene a observar y se deja influenciar por nuevos referentes, conceptos y propuestas de moda. Mantiene un punto de equilibrio entre la tradición y la innovación, integrando los fenómenos de la moda, la evolución cultural y social a su estilo personal.
-            p.mb-3 <strong>Características:</strong>
-            ul.lista-ul--color.vmorada
+            p.mb-3 #[b Características: ]
+            ul.lista-ul--color.fa-ul.vmorada
               li.mb-0 
                 i.lista-ul__vineta.mb-0
                 | Las tradiciones permanecen.
@@ -758,7 +738,7 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Aprecia los referentes actuales.
-          .col-4.col-md-4.col-lg-4
+          .col-8.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta4/imagen2.svg')
 
@@ -766,7 +746,7 @@
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Contemporáneo
             p Surge de los cambios sociales, económicos y tecnológicos de las últimas décadas, dando origen a un nuevo modelo de comportamiento, donde se encuentran un perfil original y auténtico que está en permanente evolución. Es multicultural, dinámico y explorador constante de su propio desarrollo personal, emocional y profesional.
-            p.mb-3 <strong>Características:</strong>
+            p.mb-3 #[b Características: ]
             ul.ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -789,16 +769,16 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es citadino y urbano. 
-          .col-4.col-md-4.col-lg-4
+          .col-8.col-md-4.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen3.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen3.png')
 
         .row.align-items-center.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Vanguardista
             p Es un destacado grupo social inconforme y extremadamente original. Genera cambios y origina nuevos conceptos, es innovador, rompe esquemas y paradigmas de su entorno directo generando cambios que se reflejan como tendencias globales.
-            p.mb-3 <strong>Características:</strong>
-            ul.ul.lista-ul--color.vmorada
+            p.mb-3 #[b Características: ]
+            ul.ul.lista-ul--color.fa-ul.vmorada
               li.mb-0 
                 i.lista-ul__vineta.mb-0
                 | Cambia y modifica fácilmente su escala de valoraciones.
@@ -823,15 +803,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Es atrevido, le gusta el juego, el riesgo, lo novedoso.
-          .col-4.col-md-4.col-lg-4
+          .col-8.col-md-4.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen4.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen4.png')
              
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Exhibicionista
             p Resulta de un deseo personal por destacarse, llamar la atención y proyectarse como “distinto” a los demás. El estilo es lo de menos, la imagen es todo.
-            p.mb-3 <strong>Características:</strong>
+            p.mb-3 #[b Características: ]
             ul.ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -848,17 +828,17 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Su apariencia personal es original e innovadora pero extremadamente llamativa.
-          .col-4.col-md-4.col-lg-4
+          .col-8.col-md-4.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen5.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta4/imagen5.png')
       
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Estilos  del consumidor
       p.mb-5 Coherencia entre el ser y el parecer. La relación que tiene el modelo de pensamiento y la actitud personal define el estilo de cada individuo. El estilo refleja todos los aspectos de una persona, el pensamiento, las acciones y la relación con los demás y los objetos, además sus gustos, preferencias, motivaciones, valoraciones necesidades y actividades reflejadas en sus actitudes.
 
-    .row.justify-content-center.align-items-center.mb-4(style='background-color: #FEF5E5')
-      .col-3.col-md-3.col-lg-3
+    .row.justify-content-center.align-items-center.mb-4(style='background-color: #FEF5E5')(data-aos="zoom-in-left")
+      .col-8.col-md-3.col-lg-3
         img.mt-4.mb-4(src='@/assets/curso/temas/tema1/imagen7.png')
       .col-sm-12.col-md-7.col-lg-7
         h4 ¿Qué es el estilo?
@@ -870,7 +850,7 @@
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Clásico
             p Obra que se tiene por modelo digno de imitación; genialidad en la idea o diseño donde el valor y el aprecio permanece en el tiempo y son sensibles a evolucionar.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -880,16 +860,16 @@
                 span.mb-0 Es tener prendas claves que se editan, que se pueden combinar y que permanecen en el tiempo.
             .cajon.borde-redondo(style='background-color: #FEF5E5')
               p.p-4.mb-0 “¡Innovación! Uno no puede ser innovador por siempre. Yo quiero crear clásicos.” 
-              p.text-center.mb-0.mt-0 <strong>(Coco Chanel)</strong> 
-          .col-4.col-md-4.col-lg-4.align-items-center
+              p.text-center.mb-0.mt-0 #[b (Coco Chanel) ] 
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen1.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen1.png')
 
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Bohemio
             p El estilo boho o bohemio, es un estilo originalmente popularizado por los bohemios en la década de los 60, un grupo de gente que rechazaba los valores morales tradicionales vivían un estilo de vida nómada. No solía ser considerado de moda por los estándares del momento. Originalmente se usaba por comodidad y para desafiar las normas de vestir tradicionales.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -902,16 +882,16 @@
                 span.mb-0 Las mujeres optan por vestidos sueltos, túnicas, faldas de volados y pantalones amplios o tipo gaucho.
             .cajon.borde-reondo(style='background-color: #FEF5E5') 
               p.p-4.mb-0 “No se puede tener un estilo bohemio usando prendas ajustadas; esto no funciona. Tiene que tener la posibilidad de moverse, bailar y escalar.”  
-              p.text-center.mb-0.mt-0 <strong>(Diane Von Furstenberg)</strong>
-          .col-4.col-md-4.col-lg-4.align-items-center
+              p.text-center.mb-0.mt-0 #[b (Diane Von Furstenberg) ]
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen2.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen2.png')
 
         .row.ps-3.mt-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Minimalista
             p El concepto nació en los años sesenta, con la idea de “menos es más”, del arquitecto Mies Van Der Rohe, quien propuso un estilo de vida que rescata la importancia de la persona, frente a una sociedad consumista. A grandes rasgos, trata no sólo de usar poco, sino de encontrar el equilibrio entre reducir y exagerar en la decoración, los detalles y las siluetas.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -924,16 +904,16 @@
                 span.mb-0 Son muy fieles a algunas marcas que les garantizan cortes y diseños perfectos, telas de alta calidad y tecnológicas.
             .cajon.borde-redondo(style='background-color: #FEF5E5')
               p.p-4.mb-0.mt-0 “En el minimalismo no se trata de abandonar los diseños o los estampados. Yo veo al minimalismo como la filosofía que envuelve el total sentido del balance, conociendo cuándo quitar o sustraer algo. Es un vicio por los cortes absolutamente impecables, juegos tranquilos del color siluetas muy fuertes y limpias.”  
-              p.text-center <strong>(Calvin Klein)</strong>
-          .col-4.col-md-4.col-lg-4.align-items-center
+              p.text-center #[b (Calvin Klein) ]
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
               img(src='@/assets/curso/temas/tema1/tarjeta5/imagen3.svg')
 
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
-            h4 Estilo <em>Street Fashion</em>
+            h4 Estilo  #[em Street Fashion ]
             p Este estilo único y original se observa en las calles de todo el mundo, donde las personas adoptan la indumentaria de manera muy personal. Estas personas no siguen las tendencias de moda establecidas; por el contrario, son ellas quienes inspiran a los diseñadores a crear nuevas colecciones.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -947,15 +927,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Les interesa la autenticidad de cada persona, antes que lo que está de moda en el mercado.
-          .col-4.col-md-4.col-lg-4.align-items-center
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen4.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen4.png')
 
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h4 Estilo Ecléctico
             p Una persona ecléctica es aquella que selecciona sus prendas de todos los estilos y la mezcla de una manera única. No hay una fórmula ni elementos favoritos, es una invención permanente.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -969,15 +949,15 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Se pueden incorporar objetos exóticos, prendas de otras décadas, accesorios de todo de todo tipo, como si se tratara de un collage.
-          .col-4.col-md-4.col-lg-4.align-items-center
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen5.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen5.png')
 
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estilo Nostálgico
             p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques vintage y colores pasteles y empolvados.
-            p.mb-2 <strong>Características:</strong>
+            p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
@@ -988,20 +968,18 @@
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Las flores y los volúmenes se destacan.
-          .col-4.col-md-4.col-lg-4.align-items-center
+          .col-6.col-md-4.col-lg-4.align-items-center
             figure
-              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen6.svg')
+              img(src='@/assets/curso/temas/tema1/tarjeta5/imagen6.png')
 
     Separador
 
-    .row.mb-4
+    .row
       #t_1_4.titulo-segundo.color-primario
         h2 1.4.  Tendencias
-    .row.mb-0
-      p Las tendencias se definen a través de una serie de formas visuales y características específicas que identifican un momento concreto; esta información determina el comportamiento de consumo. Las tendencias mueven las industrias, no solo la industria de la moda, si no las de consumo, servicios, incluso pensamiento.
+    p Las tendencias se definen a través de una serie de formas visuales y características específicas que identifican un momento concreto; esta información determina el comportamiento de consumo. Las tendencias mueven las industrias, no solo la industria de la moda, si no las de consumo, servicios, incluso pensamiento.
 
-   
-    .row.justify-content-center.align-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center.align-content-center.mt-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-6.align-content-center
         .tarjeta-avatar-b.mb-5.h-card.align-content-center
           .tarjeta-avatar-b__img
@@ -1023,10 +1001,9 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Características de las tendencias
 
-
     .row.justify-content-center.align-items-center.mt-5.mb-5(data-aos="zoom-in-left")
       .avatar
-        .col-3
+        .col-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema1/imagen11.png' alt='AvatarTop')
       .col-sm-12.col-md-8.col-lg-8
         .cajon(style='background-color: #FEF5E5')
@@ -1037,19 +1014,19 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 1
-                  p.mb-0 <strong>Ritmo:</strong> Forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
+                  p.mb-0 #[b Ritmo: ] Forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 2
-                  p.mb-0 <strong>Información:</strong> Toda la variedad de información que puedan complementar el concepto de la tendencia
+                  p.mb-0 #[b Información: ] Toda la variedad de información que puedan complementar el concepto de la tendencia
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 3
-                  p.mb-0 <strong>Diversificación:</strong> Diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
+                  p.mb-0 #[b Diversificación: ] Diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
                 li.mb-0 
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 4
-                  p.mb-0 <strong>Tecnología:</strong> Medios por los cuales se revela la información y su implementación.
+                  p.mb-0 #[b Tecnología: ] Medios por los cuales se revela la información y su implementación.
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -1091,27 +1068,36 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen1.png")
-          .crd_hover_txt--body
-            h4.mb-3 INEXMODA
-            p.mb-0 https://www.inexmoda.org.co/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b INEXMODA]
+                    p.mt-3 https://www.inexmoda.org.co/
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen2.png")
-          .crd_hover_txt--body
-            h4.mb-3 PREMIÉRE VISION PARIS 
-            p.mb-0 https://www.premierevision.com/en/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b PREMIÉRE VISION PARIS ]
+                    p.mt-3 https://www.premierevision.com/en/
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen3.png")
-          .crd_hover_txt--body.p-5
-            h4.mb-3 FASHION TRENDSETTER
-            p.mb-0 https://www.fashiontrendsetter.com/v2/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b FASHION TRENDSETTER ]
+                    p.mt-3 https://www.fashiontrendsetter.com/v2/
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -1119,48 +1105,57 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen4.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 FASHION SNOOP
-            p.mb-0 https://www.fashionsnoops.com/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b FASHION SNOOP ]
+                    p.mt-3 https://www.fashionsnoops.com/
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen5.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 WGSN
-            p.mb-0 https://www.wgsn.com/es/wgsn/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b WGSN ]
+                    p.mt-3 https://www.wgsn.com/es/wgsn/
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta9/imagen6.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 PECLERS PARIS
-            p.mb-0 https://www.peclersparis.com/fr/
+            .row.bgamarilloclaro.ps-3
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-down.texamarillooscuro
+                  span.h4 #[b PECLERS PARIS ]
+                    p.mt-3 https://www.peclersparis.com/fr/
 
-    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')
-      .col-2.col-md-2.col-lg-2
-        img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
+      .col-5.col-md-2.col-lg-2
+        img.mt-4(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
       .col-sm-12.col-md-7.col-lg-7.p-5
-        p <strong>La clave es:</strong> identifiquemos los principales factores que afectan el pronóstico de las tendencias. <br>
-        p <strong>Estaciones:</strong> las tendencias se basan en las estaciones de primavera (<em>Spring</em>), verano (<em>Summer</em>), otoño (<em>Autumn</em>) e invierno (<em>Winter</em>). 
+        p #[b La clave es: ] identifiquemos los principales factores que afectan el pronóstico de las tendencias. <br>
+        p #[b Estaciones: ] las tendencias se basan en las estaciones de primavera ( #[em Spring ]), verano ( #[em Summer ]), otoño ( #[em Autumn ]) e invierno ( #[em Winter ]). 
 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/revista.png")
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/revista.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Tendencias
-                  p.mb-3.text-white Revisa el documento que pueden resultar útil para aprender más sobre el entorno de las tendencias.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href="https://youtu.be/zqxRNVjvi8Q" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Tendencias
+                  p.mb-0.text-white Revisa el documento que pueden resultar útil para aprender más sobre el entorno de las tendencias.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/cjhRls-yhvY" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
 
@@ -1168,12 +1163,12 @@
 
     .row
       #t_1_5.titulo-segundo.color-primario
-        h2 1.5. <em>Moodboard</em> - <strong>Cuadro metamórfico</strong>
+        h2 1.5.  #[em Moodboard ] - #[b Cuadro metamórfico ]
 
     .row.mb-5
       p Los moodboards son tableros creativos que permiten visualizar y conceptualizar ideas para el desarrollo de productos o servicios, consiste en recolectar imágenes que muestran lo que se quiere expresar, esta es una forma implementada en las áreas de diseño para dar a conocer las ideas de una manera mucho más dinámica.
 
-    .row.justify-content-center.mb-5.mt-5
+    .row.justify-content-center.mb-5.mt-5(data-aos="zoom-in-left")
       .col-lg-10.position-relative
         .avatar
           figure
@@ -1181,7 +1176,7 @@
         .crd.crd--avatarHorizontal.crd--first.py-4.bgmoradoclaro.borde-redondo
           .row.align-items-center
             .col-9
-              h4.ps-5 ¿Qué es un <em>moodboard?</em>
+              h4.ps-5 ¿Qué es un  #[em moodboard? ]
               p.ps-5 Como su nombre lo indica, es un tablero de inspiración visual que logra conectar las ideas en un solo espacio por medio visual o físico. Reúne imágenes, colores, texturas, frases... con la intención de hacer tangible un concepto o un ambiente.
         .crd.crd--avatarHorizontal.py-4.bgmoradooscuro.borde-redondo
           .row.align-items-center
@@ -1192,12 +1187,12 @@
           .row.align-items-center
            .col-9
               h4.ps-5 ¿Cómo se hace?
-              p.mb-0.ps-5 <strong>Físico:</strong> recortes de revista, texturas, elementos.
-              p.mb-0.ps-5 <strong>Digital:</strong> imágenes digitales, complementos.
+              p.mb-0.ps-5 #[b Físico: ] recortes de revista, texturas, elementos.
+              p.mb-0.ps-5 #[b Digital: ] imágenes digitales, complementos.
 
     .row
       .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Proceso para desarrollar un <em>moodboard</em>
+        h3(style="color: #673AB7") \\\ Proceso para desarrollar un  #[em moodboard ]
     
     .row.mb-5
       .col-md-6.col-xl.mb-4.mb-xl-0
@@ -1231,7 +1226,7 @@
     .row
       p Es una metodología de diseño que permite mostrar fácilmente un concepto definido y que se vea reflejado armónicamente en los productos realizados. Metodología tomada del diseño industrial.
 
-    TabsA.color-acento-botones
+    TabsA.color-acento-botones(data-aos="zoom-in-left")
       .tarjeta.p-4(titulo="¿Para qué sirve?" style='background-color: #FEF5E5')
         h4 ¿Para qué sirve?
         .row.align-items-center
@@ -1244,9 +1239,9 @@
         h4 ¿Cómo iniciar?
         .row.align-items-center
           .col-xl-9
-            p <strong>Tipologías:</strong> elegir las tipologías a trabajar.
-            p <strong>Siluetas:</strong> definir el tipo de silueta de la prenda.
-            p <strong>Visualizar</strong> partes de las prendas por separado: cuellos, bolsillos, mangas, escotes, sistema de cierre, sistema de ajuste.
+            p #[b Tipologías: ] elegir las tipologías a trabajar.
+            p #[b Siluetas: ] definir el tipo de silueta de la prenda.
+            p #[b Visualizar ] partes de las prendas por separado: cuellos, bolsillos, mangas, escotes, sistema de cierre, sistema de ajuste.
           .col-2.mb-0
               img(src='@/assets/curso/temas/tema1/tarjeta8/imagen2.png')
 
@@ -1258,26 +1253,26 @@
           .col-2.mb-0
               img(src='@/assets/curso/temas/tema1/tarjeta8/imagen3.png')
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')
-      .col-2.col-md-2.col-lg-2
-        img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
+    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
+      .col-5.col-md-2.col-lg-2
+        img.mt-4(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
       .col-sm-12.col-md-7.col-lg-7.p-5
-        p <strong>La clave es:</strong> cada variación debe ser coherente con el concepto, las siluetas, formas, sensibilidad y demás percepciones definidas en los conceptos.
-        p <strong>Estaciones:</strong> las tendencias se basan en las estaciones de primavera (<em>Spring</em>), verano (<em>Summer</em>), otoño (<em>Autumn</em>) e invierno (<em>Winter</em>). 
+        p #[b La clave es: ] cada variación debe ser coherente con el concepto, las siluetas, formas, sensibilidad y demás percepciones definidas en los conceptos.
+        p #[b Estaciones: ] las tendencias se basan en las estaciones de primavera ( #[em Spring ]), verano ( #[em Summer ]), otoño ( #[em Autumn ]) e invierno ( #[em Winter ]). 
 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema1/imagen13.png")
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/imagen13.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white <em>Moodboard</em> Tableros Creativos y Cuadro Metamórfico 
-                  p.mb-3.text-white Revisa el documento que pueden resultar útil  para aprender más sobre la creación de un moodboard y un cuadro metamórfico.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href="https://youtu.be/J0Uk-4OU2fg" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white #[em Moodboard ] Tableros Creativos y Cuadro Metamórfico
+                  p.mb-0.text-white Revisa el documento que pueden resultar útil  para aprender más sobre la creación de un moodboard y un cuadro metamórfico.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/QhPE0_P4R3M" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
 

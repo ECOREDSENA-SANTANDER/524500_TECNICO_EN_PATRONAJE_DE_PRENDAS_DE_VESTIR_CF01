@@ -8,7 +8,7 @@
       h1 Fundamentación Textil
 
     .row.mb-4
-      .titulo-segundo.color-primario
+      #t_3_1.titulo-segundo.color-primario
         h2 3.1 Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)
       p Las fibras son una composición de filamentos que al entrelazarse componen los hilos, los hilos son el punto de partida para la producción de un textil; la composición unitaria de una materia sólida con cualquier estructura compone una fibra.
  
@@ -16,41 +16,41 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Proceso productivo textil
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    // se trataron de reemplazar los br x mb pero el diseño de la tarjeta no los acepta para lograr el espacio necesario en DW.  Se intento con span y tampoco.
+    // en ECORED estan con los br para dar los espacios
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <strong>Fibras - Hilos - Tejidos - Telas - Acabados - Confección</strong>
-        <br> <br>
-        p.mb-0 <strong>¿Qué es una fibra?</strong>
-        <br> <br>
-        p Materia sólida unitaria de cualquier estructura textil.Fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas.
-        <br> <br>
+        p #[b Fibras - Hilos - Tejidos - Telas - Acabados - Confección ] <br> <br>
+        p #[b ¿Qué es una fibra? ] <br> <br>
+        p Materia sólida unitaria de cualquier estructura textil.Fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas. <br> <br>
         p Filamentos: término utilizado para identificar fibras de longitud indeterminada.   
 
     .row.bm-5.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Clasificación de las fibras textiles
 
-    .row.mb-5.align-items-center.justify-content-center
-      .col-lg-9
+    .row.mb-5.align-items-center.justify-content-center(data-aos="zoom-in-left")
+      .col-sm-12.col-md-9.col-lg-9
         .row
-          .col-3.position-relative
+          .col-3.position-relative.d-none.d-lg-block
             .avatar
               img(src="@/assets/curso/temas/tema3/imagen16.svg")
-          .col-9.p-5(style='background-color: #FEF5E5')
+          .col-sm-12.col-md-9.col-lg-9.p-5(style='background-color: #FEF5E5')
             .row
-              .col-1
-              .col-10
+              .col-1.col-md-1.col-lg-1
+              .col-sm-12.col-md-10.col-lg-10
                 p Se pueden clasificar de acuerdo con su:
                 ul.lista-ul--color.vmorada.fa-ul
                   li.mb-0
                     i.lista-ul__vineta
-                    span.mb-0 Origen
+                    span.mb-0 Origen.
                   li.mb-0
                     i.lista-ul__vineta
-                    span.mb-0 Composición
+                    span.mb-0 Composición.
                 p Esto nos permite identificar los procesos a los que son sometidas las fibras para la conformación de los productos textiles.
 
 
@@ -64,7 +64,7 @@
         .row
           p Las fibras de origen animal son de lana, pelo y secreciones, como la seda, folículos pilosos.
         .row
-          .col-3
+          .col-sm-6.col-md-3.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -78,7 +78,7 @@
               li.mb-0
                 i.lista-ul__vineta.color-primario
                 | Camello.
-          .col-3
+          .col-sm-6.col-md-3.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -91,22 +91,22 @@
                 | Pelo de yak.
               li.mb-0
                 i.lista-ul__vineta.color-primario
-                | Conejo angora
+                | Conejo angora.
       .tarjeta.color-acento-botones.p-4(titulo="Fibras vegetales" style='background-color: #FEF5E5')
         .row
           p Entre las fibras de origen vegetal están las que se extraen:
         .row
-          .col-2
-            p <strong>De la semilla</strong>
+          .col-sm-6.col-md-2.col-lg-2
+            p #[b De la semilla ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
-                | Algodón
+                | Algodón.
               li.mb-0
                 i.lista-ul__vineta.color-primario
-                | Ceiba o Kapok
-          .col-2
-            p <strong>Del tallo</strong>
+                | Ceiba o Kapok.
+          .col-sm-6.col-md-2.col-lg-2
+            p #[b Del tallo ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -120,8 +120,8 @@
               li.mb-0
                 i.lista-ul__vineta.color-primario
                 | Cáñamo.
-          .col-2
-            p <strong>De la hoja</strong>
+          .col-sm-6.col-md-2.col-lg-2
+            p #[b De la hoja ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -132,14 +132,14 @@
               li.mb-0
                 i.lista-ul__vineta.color-primario
                 | Esparto.
-          .col-2
-            p <strong>De fruto</strong>
+          .col-sm-6.col-md-2.col-lg-2
+            p #[b De fruto ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
                 | Bonote (Coco)
-          .col-2
-            p <strong>De la raíz</strong>
+          .col-sm-6.col-md-2.col-lg-2
+            p #[b De la raíz ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -148,7 +148,7 @@
         .row
           p Las fibras de origen mineral se obtienen de minerales de estructura fibrosa.
         .row
-          .col-3
+          .col-sm-6.col-md-3.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -156,7 +156,7 @@
               li.mb-0
                 i.lista-ul__vineta.color-primario
                 | Amianto.
-          .col-3
+          .col-sm-6.col-md-3.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
@@ -169,40 +169,40 @@
       h3(style="color: #673AB7") Químicas o intervenidas por el hombre
       p Las fibras que no se encuentran en la naturaleza como tales, deben ser manufacturadas por el hombre a través de procesos químicos. Se clasifican a su vez en: fibras artificiales y fibras sintéticas.
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta1/imagen1.png')          
+              img(src='@/assets/curso/temas/tema3/tarjeta1/imagen1.png')          
         h3.text-center Fibras artificiales
         p Son aquellas obtenidas a partir de fibras naturales, mediante un proceso químico de transformación; se logra transformar los polímeros naturales utilizados como materia prima en nuevas fibras artificiales con características propias y aplicaciones específicas.
-        ul.lista-ul
+        ul.lista-ul__vineta.vamarillo
           li.mb-0
-            i.lista-ul__vineta.color-acento-botones
+            i.lista-ul__vineta
             | Rayón o seda artificial.
           li.mb-0
-            i.lista-ul__vineta.color-color-acento-botones
+            i.lista-ul__vineta
             | Fibra de vidrio.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta1/imagen2.png')
+              img(src='@/assets/curso/temas/tema3/tarjeta1/imagen2.png')
         h3.text-center Fibras sintéticas
         p Fibras textiles que provienen de productos derivados del petróleo / polímeros sintéticos, son enteramente químicas; tanto la síntesis de la materia prima como la fabricación del filamento.
-        ul.lista-ul
+        ul.lista-ul__vineta.vmorada
           li.mb-0
-            i.lista-ul__vineta.color-acento-botones
+            i.lista-ul__vineta
             | Fibras de poliamida o nailon.
           li.mb-0
-            i.lista-ul__vineta.color-color-acento-botones
+            i.lista-ul__vineta
             | Nailon 6 y nylon 6-6.
           li.mb-0
-            i.lista-ul__vineta.color-acento-botones
+            i.lista-ul__vineta
             | Aramidas.
           li.mb-0
-            i.lista-ul__vineta.color-color-acento-botones
+            i.lista-ul__vineta
             | Elástano o spandex.
       
     .row
@@ -223,18 +223,18 @@
         p Pet reciclado, algodón orgánico, cuero vegetal, nylon regenerado, algas marinas.
 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema3/tela.png")
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema3/tela.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Clasificación de las fibras textiles
-                  p.mb-3.text-white Revisa el documento que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href="https://youtu.be/zjp1OL2DCug" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Clasificación de las fibras textiles
+                  p.mb-0.text-white Revisa el documento que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/I1wQoNJwVxE" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
 
@@ -245,12 +245,12 @@
         h2 3.2. Identificación fibras por combustión
       p Conocer la composición de una fibra es la base de su utilidad, con la composición se logra identificar su comportamiento al ser manipuladas y permite garantizar la idoneidad en la elección frente a la función del diseño y del uso para el que están destinadas. La combustión es el proceso más común para la identificación de cada componente.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <strong>¿Para qué?</strong>
+        p.mb-0 #[b ¿Para qué? ]
           br
           br
           | Los materiales textiles son los cimientos de la moda y elegir los adecuados es la clave de un proyecto con éxito. Conocer su composición es muy útil para prever su comportamiento cuando se manipulan y para garantizar la idoneidad de su elección en función del diseño y del uso para el que están destinados.
@@ -260,12 +260,12 @@
         h3(style="color: #673AB7") \\\ Procedimiento
       p El procedimiento para identificar las fibras que componen una determinada tela depende de la naturaleza de la muestra, de la experiencia del analista y del equipo disponible. Para determinar de forma exacta su composición se deberán combinar varias pruebas de identificación. Una de las más sencillas es la prueba de identificación mediante el análisis por combustión.
     
-    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')
-      .col-2.col-md-2.col-lg-2
-        img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
+    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
+      .col-5.col-md-2.col-lg-2
+        img.mt-4.mb-4(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
       .col-sm-12.col-md-7.col-lg-7.p-5
-        p.mb-2 <strong>Análisis pirognóstico </strong>
-        p.mb-2 Definición etimológica: <strong>piro:</strong> fuego, <strong>gnosis:</strong> conocimiento.  
+        p.mb-2 #[b Análisis pirognóstico  ]
+        p.mb-2 Definición etimológica: #[b piro: ] fuego, #[b gnosis: ] conocimiento.  
         p.mb-2 Es un método muy simple que nos dará información sobre la naturaleza de las fibras que componen la tela con la que se está trabajando. Llamada también prueba de combustión.
 
     .row.mt-5
@@ -273,73 +273,70 @@
         h3(style="color: #673AB7") \\\ Prueba de combustión
       p Esta prueba consiste en exponer a una llama, fibras o hilos de la materia textil que queremos identificar, analizando su forma de:    
     
-    .row.justify-content-center.align-items-center.mb-5.mt-3
-      .col-lg-11
-        .row.align-items-center.justify-content-center
-          .col-xl-4
-            .row
-              .col-1.position-relative
-                .avatar
-                  img.mb-1(src="@/assets/curso/temas/tema3/avatar1/imagen1.png")
-              .col-11
-                .row.p-md-4.borde-redondo.borde-morado100
-                  h4.text-center.mt-2 <strong>Arder</strong>
-          .col-xl-4
-            .row
-              .col-1.position-relative
-                .avatar
-                  img.mb-1(src="@/assets/curso/temas/tema3/avatar1/imagen2.png")
-              .col-11
-                .row.p-md-4.borde-redondo.borde-morado100
-                  h4.text-center.mt-2 <strong>El olor desprendido</strong>
-          .col-xl-4
-            .row
-              .col-1.position-relative
-                .avatar
-                  img.mb-1(src="@/assets/curso/temas/tema3/avatar1/imagen3.png")
-              .col-11
-                .row.p-md-4.borde-redondo.borde-morado100
-                  h4.text-center.mb-0.mt-0 <strong>El residuo que produce la combustión</strong>
+    .row.justify-content-center.align-items-center.mt-4(data-aos="fade-down")
+      .col-sm-12.col-md-10.col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-4.col-lg-4
+            .tarjeta-avatar-b.mb-4
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema3/avatar1/imagen1.png')
+              .tarjeta.align-items-center.d-flex.borde-morado100
+                .p-4
+                  h4.mb-3.mt-2.text-center Arder
+          .col-12.col-md-4.col-lg-4
+            .tarjeta-avatar-b.mb-4
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema3/avatar1/imagen2.png')
+              .tarjeta.align-items-center.d-flex.borde-morado100
+                .p-4
+                  h4.mb-3.mt-2.text-center El olor desprendido
+          .col-12.col-md-4.col-lg-4
+            .tarjeta-avatar-b.mb-4
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema3/avatar1/imagen3.png')
+              .tarjeta.align-items-center.d-flex.borde-morado100
+                .p-4
+                  h4.mb-0.text-center El residuo que produce la combustión
 
-    .row.mt-4.mb-4
+    .row.mt-5.mb-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Materiales, equipos y útiles de trabajo
 
     .row.mb-5.align-items-center.justify-content-center
-      .col-lg-10
+      .col-sm-12.col-md-10.col-lg-10
         .row
           .col-3.position-relative
             .avatar
               img.mt-5(src="@/assets/curso/temas/tema3/imagen15.png")
-          .col-9.ps-5(style='background-color: #FEF5E5')
+          .col-sm-12.col-md-9.col-lg-9.ps-5(style='background-color: #FEF5E5')
             .row
-              .col-1
-              .col-8
-                ul.lista-ul--color.vmorada.fa-ul.mt-2
+              .col-2.d-none.d-lg-block
+              .col-sm-12.col-md-8.col-lg-8
+                ul.lista-ul--color.vmorada.fa-ul.mt-4
                   li.mb-0
-                    i.lista-ul__vineta.mb-0
+                    i.lista-ul__vineta
                     span.mb-0 Muestras textiles 5 cm x 5 cm.
                   li.mb-0
                     i.lista-ul__vineta
                     span.mb-0 Mechero o veladora.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Cenicero.
+                    span.mb-0 Cenicero.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Papel aluminio.
+                    span.mb-0 Papel aluminio.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Pinzas.
+                    span.mb-0 Pinzas.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Tijeras.
+                    span.mb-0 Tijeras.
 
     .row.mt-4
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Normas específicas de trabajo y seguridad
 
-    .row.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center(data-aos="fade-down")
       .col-xl-12
         .row
           .col-1.position-relative
@@ -350,7 +347,7 @@
               h3 Uso del mechero o veladora
               p Antes de encender el mechero o veladora, comprobar que no hay material inflamable a su alrededor. Para apagar el mechero o veladora, humedezca con un poco de agua, nunca soplar.
 
-    .row.align-items-center.justify-content-center.mb-5.mt-3
+    .row.align-items-center.justify-content-center.mb-5.mt-3(data-aos="fade-down")
       .col-xl-12
         .row
           .col-1.position-relative
@@ -367,8 +364,8 @@
     
     .tarjeta.tarjeta--color.p-4(style="background-color: #E8E4FF")
       PasosB.color-primario
-        .row(titulo="Paso1")
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center(titulo="Paso1")
+          .col-sm-12.col-md-6.col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
@@ -379,11 +376,11 @@
               li
                 i.lista-ul__vineta.mb-0
                 | Separar los hilos, si hay diferencias evidentes entre ellos, esto indica que puede haber dos o más fibras en la muestra.
-          .col-md-5
+          .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen1.svg', alt='Manos y tejido')
-        .row(titulo="Paso2")
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center(titulo="Paso2")
+          .col-sm-12.col-md-6.col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
@@ -394,11 +391,11 @@
               li
                 i.lista-ul__vineta.mb-0
                 | Comprobar si se enroscan, si se encogen o si se alejan de la llama.
-          .col-md-5
+          .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen1.svg', alt='Manos encendiendo un aromatizante')
-        .row(titulo="Paso3")
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center(titulo="Paso3")
+          .col-sm-12.col-md-6.col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
@@ -409,11 +406,11 @@
               li
                 i.lista-ul__vineta.mb-0
                 | Analizar la llama que se produce durante la combustión.
-          .col-md-5
+          .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen3.svg', alt='Manos con un fósforo encendido')
-        .row(titulo="Paso4")
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center(titulo="Paso4")
+          .col-sm-12.col-md-6.col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
@@ -424,11 +421,11 @@
               li
                 i.lista-ul__vineta.mb-0
                 | Analizar el olor que se desprende durante la combustión. Comprobar si el olor es a papel quemado, a pelo quemado, a vinagre, a apio cocido, a cera fundida, dulzón, aromático o desagradable.
-          .col-md-5
+          .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen4.png', alt='Humo')
-        .row(titulo="Paso5")
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center(titulo="Paso5")
+          .col-sm-12.col-md-6.col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
@@ -439,7 +436,7 @@
               li
                 i.lista-ul__vineta.mb-0
                 | Repetir el proceso para verificar los resultados obtenidos.
-          .col-md-5
+          .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen5.png', alt='Residuos de ceniza')
 
@@ -452,16 +449,16 @@
 
     
     
-    .row.justify-content-center.align-items-center.mb-5(style='background-color: #FEF5E5')
-      .col-3.col-md-3.col-lg-3
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #FEF5E5')(data-aos="fade-down")
+      .col-6.col-md-3.col-lg-3
         img.mt-3.mb-3(src='@/assets/curso/temas/tema3/imagen4.svg')          
       .col-sm-12.col-md-7.col-lg-7
-        p <strong>La hilatura</strong>
+        p #[b La hilatura ]
         p Consiste en elaborar o fabricar el hilo a partir de una mecha o cinta, puede realizarse en una variedad de máquinas que estira y confiere cohesión a la masa de fibras, obteniéndose el hilo.
         .row
           .col-5
-            p.mb-2 <strong>Hilatura manual Procedimiento de hilatura</strong> 
-            p <strong>Hilatura mecánica Procedimiento de hilatura</strong>
+            p.mb-2 #[b Hilatura manual Procedimiento de hilatura ] 
+            p #[b Hilatura mecánica Procedimiento de hilatura ]
           .col-1
             h3.texto-morado100.mb-4 >
             h3.texto-morado100 >
@@ -479,7 +476,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <strong>¿Qué es un hilo?</strong>
+        p.mb-0 #[b ¿Qué es un hilo? ]
           br
           br
           | Producto de longitud sustancial y corte seccional, relativamente pequeño, consistente de fibras o filamentos, con o sin torsión, es decir, un hilo es una hebra larga y delgada, elaborada con fibras de material textil. Un hilo está compuesto por 1,2 o más cabos torcidos entre sí.
@@ -491,32 +488,32 @@
       p La cantidad de torsión de los hilos puede tener otras finalidades tales como: provocar determinados efectos en el teñido, producir reflejos en el tejido, flexibilidad o rigidez.
 
     .row.mb-5.mt-5
-      .col-lg-10.position-relative
+      .col-sm-12.col-md-10.col-lg-10.position-relative
         .row
-          .col-3
+          .col-3.d-none.d-lg-block
             .avatar
               img(src="@/assets/curso/temas/tema3/imagen7.svg", alt="alt")
         .row
-          .col-9.ps-5(style='background-color: #D1BCFF')
+          .col-sm-12.col-md-9.col-lg-9.ps-5(style='background-color: #D1BCFF')
               ul.lista-ul--color.vmorada.fa-ul.mt-5.mb-5
                 li.mb-0 
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Resistencia:</strong> A mayor torsión, mayor resistencia.
+                  span.mb-0 #[b Resistencia: ] A mayor torsión, mayor resistencia.
                 li.mb-0
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Elasticidad:</strong> A mayor torsión, mayor elasticidad.
+                  span.mb-0 #[b Elasticidad: ] A mayor torsión, mayor elasticidad.
                 li.mb-0
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Aspecto:</strong> A mayor torsión menor diámetro aparente del hilo (por la mayor compacidad).
+                  span.mb-0 #[b Aspecto: ] A mayor torsión menor diámetro aparente del hilo (por la mayor compacidad).
                 li.mb-0 
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Tacto del tejido:</strong> Una torsión ligera proporciona telas de superficie suave, mientras que los hilos muy torcidos producen tejidos de superficie dura.
+                  span.mb-0 #[b Tacto del tejido: ] Una torsión ligera proporciona telas de superficie suave, mientras que los hilos muy torcidos producen tejidos de superficie dura.
                 li.mb-0
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Arrugabilidad del tejido:</strong> A mayor torsión en el hilo, menor propensión de la tela a arrugarse.
+                  span.mb-0 #[b Arrugabilidad del tejido: ] A mayor torsión en el hilo, menor propensión de la tela a arrugarse.
                 li.mb-0
                   i.lista-ul__vineta.mb-0
-                  span.mb-0 <strong>Contracción:</strong> Los hilos elaborados muy torcidos encogen mucho más.
+                  span.mb-0 #[b Contracción: ] Los hilos elaborados muy torcidos encogen mucho más.
 
     .row.mb-4.mt-4
       .titulo-segundo.color-acento-contenido
@@ -554,9 +551,9 @@
         h2.text-center Hilados (spun)
         .row
           .col-3
-            p.mb-5 <strong>Sencillos</strong>
+            p.mb-5 #[b Sencillos ]
             br
-            p <strong>Doblados</strong>
+            p #[b Doblados ]
           .col-7
             ul.lista-ul
               li.mb-0
@@ -623,15 +620,15 @@
         h3(style="color: #673AB7") \\\ Caracterización - Título o numeración
               
     .row.mb-5.mt-5.align-items-center.justify-content-center
-      .col-lg-10
+      .col-sm-12.col-md-10.col-lg-10
         .row
           .col-1.position-relative
             .avatar
               img(src="@/assets/curso/temas/tema3/signo-de-interrogacion.png")
-          .col-11.borde-redondo.p-5(style='background-color: #D1BCFF')
+          .col-sm-12.col-md-11.col-lg-11.borde-redondo.p-5(style='background-color: #D1BCFF')
             .row
               .col-1
-              .col-9
+              .col-sm-12.col-md-9.col-lg-9
                 p Método para expresar la longitud específica o la longitud por unidad de masa de un hilo.
 
     .row.mb-5
@@ -639,76 +636,76 @@
         h3(style="color: #673AB7") \\\ Numeración
 
     .row.mb-5.align-items-center.justify-content-center
-      .col-lg-10
+      .col-sm-12.col-md-10.col-lg-10
         .row
           .col-3.position-relative
             .avatar
               img(src="@/assets/curso/temas/tema3/imagen8.png")
-          .col-9.ps-5.mt-3(style='background-color: #FEF5E5')
+          .col-sm-12.col-md-9.col-lg-9.ps-5.mt-3(style='background-color: #FEF5E5')
             .row
-              .col-11.ps-5
+              .col-sm-12.col-md-11.col-lg-11.ps-5
                 p.mt-4 Los números que describen las características de un hilo se llaman título, y deben ir precedidos del símbolo del sistema que se haya empleado. El título propiamente dicho es la relación que existe entre la longitud y el peso.
                 p Los sistemas de numeración se clasifican en dos grupos:
                 ul.lista-ul--color.vmorada.fa-ul
                   li.mb-0
                     i.lista-ul__vineta.color-acento-botones
-                    | <strong>Sistemas directos</strong>
+                    | #[b Sistemas directos ]
                   li.mb-0
                     i.lista-ul__vineta.color-color-acento-botones
-                    | <strong>Sistemas indirectos</strong>
+                    | #[b Sistemas indirectos ]
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Sistemas de numeración
 
-    TabsC.color-acento-botones
+    TabsC.color-acento-botones(data-aos="zoom-in-left")
       .py-4.py-md-0(titulo="<strong>Sistemas directos</strong>")
-        .row(style='background-color: #FEF5E5')
-          .col-6.p-5
+        .row.justify-content-center(style='background-color: #FEF5E5')
+          .col-8.col-md-5.col-lg-5.ps-5.mt-5.mb-5
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta3/imagen1.png')
-          .col-md-6.p-5
+          .col-sm-12.col-md-6.col-lg-6.col-md-6.ps-5.mt-5.mb-5
             p (Longitud constante y peso variable) Cuanto más elevado es el número, más grueso es el hilado o fibra.
-            p <strong>Tex:</strong> peso en gramos de 1.000 metros de hilo. 
-            p <strong>- 1Tex = 10D Tex - Decitex (D Tex):</strong> es el peso en gramos de 10.000 metros de hilado. 
-            p <strong>- 1 DTex = 0.9 Den - Denier (Den):</strong> es el peso en gramos de 9000 metros de hilado o fibra.
+            p #[b Tex: ] peso en gramos de 1.000 metros de hilo. 
+            p #[b - 1Tex = 10D Tex - Decitex (D Tex): ] es el peso en gramos de 10.000 metros de hilado. 
+            p #[b - 1 DTex = 0.9 Den - Denier (Den): ] es el peso en gramos de 9000 metros de hilado o fibra.
             p Esta medida está reservada para la seda y los hilos artificiales y sintéticos.
       .py-4.py-md-0(titulo="<strong>Sistemas indirectos</strong>")
-        .row(style='background-color: #FEF5E5')
-          .col-6.p-5
+        .row.justify-content-center(style='background-color: #FEF5E5')
+          .col-8.col-md-5.col-lg-5.ps-5.mt-5.mb-5
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta3/imagen2.png')
-          .col-md-6.p-5
+          .col-sm-12.col-md-6.col-lg-6.col-md-6.ps-5.mt-5.mb-5
             p (Peso constante y longitud variable). Cuanto más elevado es el número, más fino es el hilado o fibra.
-            p <strong>Número métrico (Nm):</strong> número de metros que pesan un gramo o miles de metros por kilogramo. (el más utilizado).
-            p <strong>Número inglés (Ne):</strong> número de madejas de 840 yardas que pesan una libra, (el más habitual para el algodón).
-            p <strong>Número catalán (Na):</strong> número de madejas de 777,5 m que pesa 440 gramos.
+            p #[b Número métrico (Nm): ] número de metros que pesan un gramo o miles de metros por kilogramo. (el más utilizado).
+            p #[b Número inglés (Ne): ] número de madejas de 840 yardas que pesan una libra, (el más habitual para el algodón).
+            p #[b Número catalán (Na): ] número de madejas de 777,5 m que pesa 440 gramos.
             p Esta numeración describe el calibre o grosor.
-            p <strong>El primer número:</strong> representa los estirajes que ha recibido el hilo cuando se está elaborando. 
+            p #[b El primer número: ] representa los estirajes que ha recibido el hilo cuando se está elaborando. 
             p Así, entre más estirajes ha recibido, más delgado será.
             p El número que está después del slash (raya), representa el número de Hebra (cabos) que forman el hilo. 
                 
     .row.mb-5.mt-5.justify-content-center.align-items-center
       .col-md-8
         .cajon.color-primario.p-4
-          p.mb-0 <strong>¿Para qué elegir el calibre?</strong>
+          p.mb-0 #[b ¿Para qué elegir el calibre? ]
           p.mb-0 La selección de calibre del hilo depende de la clase de tela y de prenda que va a coser. El tipo de tejido a trabajar, según la necesidad. El calibre de la aguja varía según el tejido e hilo.
           
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src="@/assets/curso/temas/tema3/hilo.png")
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema3/tela.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Clasificación de los hilos
-                  p.mb-3.text-white Revisa el video que pueden resultar útil para conocer más sobre la clasificación de los hilos.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href="https://youtu.be/qUdbl6B18Bg" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Clasificación de los hilos
+                  p.mb-0.text-white Revisa el video que pueden resultar útil para conocer más sobre la clasificación de los hilos.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/XmnGaIHLbro" target="_blank")
                     span.texto-negro Ir al sitio
-                    i.fas.fa-video
+                    i.fas.fa-file-download
 
     Separador
 
@@ -717,12 +714,12 @@
         h2 3.4.  Clasificación de tejidos
       p Los tejidos son una composición de fibras o hilos que en su unión generan características como ancho, largo, grosor, resistencia, que permiten asignarle al tejido ciertas características, las cuales son primordiales en la segmentación o clasificación, como lo son los tejidos planos, tejidos de punto o aglomerados.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen9.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 <strong>¿Qué son los tejidos? </strong>
+        p.mb-0 #[b ¿Qué son los tejidos?  ]
           br
           br
           | Manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión
@@ -734,8 +731,8 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Telas tejidas")
         .col-md-6.mb-4.mb-md-0
-          p <strong>Plano</strong>
-          p <strong>Ligamentos fundamentales</strong>
+          p #[b Plano ]
+          p #[b Ligamentos fundamentales ]
           ul.lista-ul--color.vmorada.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
@@ -746,7 +743,7 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Raso
-          p <strong>Ligamentos derivados</strong>
+          p #[b Ligamentos derivados ]
           ul.lista-ul--color.vmorada.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
@@ -756,12 +753,12 @@
               | Espina / espiga.
             li.mb-0
               i.lista-ul__vineta.mb-0
-              | Sarga interrumpida (<em>broken twill</em>).
-          p <strong>Otros</strong>
+              | Sarga interrumpida ( #[em broken twill ]).
+          p #[b Otros ]
           ul.lista-ul--color.vmorada.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
-              | <em>Dobby</em>, <em>jacquard</em>, riso, afelpados, etc.
+              |  #[em Dobby ],  #[em jacquard ], riso, afelpados, etc.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema3/acordeon1/imagen1.png', alt='Textura')
@@ -782,16 +779,16 @@
     .tarjeta--container.row
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta4/imagen1.png')          
+              img(src='@/assets/curso/temas/tema3/tarjeta4/imagen1.png')          
         h3.text-center Urdimbre
         p La serie longitudinal de los hilos recibe el nombre de urdimbre y cada uno de los elementos que la constituyen se denomina hilo. Los hilos verticales son la urdimbre.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta4/imagen2.png')
+              img(src='@/assets/curso/temas/tema3/tarjeta4/imagen2.png')
         h3.text-center Trama
         p La serie transversal recibe el nombre de trama y cada una de sus unidades se denomina pasada. Las pasadas horizontales son la trama.
 
@@ -828,36 +825,36 @@
             p.mb-0 Es más fina y en ocasiones puede contener fibras elásticas, ya que estas fibras ceden al estirar la tela de orilla a orilla. Cortar en diferentes direcciones en la tela.
 
     .row.mb-5.mt-5.p-5
-      .col-lg-11.position-relative
+      .col-sm-12.col-md-11.col-lg-11.position-relative
         .avatar
           figure
             img(src="@/assets/curso/temas/tema3/imagen10.svg")
         .row
-          .col-10.ps-5(style='background-color: #D1BCFF')
+          .col-sm-12.col-md-10.col-lg-10.ps-5(style='background-color: #D1BCFF')
             .row.mt-3.mb-3
               .col-5(style='font-size: 13px')
                 ul.lista-ul--color.vmorada.fa-ul
                   li.mb-0 
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido plano - Ligamentos fundamentales</strong> 
+                    | #[b Tejido plano - Ligamentos fundamentales ] 
                   li.mb-0
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido plano - Ligamentos Derivados</strong>
+                    | #[b Tejido plano - Ligamentos Derivados ]
                   li.mb-0
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido plano - Otros ligamentos</strong>
+                    | #[b Tejido plano - Otros ligamentos ]
                   li.mb-5 
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido de punto </strong> 
+                    | #[b Tejido de punto  ] 
                   li.mb-0
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido de punto - Por trama </strong> 
+                    | #[b Tejido de punto - Por trama  ] 
                   li.mb-0
                     i.lista-ul__vineta.mb-0
-                    | <strong>Tejido de punto - Por urdimbre</strong> 
+                    | #[b Tejido de punto - Por urdimbre ] 
                   li.mb-0
                     i.lista-ul__vineta.mb-0
-                    | <strong>No tejido</strong> 
+                    | #[b No tejido ] 
               .col-5(style='font-size: 13px')  
                 ul.lista-ul--color.vmorada.fa-ul
                   li.mb-0 
@@ -899,74 +896,74 @@
         h3(style="color: #673AB7") \\\ Caracterización de los textiles
  
     .row.align-items-center.justify-content-center.mb-4
-      .col-lg-10.p-3
+      .col-sm-12.col-md-10.col-lg-10.p-3
         .row
           .col-3.position-relative
             .avatar
               img(src="@/assets/curso/temas/tema3/imagen12.svg")
-          .col-8.p-5(style='background-color: #FEF5E5')
+          .col-sm-12.col-md-8.col-lg-8.p-5(style='background-color: #FEF5E5')
             .row
-              .col-12
+              .col-sm-12.col-md-12.col-lg-12
                 p Se organizan en función de su comportamiento, está relacionado con el peso del material:
                 .row
-                  .col-3
+                  .col-sm-12.col-md-3.col-lg-3
                     ul.lista-ul
                       li.mb-0
                         i.lista-ul__vineta
-                        | Estructura
+                        | Estructura.
                       li.mb-0
                         i.lista-ul__vineta
-                        | Fluidez
-                  .col-3
+                        | Fluidez.
+                  .col-sm-12.col-md-3.col-lg-3
                     ul.lista-ul
                       li.mb-0
                         i.lista-ul__vineta
-                        | Expansión
+                        | Expansión.
                       li.mb-0
                         i.lista-ul__vineta
-                        | Compresión
+                        | Compresión.
 
-    .tarjeta.color-acento-contenido.p-3
+    .tarjeta.fondo2.p-3
       SlyderA(tipo="b")
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.justify-content-center.ps-5.mt-2
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estructura
             p.mb-0 Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. Caída: la tela ha de mantenerse en su lugar y no caer cuando se le suelta.
-            p.mb-0 División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal, <em>sport</em>.
-            p.mt-4 <strong>Textiles</strong>
-            p Paño - <em>Tweed</em> - <em>Jacquard</em> - Pana - Lino - <em>Oxford</em> - <em>Faya</em> - <em>Shantung</em> - Popelina - Tafetán - Bengalina – Satén.
-            p <strong>Textiles plastificados - Recubiertos</strong>
-            p Microfibras de <em>nylon</em> y <em>poliester</em>, algunas veces con propiedades hidrófugas.
-          .col-sm-5.p-2
+            p.mb-0 División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal,  #[em sport ].
+            p.mt-4 #[b Textiles ]
+            p Paño -  #[em Tweed ] -  #[em Jacquard ] - Pana - Lino -  #[em Oxford ] -  #[em Faya ] -  #[em Shantung ] - Popelina - Tafetán - Bengalina – Satén.
+            p #[b Textiles plastificados - Recubiertos ]
+            p Microfibras de  #[em nylon ] y  #[em poliester ], algunas veces con propiedades hidrófugas.
+          .col-8.col-md-4.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.png')
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+              img.mt-4(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.png')
+        .row.justify-content-center.ps-5.mt-2
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Fluidez
             p Estas telas son suaves y fluidas, incapaces de sostener su propio peso debido a su caída natural. La fluidez de estas telas está intrínsecamente ligada al tipo de hilo empleado en su fabricación, que suele ser altamente torsionado, ya sea de hebras hiladas o de multifilamento. Al caer sobre el cuerpo, estas telas son generalmente ligeras y de peso medio.
-            p <strong>Textiles</strong>
-            p <em>Chiffon</em> - Gasa - <em>Chalis</em> - <em>Interlock</em> - <em>Georgette</em> - <em>Crepé</em> - <em>Jersey</em> - Malla - Encaje - Género – <em>Velvet</em> / terciopelo - <em>Lamé</em> - <em>Crepé</em> texturizado - Género de punto.
-          .col-sm-5.p-2
+            p #[b Textiles ]
+            p  #[em Chiffon ] - Gasa -  #[em Chalis ] -  #[em Interlock ] -  #[em Georgette ] -  #[em Crepé ] -  #[em Jersey ] - Malla - Encaje - Género –  #[em Velvet ] / terciopelo -  #[em Lamé ] -  #[em Crepé ] texturizado - Género de punto.
+          .col-8.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen2.png')
-        .row.p-5
-          .col-md-7.mb-4.mb-md-0
+        .row.justify-content-center.ps-5.mt-2
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Expansión
             p En el grupo de textiles por expansión se incluye el concepto del plisado, este efecto permite expandir la silueta. El concepto de acolchado se incluye en esta categoría, este es un método natural para crear calidez mediante la combinación de capas de tela, se puede aplicar el acolchado medio y acolchado grueso.
-            p <strong>Textiles</strong>
-            p Acolchado - Redecillas - Tarlatana - De piel o peluche - Tules - Organza - Plisados - <em>Crepé</em> de <em>satén</em> plisados.
-          .col-sm-5.p-2
+            p #[b Textiles ]
+            p Acolchado - Redecillas - Tarlatana - De piel o peluche - Tules - Organza - Plisados -  #[em Crepé ] de  #[em satén ] plisados.
+          .col-8.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen3.png')
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center.ps-5.mt-2
+          .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Compresión
             p El objetivo principal de este es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos.
-            p <em>Stretch confort</em>: tejidos con un 2 % a 5 % de fibra de spandex, proporciona una compresión suave.
-            p <em>Stretch fuerte</em>: contiene un 14 % a 20 % de fibra de spandex, proporciona una compresión continua que resta silueta al cuerpo.
-            p <strong>Textiles</strong>
-            p Punto canalé - Pana <em>stretch</em> - <em>Power lycra</em> - Punto de algodón <em>stretch</em> - Doble punto - <em>Power net</em>.
-          .col-sm-6.p-2
+            p  #[em Stretch confort ]: tejidos con un 2 % a 5 % de fibra de spandex, proporciona una compresión suave.
+            p  #[em Stretch fuerte ]: contiene un 14 % a 20 % de fibra de spandex, proporciona una compresión continua que resta silueta al cuerpo.
+            p #[b Textiles ]
+            p Punto canalé - Pana  #[em stretch ] -  #[em Power lycra ] - Punto de algodón  #[em stretch ] - Doble punto -  #[em Power net ].
+          .col-8.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen4.png')
              
@@ -975,15 +972,15 @@
         h3(style="color: #673AB7") \\\ Las entretelas
 
     .row.align-items-center.justify-content-center
-      .col-lg-10
+      .col-sm-12.col-md-10.col-lg-10
         .row
           .col-1.position-relative
             .avatar
               img(src="@/assets/curso/temas/tema3/signo-de-interrogacion.png")
-          .col-11.justify-content-center.align-items-center.borde-redondo.p-4(style='background-color: #D1BCFF')
+          .col-sm-12.col-md-11.col-lg-11.justify-content-center.align-items-center.borde-redondo.p-4(style='background-color: #D1BCFF')
             .row
               .col-1
-              .col-11
+              .col-sm-12.col-md-11.col-lg-11
                 p Son la estructura de nuestra ropa, ya que sostienen y refuerzan las áreas críticas. El tipo de entretela usada determina el tacto, la forma y la durabilidad de nuestra prenda, manteniendo su función y ayudando en el proceso productivo.
 
     .row.mt-5
@@ -992,38 +989,38 @@
       p Estas pueden ser agrupadas de acuerdo con la tela, aplicación y estiraje, dentro de estas se encuentra:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-9
+      .col-sm-12.col-md-9.col-lg-9
         .row.align-items-center.justify-content-center(style='background-color: #FEF5E5')
           .col-3
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0 
                 i.lista-ul__vineta.mb-0
-                | Entretelas tejidas
+                | Entretelas tejidas.
           .col-3
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Entretelas no tejidas
+                | Entretelas no tejidas.
           .col-3     
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Entretelas de punto
+                | Entretelas de punto.
                       
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta7/imagen1.png')          
+              img(src='@/assets/curso/temas/tema3/tarjeta7/imagen1.png')          
         h3.text-center Entretelas tejidas
         p Pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas normales (urdimbre / trama). 
         p Usualmente, cuando se cortan al sesgo, estiran más y se utilizan entonces para dar forma.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
-              img.p-5(src='@/assets/curso/temas/tema3/tarjeta7/imagen2.png')
+              img(src='@/assets/curso/temas/tema3/tarjeta7/imagen2.png')
         h3.text-center Entretelas NO tejidas
         p Por lo general están hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras.
         p Las fibras son distribuidas al azar y juntadas por acción química o térmica. 
@@ -1040,8 +1037,8 @@
       .row(titulo="Elásticas o estables")
         .col-md-10.mb-4.mb-md-0
           p Las entretelas se catalogan bajo estas dos categorías: 
-          p <strong>Las elásticas:</strong> donde se requiere dar forma.
-          p <strong>Las estables:</strong> en sitios de la prenda donde se necesite fijar.
+          p #[b Las elásticas: ] donde se requiere dar forma.
+          p #[b Las estables: ] en sitios de la prenda donde se necesite fijar.
       .row(titulo="Cuidado")
         .col-md-10.mb-4.mb-md-0
           p La tela exterior debe tener características similares de la entretela.
@@ -1068,20 +1065,19 @@
         .col-md-12.mb-4.mb-md-0
           p Las entretelas cosibles se unen a la tela o a las costuras de una prenda, ya sea a mano o a máquina. Son especialmente útiles para textiles con textura, como el terciopelo, así como para aquellos sensibles al calor, incluyendo textiles metalizados o plastificados que no toleran la presión o el calor directo de la plancha. 
 
-    
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src='@/assets/curso/temas/tema3/imagen13.png')
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema3/imagen13.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Caracterización de los textiles
-                  p.mb-3.text-white Revisa el documento que pueden resultar útil para conocer más sobre la caracterización de los textiles.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href=" https://youtu.be/mc1kARHDHrs" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Caracterización de los textiles
+                  p.mb-0.text-white Revisa el documento que pueden resultar útil para conocer más sobre la caracterización de los textiles.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/kL9UYOzJD3o" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
 
@@ -1097,20 +1093,20 @@
         h3(style="color: #673AB7") \\\ Tipos de operaciones
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-4
+      .col-sm-12.col-md-4.col-lg-4
         .row.borde-redondo.p-3(style='background-color: #673AB7')
           .col-3.position-relative.p-4
             .avatar
               img(src="@/assets/curso/temas/tema3/avatar4/imagen1.png")
-          p.text-white <strong>Aprestos</strong>
+          p.text-white #[b Aprestos ]
           p.text-white(style="font-size: 18px") Cuando los efectos conseguidos se deben a la aplicación de productos químicos, tales como: rigidez, estabilidad, tactosidad, impermeabilizar o aumentar su peso.
-      .col-1
-      .col-4
+      .col-sm-12.col-md-1.col-lg-1
+      .col-sm-12.col-md-4.col-lg-4
         .row.borde-redondo.p-3(style='background-color: #D1BCFF')
           .col-3.position-relative.p-4
             .avatar
               img(src="@/assets/curso/temas/tema3/avatar4/imagen2.png")
-          p <strong>Acabados</strong>
+          p #[b Acabados ]
           p(style="font-size: 18px") Cuando los efectos conseguidos se deben a la aplicación de tratamientos físicos y/o mecánicos, tales como: calor, presión, humedad, etc.
     
     .row.mb-5
@@ -1118,7 +1114,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-sm-12.col-md-8.col-lg-8
         .row.justify-content-center.align-items-center(style='background-color: #FEF5E5')
           .col-1
           .col-4.align-items-center
@@ -1141,29 +1137,29 @@
                 p.mb-0 Comportamiento    
 
     .row.align-items-center.justify-content-center.p-2.pmb-5
-      .col-md-4
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Acción que lo origine / modifica característica:</strong>
-          p <strong>> Físico/estético</strong> 
+          p.text-center(style="color: #673AB7") #[b Acción que lo origine / modifica característica: ]
+          p #[b > Físico/estético ] 
           p No modifica la estructura interna de la fibra, solo apariencia.
-          p <strong>> Químico/funcional</strong>
+          p #[b > Químico/funcional ]
           p Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra.
-          p <strong>> Químico-físico / estético-funcional</strong>
-      .col-md-4
+          p #[b > Químico-físico / estético-funcional ]
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Acción que lo origine / modifica característica:</strong>
-          p <strong>> Temporal</strong> 
+          p.text-center(style="color: #673AB7") #[b Acción que lo origine / modifica característica: ]
+          p #[b > Temporal ] 
           p Algunas lavadas.
-          p <strong>> Permanente</strong>
+          p #[b > Permanente ]
           p Acabados físicos, vida útil de la prenda.
-          p <strong>> Renovable</strong>
+          p #[b > Renovable ]
           p Puede renovarse en el hogar o tintorería.
-      .col-md-4
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Limpieza</strong>
-          p <strong>> Desgomado de la seda</strong> 
-          p <strong>> Descrude del algodón</strong> 
-          p <strong>> Lavado de lana</strong> 
+          p.text-center(style="color: #673AB7") #[b Limpieza ]
+          p #[b > Desgomado de la seda ] 
+          p #[b > Descrude del algodón ] 
+          p #[b > Lavado de lana ] 
           br
           br
           br
@@ -1171,17 +1167,17 @@
           br
 
     .row.align-items-center.justify-content-center.p-2.mb-5
-      .col-md-4
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Diseño y color</strong>
+          p.text-center(style="color: #673AB7") #[b Diseño y color ]
           p El uso de tintes que penetran y dan color a las fibras. Se usa para dar color y crear grafías.
-      .col-md-4
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Textura</strong>
+          p.text-center(style="color: #673AB7") #[b Textura ]
           p El uso de tintes que penetran y dan color a las fibras. Se usa para dar color y crear grafías.
-      .col-md-4
+      .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") <strong>Diseño y color</strong>
+          p.text-center(style="color: #673AB7") #[b Diseño y color ]
           p Se utiliza para mejorar la textura de su superficie y el tacto.
 
     .row
@@ -1189,7 +1185,7 @@
         h3(style="color: #673AB7") \\\ Diseño y color - teñido
 
     .row.mb-5.align-items-center
-      .col-6.p-3(style='background-color: #DADDDF')
+      .col-sm-12.col-md-6.col-lg-6.p-3(style='background-color: #DADDDF')
         p #[b Métodos:] fibras, hilos, teñir en solución, materia prima, piezas.
     
     .row
@@ -1197,7 +1193,7 @@
         h3(style="color: #673AB7") \\\ Diseño y color - estampado
 
     .row.mb-5.align-items-center
-      .col-6.p-3(style='background-color: #DADDDF')
+      .col-sm-12.col-md-6.col-lg-6.p-3(style='background-color: #DADDDF')
         p Rotativa, serigrafía, sublimación, transfer digital.
 
     .row
@@ -1217,21 +1213,20 @@
         p Resistencia a pliegues y arrugas, planchado durable, repelente al agua / impermeabilización, control de encogimiento, resistencia a la suciedad, antiestática, antibacterial, resistente a polillas, ignición retardada, resistencia al moho.
 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-10
-        .tarjeta(style='background-color: #673AB7')
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
           .row.justify-content-center.align-items-center
-            .col-1.col-md-1.d-none.d-lg-block
-              img.mr-3.mt-mb-3(src='@/assets/curso/temas/tema3/imagen14.png')
-            .col-sm-12.col-md-10.col-lg-10
+            .col-auto
+              img(src="@/assets/curso/temas/tema3/imagen14.png")
+            .col
               .row.justify-content-center.align-items-center
-                .col-sm-10.col-md-10.col-lg-10.mb-3.mb-sm-0
-                  h3.mt-3.text-white Acabados
-                  p.mb-3.text-white Revisa el video que pueden resultar útil para conocer más sobre los acabados.
-                .col-sm-2-col-md-2.col-lg-2
-                  a.boton.color-boton(href="https://youtu.be/RecKnCBkD5g" target="_blank")
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Acabados
+                  p.mb-0.text-white Revisa el video que pueden resultar útil para conocer más sobre los acabados.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/ijJexxkGI98" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
-
 
 </template>
 

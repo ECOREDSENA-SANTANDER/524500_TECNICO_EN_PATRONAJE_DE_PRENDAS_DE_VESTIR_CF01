@@ -25,7 +25,13 @@
 .img90
   width: 90px
 .img250
-  width: 250px  
+  width: 250px
+.img12a
+  with: 120%
+.img12b
+  with: 65px
+.img12c
+  with: 20px
 .brd--rad
   border-radius: 20px
 .hr--line
@@ -309,6 +315,11 @@
 .fondo
   border-radius: 0px
   background-image: url('../assets/curso/temas/tema1/fondo-tarjeta.svg')
+  background-repeat: no-repeat
+
+.tarjeta.fondo2
+  background-image: url('../assets/curso/temas/tema3/fondo1.svg')
+  background-repeat: no-repeat
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FFD54F
@@ -336,6 +347,12 @@
 
 .tabs-a__tab
   background-color: #DADDDF
+
+.tabs-c__tab--active 
+  background-color: white
+
+.tabs-c__tab
+  background-color:  #DADDDF
 
 .slyder-f__btn i 
   color: #ffd54f !important
@@ -377,6 +394,17 @@
     margin-right: 7px !important
     vertical-align: top !important
 
+.lista-ul__vineta.vamarillo li > i:first-of-type
+    color: #ffd54f !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vamarillo:before
+  color: transparent !important
+
 //viñeta morada oscura
 
 .lista-ul--color.vmorada li > i:first-of-type 
@@ -387,11 +415,27 @@
     margin-right: 7px !important
     vertical-align: top !important
 
+.lista-ul__vineta.vmorada li > i:first-of-type
+    color: #673AB7 !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vmorada:before
+  color: transparent !important
+
+
+
 //borde tabla
 
 .tabla-b.bordenegro
   border: 2px solid black !important
   border-color: black !important
+
+.bordeizquierdocelda
+  border-left: 2px solid black !important
 
 // Banner interno - subtitulo
 
@@ -423,3 +467,9 @@
 .estilo500
   background-color: white !important
   border: 5px solid #673AB7 !important
+
+.bgamarilloclaro
+  background: #FEF5E5
+
+.texamarillooscuro
+  color: #ffd54f !important

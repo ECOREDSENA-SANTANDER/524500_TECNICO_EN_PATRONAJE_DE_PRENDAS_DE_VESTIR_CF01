@@ -57,7 +57,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: '<em>Moodboard</em> - Cuadro metamórfico',
+            titulo: '<em> Moodboard</em> - Cuadro metamórfico',
             hash: 't_1_5',
           },
         ],
@@ -66,7 +66,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Ficha técnica de diseño (software de diseño)',
+        titulo: 'Ficha técnica de diseño (<em>software</em> de diseño)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -227,7 +227,7 @@ export default {
         'Hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
     {
-      termino: '<em>MoodBoard</em>',
+      termino: '<em> MoodBoard </em>',
       significado:
         'Su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
@@ -237,7 +237,7 @@ export default {
         'Ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
     },
     {
-      termino: '<em>Software</em>',
+      termino: '<em> Software </em>',
       significado:
         'Término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
@@ -249,7 +249,7 @@ export default {
     {
       termino: 'Vectores',
       significado:
-        'En software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'En <em>software</em> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
   ],
   referencias: [
@@ -307,15 +307,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder Línea Santander',
-          centro: 'Regional Santander Centro Agroturístico',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
         },
-        //        {
-        //          nombre: 'Olga Constanza Bermúdez Jaimes',
-        //          cargo: 'Responsable de Línea de Producción',
-        //          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //        },
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
     {
@@ -323,9 +323,26 @@ export default {
       autores: [
         {
           nombre: 'Lizeth Maritza Rodríguez Beltrán',
-          cargo: 'Instructora Técnica',
+          cargo: 'Experta temática',
           centro:
             'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Adriana Lozano Zapata',
+          cargo: 'Correctora de estilo',
+          centro:
+            'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -333,21 +350,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Natalia Andrea Bueno Pizarro',
-          cargo: 'Diseñador Instruccional',
-          centro:
-            'Distrito Capital - Centro para La Industria de la Comunicación Gráfica',
+          nombre: 'Yasmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Adriana Lozano Zapata',
-          cargo: 'Correctora de estilo',
-          centro: 'Centro para la Industria de la comunicación gráfica',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Martha Isabel MArtínez Vargas',
-          cargo:
-            'Animador y Producción audiovisualActivador de recursos en plataforma LMS',
-          centro: 'Centro Industrial para el Diseño y la Manufactura - CIDM',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora <em>Full-Stack</em> Junior',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -355,25 +375,15 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Sandra Paola Morales Paez',
-          cargo: 'Evaluador Instruccional ',
-          centro: 'Regional Santander Centro Agroturístico',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
-        //        {
-        //          nombre: 'Jaime Hernan Tejada',
-        //          cargo: 'Validador de Recursos Educativos Digitales',
-        //          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //        },
-        //        {
-        //          nombre: 'Daniel Ricardo Mutis Gómez',
-        //          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-        //          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //        },
-        //        {
-        //          nombre: 'Margarita Marcela Medrano',
-        //          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-        //          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
   ],
