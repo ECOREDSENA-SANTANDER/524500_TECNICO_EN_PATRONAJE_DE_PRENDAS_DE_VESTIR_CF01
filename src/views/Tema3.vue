@@ -137,13 +137,13 @@
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
-                | Bonote (Coco)
+                | Bonote (Coco).
           .col-sm-6.col-md-2.col-lg-2
             p #[b De la raíz ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0
                 i.lista-ul__vineta.color-primario
-                | Zacatón
+                | Zacatón.
       .tarjeta.color-acento-botones.p-4(titulo="Fibras minerales" style='background-color: #FEF5E5')
         .row
           p Las fibras de origen mineral se obtienen de minerales de estructura fibrosa.
@@ -548,7 +548,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta2/imagen1.png')          
-        h2.text-center Hilados (spun)
+        h2.text-center Hilados (#[em spun])
         .row
           .col-3
             p.mb-5 #[b Sencillos ]
@@ -729,11 +729,11 @@
         h3(style="color: #673AB7") \\\ Clasificación de los tejidos
     
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Telas tejidas")
-        .col-md-6.mb-4.mb-md-0
+      .row.justify-content-center(titulo="Telas tejidas")
+        .col-md-5.mb-4.mb-md-0
           p #[b Plano ]
-          p #[b Ligamentos fundamentales ]
-          ul.lista-ul--color.fa-ul.vmorada.mb-0
+          p.ps-3 #[b Ligamentos fundamentales ]
+          ul.lista-ul--color.fa-ul.vmorada.mb-0.ps-3
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Tafetán.
@@ -743,8 +743,8 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Raso.
-          p #[b Ligamentos derivados ]
-          ul.lista-ul--color.vmorada.mb-0
+          p.ps-3 #[b Ligamentos derivados ]
+          ul.lista-ul--color.vmorada.mb-0.ps-3
             li.mb-0 
               i.lista-ul__vineta.mb-0
               | Esterilla / panamá / canasta.
@@ -754,16 +754,33 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Sarga interrumpida ( #[em broken twill ]).
-          p #[b Otros ]
-          ul.lista-ul--color.vmorada.mb-0
+          p.ps-3 #[b Otros ]
+          ul.lista-ul--color.vmorada.mb-0.ps-3
             li.mb-0 
               i.lista-ul__vineta.mb-0
               |  #[em Dobby ],  #[em jacquard ], riso, afelpados, etc.
+          p.mb-3 #[b Punto ]
+          p.ps-3 #[b Por trama ]
+          ul.lista-ul--color.fa-ul.vmorada.mb-0.ps-3
+            li.mb-0 
+              i.lista-ul__vineta.mb-0
+              | Sencillo (#[em jersey, lacoste]).
+            li.mb-0 
+              i.lista-ul__vineta.mb-0
+              | Doble (#[em rib] o resortado, #[em interlock, piqué]).
+          p.ps-3 #[b Por urdimbre ]
+          ul.lista-ul--color.fa-ul.vmorada.mb-0.ps-3
+            li.mb-0 
+              i.lista-ul__vineta.mb-0
+              | #[em Tricot. ]
+            li.mb-0 
+              i.lista-ul__vineta.mb-0
+              | #[em Raschell. ]
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema3/acordeon1/imagen1.png', alt='Textura')
-      .row(titulo="Telas no tejidas")
-        .col-md-6.mb-4.mb-md-0
+      .row.justify-content-center(titulo="Telas no tejidas")
+        .col-md-5.mb-4.mb-md-0
           ul.lista-ul--color.vmorada.mb-0
             li.mb-0 
               i.lista-ul__vineta.mb-0
@@ -1122,19 +1139,19 @@
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
                   span.mb-0 1
-                p.mb-0 Apariencia
+                p.mb-0 Apariencia.
           .col-3.align-items-center
             ol.lista-ol--cuadro.fa-ol.mb-3.mt-3
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
                   span.mb-0 2
-                p.mb-0 Tacto
+                p.mb-0 Tacto.
           .col-4.align-items-center
             ol.lista-ol--cuadro.fa-ol.mb-3.mt-3
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
                   span.mb-0 3
-                p.mb-0 Comportamiento    
+                p.mb-0 Comportamiento.   
 
     .row.align-items-center.justify-content-center.p-2.pmb-5
       .col-sm-12.col-md-4.col-lg-4

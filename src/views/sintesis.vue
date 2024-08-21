@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Conocer los conceptos y terminología utilizados en el área del diseño de prendas de vestir, es una base fundamental de la formación de un patronista, en este componente se realiza una revisión detallada de esta terminología; adicional se realiza un viaje por materiales, insumos, textiles, etc., que permiten al aprendiz tener una visión general de la producción y elaboración de prendas de vestir.
 
     .row.justify-content-center
       .col-lg-10.mb-5

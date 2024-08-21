@@ -297,7 +297,7 @@
                     span.mb-0 #[b  Fashion victims: ] personas adictas al consumismo, al último grito de la moda, principales compradores del fast fashion. 
                   li
                     i.lista-ul__vineta
-                    span.mb-0 #[b  Fashionistas: ] personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo vintage, son compradores activos, que están al corriente de las tendencias actuales.. 
+                    span.mb-0 #[b  Fashionistas: ] personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo vintage, son compradores activos, que están al corriente de las tendencias actuales. 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen6.png', alt='Mujer con bolsas de compra a cada lado de la mano')
 
     Separador 
