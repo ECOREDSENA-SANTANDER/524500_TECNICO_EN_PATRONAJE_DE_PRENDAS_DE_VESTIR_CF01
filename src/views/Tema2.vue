@@ -252,6 +252,10 @@
                   a.boton.color-boton(href="https://youtu.be/rvq5vAoMdv4" target="_blank")
                     span.texto-negro Ir al sitio
                     i.fas.fa-file-download
+                .col-sm-auto
+                  a.boton.color-boton(href="https://youtu.be/ZpVolJldlcU" target="_blank")
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
@@ -279,11 +283,21 @@
         h2 2.7.  Interfaz programa CAD
       p Para el desarrollo de dibujos planos, se implementa #[em software] que permite agilizar y detallar de manera más certera un producto. Para el uso de los programas se hace necesario contar con la licencia que autoriza la implementación legal del mismo. El SENA cuenta con las licencias requeridas para el acceso del aprendiz sin ningún inconveniente. 
 
-    .row.mb-4
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Interfaz programa CAD.
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-md-10.col-lg-10
+        .tarjeta.p-3(style='background-color: #673AB7')
+          .row.justify-content-center.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema2/icono-interfaz.png")
+            .col
+              .row.justify-content-center.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mt-3.text-white Interfaz programa CAD
+                  p.mb-0.text-white Interfaz Software CAD. Consulta el siguiente video para conocer acerca del software.
+                .col-sm-auto
+                  a.boton.color-boton(href="https://www.youtube.com/watch?v=_lIrZfa0q1g" target="_blank")
+                    span.texto-negro Ir al sitio
+                    i.fas.fa-file-download
 
     Separador
 
