@@ -154,7 +154,7 @@
                   img(src='@/assets/curso/temas/tema1/linea1/imagen12b.png', alt='Texto que describa la imagen')
               .col-6.col-md-6.col-lg-6
                 img(src='@/assets/curso/temas/tema1/linea1/icono12b.png', alt='Texto que describa la imagen')
-                p.text-center Silueta reloj de arena, el corsé de metal o de ballenas, faldas largas o blazers, sujetador, estética flapper, traje de baño, el uso del pantalón.
+                p.text-center Silueta reloj de arena, el corsé de metal o de ballenas, faldas largas o #[em blazers], sujetador, estética #[em flapper], traje de baño, el uso del pantalón.
           .col-sm-12.col-md-4.col-lg-4
             .row
               .col-6.col-md-6.col-lg-6
@@ -162,7 +162,7 @@
                   img(src='@/assets/curso/temas/tema1/linea1/imagen12c.png', alt='Texto que describa la imagen')
               .col-6.col-md-6.col-lg-6
                 img(src='@/assets/curso/temas/tema1/linea1/icono12c.png', alt='Texto que describa la imagen')
-                p.text-center Jeans de tiro bajo, minifaldas, shorts, zuecos o sandalias, estampados animal print, Fast fashion, pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.
+                p.text-center Jeans de tiro bajo, minifaldas, #[em shorts], zuecos o sandalias, estampados #[em animal print, Fast fashion,] pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.
                 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -283,7 +283,7 @@
           .row.align-items-center.justify-content-center(numero="5" titulo="Sexualidad")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
-                p Depende de todas las anteriores: cultural, físico, social, psicológico, no solo depende de la orientación sexual si no también el lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. 
+                p No solo depende de la orientación sexual sino también del lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. También hay prendas de vestir con una finalidad erótica. 
                 p También hay prendas de vestir con una finalidad erótica.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.png', alt='Tres mujeres amigas')
 
@@ -424,6 +424,8 @@
                 td.bgblanco.bordeizquierdocelda.p-2
                 td.bgblanco.bordeizquierdocelda.p-2  #[em Leisurewear ]
                 td.bgblanco.bordeizquierdocelda.p-2 
+
+    p.mb-4.mb-t4 A continuación se describen las características de cada conjunto:            
   
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Protocolario - Gala")
@@ -459,6 +461,7 @@
             li.mb-0
               i.lista-ul__vineta.mb-0
               | Diferenciador.
+          p.mt-3 Se usa en múltiples actividades como: ceremonias, mundo laboral y corporativo, eventos sociales.
         .col-md-6
           img(src='@/assets/curso/temas/tema1/acordeon2/imagen1.png', alt='Texto que describa la imagen')
       .row.justify-content-center(titulo="Multi-ocasión - Casual")
@@ -656,8 +659,8 @@
       br
       #t_1_3.titulo-segundo.color-primario.mb-4
         h2 1.3 Perfil y estilo de consumidor
-    .row.mb-4
-      p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
+    h4 ¿Quién es el consumidor? 
+    p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
     
     .row.justify-content-center.align-items-center.mb-4(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
       .col-10.col-md-3.col-lg-3
@@ -835,14 +838,21 @@
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Estilos  del consumidor
+      h4 ¿Qué es el estilo?
       p.mb-5 Coherencia entre el ser y el parecer. La relación que tiene el modelo de pensamiento y la actitud personal define el estilo de cada individuo. El estilo refleja todos los aspectos de una persona, el pensamiento, las acciones y la relación con los demás y los objetos, además sus gustos, preferencias, motivaciones, valoraciones necesidades y actividades reflejadas en sus actitudes.
 
     .row.justify-content-center.align-items-center.mb-4(style='background-color: #FEF5E5')(data-aos="zoom-in-left")
       .col-8.col-md-3.col-lg-3
         img.mt-4.mb-4(src='@/assets/curso/temas/tema1/imagen7.png')
       .col-sm-12.col-md-7.col-lg-7
-        h4 ¿Qué es el estilo?
-        p Es una selección y acumulación de vivencias, referentes, culturas e influencias que se prioriza, valora y manifiesta con nuestra actitud y expresión a través de los objetos que elegimos para llevar en nuestra indumentaria y nuestro diario vivir, lo que se contribuye en la coherencia en el habitus, hábito, hábitat que determinará un estilo personal, particular y plural.
+        p.mt-4 #[b El estilo:] Es una selección y acumulación de vivencias, referentes, culturas e influencias que se prioriza, valora y manifiesta con nuestra actitud y expresión a través de los objetos que elegimos para llevar en nuestra indumentaria y nuestro diario vivir, lo que se contribuye en la coherencia en el habitus, hábito, hábitat que determinará un estilo personal, particular y plural.
+        ul.ul.lista-ul--color.vmorada.fa-ul
+          li.mb-0 
+            i.lista-ul__vineta.mb-0
+            span.mb-0.text-bold El estilo personal es un proceso creativo constante y atractivo, que evoluciona el ser.
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0.text-bold No tiene reglas, excepto las que uno se ponga; las cuales también pueden ser ajustadas.
 
     .tarjeta.fondo.p-4
       SlyderA(tipo="b")
@@ -1014,19 +1024,19 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 1
-                  p.mb-0 #[b Ritmo: ] Forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
+                  p.mb-0 #[b Ritmo: ] forma en la que sucede y se alternan una serie de dinámicas, conceptos y sentires que componen la tendencia.
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 2
-                  p.mb-0 #[b Información: ] Toda la variedad de información que puedan complementar el concepto de la tendencia.
+                  p.mb-0 #[b Información: ] toda la variedad de información que puedan complementar el concepto de la tendencia.
                 li.mb-0
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 3
-                  p.mb-0 #[b Diversificación: ] Diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
+                  p.mb-0 #[b Diversificación: ] diferentes variables en donde se puede manifestarse la tendencia, sus conceptos, y historias.
                 li.mb-0 
                   .lista-ol--cuadro__vineta(style='color: black')
                     span.mb-0 4
-                  p.mb-0 #[b Tecnología: ] Medios por los cuales se revela la información y su implementación.
+                  p.mb-0 #[b Tecnología: ] medios por los cuales se revela la información y su implementación.
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -1153,11 +1163,11 @@
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mt-3.text-white Tendencias
-                  p.mb-0.text-white Revisa el documento que pueden resultar útil para aprender más sobre el entorno de las tendencias.
+                  p.mb-0.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de las tendencias.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/cjhRls-yhvY" target="_blank")
                     span.texto-negro Ir al sitio
-                    i.fas.fa-file-download
+                    i.fas.fa-video
 
     Separador
 

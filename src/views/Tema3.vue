@@ -232,11 +232,11 @@
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mt-3.text-white Clasificación de las fibras textiles
-                  p.mb-0.text-white Revisa el documento que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
+                  p.mb-0.text-white Revisa el video que pueden resultar útil para aprender más sobre la clasificación de las fibras textiles.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/I1wQoNJwVxE" target="_blank")
                     span.texto-negro Ir al sitio
-                    i.fas.fa-file-download
+                    i.fas.fa-video
 
     Separador
 
@@ -335,17 +335,7 @@
     .row.mt-4
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Normas específicas de trabajo y seguridad
-
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
-      .col-xl-12
-        .row
-          .col-1.position-relative
-            .avatar.p-4
-              img(src="@/assets/curso/temas/tema3/avatar2/imagen1.png")
-          .col-11
-            .row.p-md-5.borde-redondo(style='background-color: #D1BCFF')
-              h3 Uso del mechero o veladora
-              p Antes de encender el mechero o veladora, comprobar que no hay material inflamable a su alrededor. Para apagar el mechero o veladora, humedezca con un poco de agua, nunca soplar.
+    p #[b Uso del mechero o veladora:] antes de encender el mechero o veladora, comprobar que no hay material inflamable a su alrededor. Para apagar el mechero o veladora, humedezca con un poco de agua, nunca soplar.
 
     .row.align-items-center.justify-content-center.mb-5.mt-3(data-aos="fade-down")
       .col-xl-12
@@ -387,10 +377,7 @@
                 | Sostener los hilos en forma horizontal con ayuda de una pinza.
               li
                 i.lista-ul__vineta.mb-0
-                | Acercar los hilos lentamente al borde de la llama y observar su comportamiento.
-              li
-                i.lista-ul__vineta.mb-0
-                | Comprobar si se enroscan, si se encogen o si se alejan de la llama.
+                | Acercar los hilos lentamente al borde de la llama y observar su comportamiento. Comprobar si se enroscan, si se encogen o si se alejan de la llama.
           .col-8.col-md-5.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema3/paso1/imagen1.svg', alt='Manos encendiendo un aromatizante')
@@ -399,10 +386,7 @@
             ul.lista-ul--color.vmorada.fa-ul.p-5
               li
                 i.lista-ul__vineta.mb-0
-                | Introducir el extremo de la muestra en la llama y observar su comportamiento.
-              li
-                i.lista-ul__vineta.mb-0
-                | Comprobar si se funde o si arde y si lo hace lentamente o con dificultad.
+                | Introducir el extremo de la muestra en la llama y observar su comportamiento. Comprobar si se funde o si arde y si lo hace lentamente o con dificultad.
               li
                 i.lista-ul__vineta.mb-0
                 | Analizar la llama que se produce durante la combustión.
@@ -568,12 +552,12 @@
               li.mb-0
                 i.lista-ul__vineta.color-acento-botones
                 | Con torsión.
-              li.mb-0
+              li.mb-0.ps-5
                 i.lista-ul__vineta.color-color-acento-botones
-                | Retorcidos.
-              li.mb-0
+                span.mb-0 Retorcidos.
+              li.mb-0.ps-5
                 i.lista-ul__vineta.color-acento-botones
-                | Cableados.
+                span.mb-0 Cableados.
               li.mb-0
                 i.lista-ul__vineta.color-color-acento-botones
                 | Sin torsión.  
@@ -583,7 +567,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta2/imagen2.png')
         h2.text-center Filamentos
-        p Fibras textiles que provienen de productos derivados del petróleo / polímeros sintéticos, son enteramente químicas; tanto la síntesis de la materia prima como la fabricación del filamento.
         ul.lista-ul
           li.mb-0
             i.lista-ul__vineta.color-acento-botones
@@ -600,7 +583,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta2/imagen3.png')
         h2.text-center Otros
-        p Fibras textiles que provienen de productos derivados del petróleo / polímeros sintéticos, son enteramente químicas; tanto la síntesis de la materia prima como la fabricación del filamento.
         ul.lista-ul
           li.mb-0
             i.lista-ul__vineta.color-acento-botones
@@ -689,7 +671,9 @@
       .col-md-8
         .cajon.color-primario.p-4
           p.mb-0 #[b ¿Para qué elegir el calibre? ]
-          p.mb-0 La selección de calibre del hilo depende de la clase de tela y de prenda que va a coser. El tipo de tejido a trabajar, según la necesidad. El calibre de la aguja varía según el tejido e hilo.
+          p.mb-0 La selección de calibre del hilo depende de la clase de tela y de prenda que va a coser. 
+          p.mb-0 -El tipo de tejido a trabajar, según la necesidad. 
+          p -El calibre de la aguja varía según el tejido e hilo.
           
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-10.col-lg-10
@@ -841,60 +825,32 @@
             h4.mb-3 Trama
             p.mb-0 Es más fina y en ocasiones puede contener fibras elásticas, ya que estas fibras ceden al estirar la tela de orilla a orilla. Cortar en diferentes direcciones en la tela.
 
-    .row.mb-5.mt-5.p-5
-      .col-sm-12.col-md-11.col-lg-11.position-relative
-        .avatar
-          figure
-            img(src="@/assets/curso/temas/tema3/imagen10.svg")
-        .row
-          .col-sm-12.col-md-10.col-lg-10.ps-5(style='background-color: #D1BCFF')
-            .row.mt-3.mb-3
-              .col-5(style='font-size: 13px')
-                ul.lista-ul--color.vmorada.fa-ul
-                  li.mb-0 
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido plano - Ligamentos fundamentales ] 
-                  li.mb-0
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido plano - Ligamentos Derivados ]
-                  li.mb-0
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido plano - Otros ligamentos ]
-                  li.mb-5 
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido de punto  ] 
-                  li.mb-0
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido de punto - Por trama  ] 
-                  li.mb-0
-                    i.lista-ul__vineta.mb-0
-                    | #[b Tejido de punto - Por urdimbre ] 
-                  li.mb-0
-                    i.lista-ul__vineta.mb-0
-                    | #[b No tejido ] 
-              .col-5(style='font-size: 13px')  
-                ul.lista-ul--color.vmorada.fa-ul
-                  li.mb-0 
-                    i.fas.fa-angle-right.mb-3
-                    | Tafetán - Sarga - Raso o Satín.
-                  li.mb-0
-                    i.fas.fa-angle-right.mb-3
-                    | Esterilla 2x1 - Espina - Broken- Esterilla 2x2 – #[em Dobby].
-                  li.mb-0
-                    i.fas.fa-angle-right.mb-2
-                    | #[em Corduroy] – Terciopelo.
-                  li.mb-0
-                    i.fas.fa-angle-right.mb-3
-                    span.mb-2 Proceso de fabricación de telas en que se utilizan agujas para formar una serie de mallas entrelazadas a partir de uno o más hilos, o bien, un conjunto de hilos. 
-                  li.mb-0 
-                    i.fas.fa-angle-right.mb-3
-                    | Sencillo, #[em jersey], doble.
-                  li.mb-0
-                    i.fas.fa-angle-right.mb-3
-                    | #[em Tricot, raschell.]
-                  li.mb-0
-                    i.fas.fa-angle-right.mb-3
-                    | Tipo de telas producidas al formar una red con fibra que se unen por procedimientos mecánicos, térmicos o químicos, pero sin ser tejidas. Fieltros o aglomerados - Películas – Espumas.
+    .row.justify-content-center.align-items-center.mb-5(style='background-color: #D1BCFF')
+      .col-5.col-md-5.col-lg-2
+        img(src="@/assets/curso/temas/tema3/imagen10.svg")
+      .col-sm-12.col-md-8.col-lg-8
+        ul.lista-ul--color.vmorada.fa-ul.mb-4.mt-4
+          li.mb-0 
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b Tejido plano - Ligamentos fundamentales:] Tafetán - Sarga - Raso o Satín.
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b Tejido plano - Ligamentos Derivados:] Esterilla 2x1 - Espina - Broken- Esterilla 2x2 – #[em Dobby].
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b Tejido plano - Otros ligamentos: ]#[em Corduroy] – Terciopelo.
+          li.mb-0 
+            i.lista-ul__vineta.mb-0
+            span.mb-2 #[b Tejido de punto:] proceso de fabricación de telas en que se utilizan agujas para formar una serie de mallas entrelazadas a partir de uno o más hilos, o bien, un conjunto de hilos.
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b Tejido de punto - Por trama:] Sencillo, #[em jersey], doble. 
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b Tejido de punto - Por urdimbre:] #[em Tricot, raschell.]
+          li.mb-0
+            i.lista-ul__vineta.mb-0
+            span.mb-0 #[b No tejido:] tipo de telas producidas al formar una red con fibra que se unen por procedimientos mecánicos, térmicos o químicos, pero sin ser tejidas. Fieltros o aglomerados - Películas – Espumas.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -945,7 +901,8 @@
         .row.justify-content-center.ps-5.mt-2
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estructura
-            p.mb-0 Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. Caída: la tela ha de mantenerse en su lugar y no caer cuando se le suelta.
+            p.mb-0 Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. 
+            p.mt-4 #[b Caída:] la tela ha de mantenerse en su lugar y no caer cuando se le suelta.
             p.mb-0 División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal,  #[em sport ].
             p.mt-4 #[b Textiles ]
             p Paño -  #[em Tweed ] -  #[em Jacquard ] - Pana - Lino -  #[em Oxford ] -  #[em Faya ] -  #[em Shantung ] - Popelina - Tafetán - Bengalina – Satén.
@@ -1049,37 +1006,40 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Fabricación y aplicación")
-        .col-md-10.mb-4.mb-md-0
+        .col-md-10.mb-4.mb-md-0.ps-5
           p Las entretelas pueden ser tejidas, no tejidas o de punto. Pueden usarse fusionándose, cosiéndose.
       .row(titulo="Elásticas o estables")
-        .col-md-10.mb-4.mb-md-0
+        .col-md-10.mb-4.mb-md-0.ps-5
           p Las entretelas se catalogan bajo estas dos categorías: 
           p #[b Las elásticas: ] donde se requiere dar forma.
           p #[b Las estables: ] en sitios de la prenda donde se necesite fijar.
       .row(titulo="Cuidado")
-        .col-md-10.mb-4.mb-md-0
+        .col-md-10.mb-4.mb-md-0.ps-5
           p La tela exterior debe tener características similares de la entretela.
       .row(titulo="Color")
-        .col-md-10.mb-4.mb-md-0
+        .col-md-10.mb-4.mb-md-0.ps-5
           p El color se transparenta a través de algunas telas. Se debe seleccionar una entretela compatible con el color de la tela exterior. 
       .row(titulo="Peso")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Los pesos de las entretelas varían desde las muy livianas hasta las muy pesadas. Se deben elegir de acuerdo con el material a trabajar. 
       .row(titulo="Métodos de aplicación")
-        .col-md-12.mb-4.mb-md-0
-          p Los pesos de las entretelas varían desde muy livianos hasta muy pesados, y deben seleccionarse de acuerdo con el material que se va a trabajar. 
+        .col-md-12.mb-4.mb-md-0.ps-5
+          p Existen entretelas en los diferentes tipos, se pueden encontrar:
+          p - Entretelas termoadhesivas.
+          p - Entretelas cosibles.
       .row(titulo="Entretelas termoadhesivas")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Van cubiertas por uno de sus lados por un agente adhesivo sensible al calor; al someterlas a humedad y calor, el agente adhesivo se funde y se adhiere a la tela. 
       .row(titulo="Fusionado mecánico")
-        .col-md-10.mb-4.mb-md-0
+        .col-md-10.mb-4.mb-md-0.ps-5
           p Se requiere de una máquina en perfectas condiciones para obtener un buen resultado.
           p Únicamente el balance exacto de temperatura, presión y tiempo pueden garantizar una adherencia perfecta.
       .row(titulo="Fusionado manual")
-        .col-md-12.mb-4.mb-md-0
-          p Debe tener en cuenta el tipo de entretela, algunas se fusionan con vapor y presión y otras con una plancha seca sin vapor. Debe tener una adecuada temperatura la plancha, vapor o sin vapor, húmedo o seco. 
+        .col-md-12.mb-4.mb-md-0.ps-5
+          p Debe tener en cuenta el tipo de entretela, algunas se fusionan con vapor y presión y otras con una plancha seca sin vapor. 
+          p Debe tener una adecuada temperatura la plancha, vapor o sin vapor, húmedo o seco. 
       .row(titulo="Fusionado cosibles")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Las entretelas cosibles se unen a la tela o a las costuras de una prenda, ya sea a mano o a máquina. Son especialmente útiles para textiles con textura, como el terciopelo, así como para aquellos sensibles al calor, incluyendo textiles metalizados o plastificados que no toleran la presión o el calor directo de la plancha. 
 
     .row.justify-content-center(data-aos="zoom-in-left")
@@ -1092,11 +1052,11 @@
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mt-3.text-white Caracterización de los textiles
-                  p.mb-0.text-white Revisa el documento que pueden resultar útil para conocer más sobre la caracterización de los textiles.
+                  p.mb-0.text-white Revisa el video que pueden resultar útil para conocer más sobre la caracterización de los textiles.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/kL9UYOzJD3o" target="_blank")
                     span.texto-negro Ir al sitio
-                    i.fas.fa-file-download
+                    i.fas.fa-video
 
     Separador
     
@@ -1125,9 +1085,12 @@
               img(src="@/assets/curso/temas/tema3/avatar4/imagen2.png")
           p #[b Acabados ]
           p(style="font-size: 18px") Cuando los efectos conseguidos se deben a la aplicación de tratamientos físicos y/o mecánicos, tales como: calor, presión, humedad, etc.
-    
-    .row.mb-5
-      p Ambos tipos de operaciones no son incompatibles entre sí; más bien al contrario, se combinan con frecuencia para la obtención de los efectos perseguidos. Proceso realizado sobre la fibra, el hilo, la tela o la prenda, con el fin de modificar alguna de sus características:
+    p.mb-5 Ambos tipos de operaciones no son incompatibles entre sí; más bien al contrario, se combinan con frecuencia para la obtención de los efectos perseguidos. 
+
+    .row
+      .titulo-segundo.color-acento-contenido
+        h3(style="color: #673AB7") \\\ Procesos textiles
+    p Proceso realizado sobre la fibra, el hilo, la tela o la prenda, con el fin de modificar alguna de sus características:
 
     
     .row.justify-content-center.align-items-center.mb-5
@@ -1153,6 +1116,10 @@
                   span.mb-0 3
                 p.mb-0 Comportamiento.   
 
+    .row.mt-2
+      .titulo-segundo.color-acento-contenido
+        h3(style="color: #673AB7") \\\ Clasificación de los acabados
+
     .row.align-items-center.justify-content-center.p-2.pmb-5
       .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
@@ -1164,7 +1131,7 @@
           p #[b > Químico-físico / estético-funcional ]
       .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Acción que lo origine / modifica característica: ]
+          p.text-center(style="color: #673AB7") #[b Duración ]
           p #[b > Temporal ] 
           p Algunas lavadas.
           p #[b > Permanente ]
@@ -1191,11 +1158,11 @@
       .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
           p.text-center(style="color: #673AB7") #[b Textura ]
-          p El uso de tintes que penetran y dan color a las fibras. Se usa para dar color y crear grafías.
+          p Se utiliza para mejorar la textura de su superficie y el tacto.
       .col-sm-12.col-md-4.col-lg-4
         .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Diseño y color ]
-          p Se utiliza para mejorar la textura de su superficie y el tacto.
+          p.text-center(style="color: #673AB7") #[b Desempeño ]
+          p Se utiliza para mejorar el desempeño y utilidad de la tela.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -1211,7 +1178,7 @@
 
     .row.mb-5.align-items-center
       .col-sm-12.col-md-6.col-lg-6.p-3(style='background-color: #DADDDF')
-        p Rotativa, serigrafía, sublimación, transfer digital.
+        p Rotativa, serigrafía, sublimación, #[em transfer] digital.
 
     .row
       .titulo-segundo.color-acento-contenido
@@ -1219,7 +1186,7 @@
 
     .row.mb-5.align-items-center
       .col-12.p-3(style='background-color: #DADDDF')
-        p Calandrar satinado, glaseado, afelpado o napping, mercerizado y sanforizado, reducción de brillo, grabado, gofrado, aumento de cuerpo - sizing, encerado ciré, moiré.
+        p Calandrar satinado, glaseado, afelpado o #[em napping], mercerizado y sanforizado, reducción de brillo, grabado, gofrado, aumento de cuerpo - #[em sizing], encerado #[em ciré, moiré].
 
     .row
       .titulo-segundo.color-acento-contenido

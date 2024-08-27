@@ -121,23 +121,21 @@
     .row
       #t_2_2.titulo-segundo.color-primario
         h2 2.2 Categorización de prendas
-      p En la segmentación de productos se implementa el término tipología, el cual sirve para categorizar de manera básica, “lógica” por tipo los productos, lo que se busca es identificar características similares que componen el producto y así ir categorizando para facilitar todo el proceso, desde la parte creativa hasta la parte operativa. 
+      p.mb-4 En la segmentación de productos se implementa el término tipología, el cual sirve para categorizar de manera básica, “lógica” por tipo los productos, lo que se busca es identificar características similares que componen el producto y así ir categorizando para facilitar todo el proceso, desde la parte creativa hasta la parte operativa. 
 
-    .row(data-aos="zoom-in-left")  
-      .col-md-12.p-5
+    .row
+      .titulo-segundo.color-acento-contenido
+        h3(style="color: #673AB7") \\\ Categoría de prendas - Reconocimiento de tipologías
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen3.png')})`}"
            )
-            br
-            h3.text-center.p-5 ¿Qué es una tipología?
-            br
-            br
+            h3.text-center.p-5.mt-2.mb-2 ¿Qué es una tipología?
           .bloque-texto-g__texto.p-2
-            br
-            p.text-center Es el estudio de los tipos o modelos que se usan para clasificar diversas cosas.
-            br
-            br
+            p.mt-2.mb-2.text-center Es el estudio de los tipos o modelos que se usan para clasificar diversas cosas.
 
     .row.mb-0
       .titulo-segundo.color-acento-contenido
@@ -262,7 +260,7 @@
     .row.mt-4
       #t_2_6.titulo-segundo.color-primario
         h2 2.6 Análisis de proporciones prendas superiores e inferiores
-    p.mb-4 A continuación se presentan dos videos con explicación de los procesos :
+    p.mb-4 A continuación, se presentan dos videos con explicación de los procesos :
 
     .row.mb-4
       figure
@@ -304,23 +302,27 @@
     .row.mt-4
       #t_2_8.titulo-segundo.color-primario
         h2 2.8 Ficha técnica
-      p Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
+      p.mb-4 Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
+
+    .row.mt-3
+      .titulo-segundo.color-acento-contenido
+        h3(style="color: #673AB7") \\\ Ficha técnica - introducción
+      p #[b Qué es?] Son documentos que contienen la información necesaria para la fabricación de un producto. Dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.
+      p #[b Tipos:] según el volumen, la cantidad, rigurosidad de la producción y cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.
+
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[b ¿Qué es ficha técnica? ]
-          br
-          br
-          | Son documentos que contienen la información necesaria para la fabricación de un producto. dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.   
+        p.mb-0 #[b ¿Qué son las fichas técnica? ]
+        p.mt-2 Son documentos que contienen la información necesaria para la fabricación de un producto. dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.   
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Tipos de ficha técnica
       p Según el volumen, la cantidad, la rigurosidad de la producción y el cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")      
       .col-10
@@ -331,6 +333,10 @@
         figure
           img(src='@/assets/curso/temas/tema2/imagen11.svg')
 
+    .row.mt-5
+      .titulo-segundo.color-acento-contenido
+        h3(style="color: #673AB7") \\\ Requerimientos técnicos de cada tipo de ficha
+      p.mb-4 Los formatos de ficha técnica no tienen un esquema definido, por el contrario, son completamente ajustables al tipo de información que se considere necesaria para el tipo de producción a realizar.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center.align-items-center(titulo="Especificaciones técnicas de diseño")
@@ -404,13 +410,6 @@
           figure
             img(src='@/assets/curso/temas/tema2/acordeon1/imagen4.png', alt='Imagen midiendo con un cartabon una prenda de vestir')
 
-
-    .row.justify-content-center.align-items-center.mb-5.mt-5(style='background-color: #D1BCFF')(data-aos="zoom-in-left")  
-      .col-5.col-md-2.col-lg-2
-        img.mt-5.mb-5(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
-      .col-sm-12.col-md-7.col-lg-7.p-5
-        p #[b Socialización de formatos ]
-        p #[b Nota: ]  todo el texto tiene imágenes visuales de ref., las cuales complementan la información entregada - Anexar imágenes ppt de referencia..  
 
 </template>
 

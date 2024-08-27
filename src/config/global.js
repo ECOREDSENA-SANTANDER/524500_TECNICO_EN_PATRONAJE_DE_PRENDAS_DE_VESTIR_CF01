@@ -182,13 +182,13 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        //download: 'downloads/prueba.pdf',
+        download: 'downloads/CF1.pdf',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      //  {
+      //    icono: 'fas fa-download',
+      //    titulo: 'Descargar material',
+      //    download: 'downloads/material.zip',
+      //  },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
