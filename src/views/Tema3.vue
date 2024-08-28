@@ -16,8 +16,6 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Proceso productivo textil
 
-    // se trataron de reemplazar los br x mb pero el diseño de la tarjeta no los acepta para lograr el espacio necesario en DW.  Se intento con span y tampoco.
-    // en ECORED estan con los br para dar los espacios
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  
       .bloque-texto-g__img(

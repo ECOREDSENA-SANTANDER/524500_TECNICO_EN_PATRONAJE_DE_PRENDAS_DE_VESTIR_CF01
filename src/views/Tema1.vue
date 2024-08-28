@@ -162,7 +162,7 @@
                   img(src='@/assets/curso/temas/tema1/linea1/imagen12c.png', alt='Texto que describa la imagen')
               .col-6.col-md-6.col-lg-6
                 img(src='@/assets/curso/temas/tema1/linea1/icono12c.png', alt='Texto que describa la imagen')
-                p.text-center Jeans de tiro bajo, minifaldas, #[em shorts], zuecos o sandalias, estampados #[em animal print, Fast fashion,] pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.
+                p.text-center #[em Jeans] de tiro bajo, minifaldas, #[em shorts], zuecos o sandalias, estampados #[em animal print, Fast fashion,] pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.
                 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
@@ -215,7 +215,7 @@
       .col-md-10
 
         LineaTiempoD.color-primario(data-aos="zoom-in-left")
-          .row.align-items-center.justify-content-center(numero="1" titulo="Físicos")
+          .row.align-items-center.justify-content-center(numero="a." titulo="Físicos")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -236,7 +236,7 @@
                     span.mb-0 #[b Salud: ] teniendo en cuenta el estado de salud que se presente, existen muchas prendas que se adaptan. Algunas prendas deben adaptarse o construir con cierta especialidad.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen1.svg', alt='Mostrando prendas de vestir')
 
-          .row.align-items-center.justify-content-center(numero="2" titulo="Sociales - culturales")
+          .row.align-items-center.justify-content-center(numero="b." titulo="Sociales - culturales")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -258,7 +258,7 @@
                     span.mb-0 #[b Tribus urbanas: ] personas que comparten un universo de intereses comunes.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen2.svg', alt='Mujeres de raza negra')
 
-          .row.align-items-center.justify-content-center(numero="3" titulo="Psicológicas")
+          .row.align-items-center.justify-content-center(numero="c." titulo="Psicológicos")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -267,10 +267,7 @@
                     span.mb-0 #[b Estado de ánimo: ] el estado de ánimo determina la manera de vestir al iniciar el día; poderoso, triste, feliz, deprimido, entre otros. 
                 p.ps-5 "Cuando estamos estresados, utilizamos solo un 90% de prendas que guardamos en nuestro guardarropa".(Harpersbazaar, 2019). 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen3.png', alt='Mujer en un vestier')
-
-          .row.align-items-center.justify-content-center(numero="4" titulo="Desórdenes")
-            .col-md-11.mb-4.mb-md-0
-              .row.justify-content-center.align-items-center.bgblanco
+                p.mt-4 #[b Desórdenes] 
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
@@ -280,14 +277,14 @@
                     span.mb-0 #[b  Alimenticios: ] depende de cómo se siente respecto a su propia imagen y a su propio cuerpo. 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen4.png', alt='Mujer con cara de desagrado en un closet')
 
-          .row.align-items-center.justify-content-center(numero="5" titulo="Sexualidad")
+          .row.align-items-center.justify-content-center(numero="d." titulo="Sexualidad")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 p No solo depende de la orientación sexual sino también del lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. También hay prendas de vestir con una finalidad erótica. 
                 p También hay prendas de vestir con una finalidad erótica.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.png', alt='Tres mujeres amigas')
 
-          .row.align-items-center.justify-content-center(numero="6" titulo="Moda")
+          .row.align-items-center.justify-content-center(numero="e." titulo="Moda")
             p Puede constituir un pensamiento histórico en un momento determinado de la época. Cómo vestirse según la mercadotecnia, tendencias de moda, temporadas y diseñadores. Se incentiva a las personas a que consuman y se "actualicen". En este sentido, existen dos grupos de personas:
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
