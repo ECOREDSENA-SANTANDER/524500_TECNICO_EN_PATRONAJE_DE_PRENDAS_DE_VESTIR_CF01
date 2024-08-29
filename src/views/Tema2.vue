@@ -304,25 +304,18 @@
         h2 2.8 Ficha técnica
       p.mb-4 Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
 
-    .row.mt-3
+    .row.mt-3.mb-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Ficha técnica - introducción
-      p #[b Qué es?] Son documentos que contienen la información necesaria para la fabricación de un producto. Dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.
-      p #[b Tipos:] según el volumen, la cantidad, rigurosidad de la producción y cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.
+      p #[b Qué son las fichas técnicas?] Son documentos que contienen la información necesaria para la fabricación de un producto. Dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.
 
-
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")  
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[b ¿Qué son las fichas técnica? ]
-        p.mt-2 Son documentos que contienen la información necesaria para la fabricación de un producto. dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.   
-
-    .row.mt-5
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Tipos de ficha técnica
-      p Según el volumen, la cantidad, la rigurosidad de la producción y el cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.
+        p.mb-0 #[b Tipos: ]
+        p.mt-2 según el volumen, la cantidad, rigurosidad de la producción y cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.   
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")      
       .col-10

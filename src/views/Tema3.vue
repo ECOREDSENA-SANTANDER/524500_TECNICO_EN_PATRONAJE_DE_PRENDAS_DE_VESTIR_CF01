@@ -903,9 +903,9 @@
             p.mt-4 #[b Caída:] la tela ha de mantenerse en su lugar y no caer cuando se le suelta.
             p.mb-0 División de telas con estructura en diferentes áreas según su ocasión de uso: formal, informal,  #[em sport ].
             p.mt-4 #[b Textiles ]
-            p Paño -  #[em Tweed ] -  #[em Jacquard ] - Pana - Lino -  #[em Oxford ] -  #[em Faya ] -  #[em Shantung ] - Popelina - Tafetán - Bengalina – Satén.
+            p Paño -  #[em Tweed ] -  #[em Jacquard ] - Pana - Lino -  #[em Oxford ] -  #[em Faya ] -  #[em Shantung ] - Popelina - Tafetán - Bengalina – #[em Satén].
             p #[b Textiles plastificados - Recubiertos ]
-            p Microfibras de  #[em nylon ] y  #[em poliester ], algunas veces con propiedades hidrófugas.
+            p Microfibras de nylon y poliester, algunas veces con propiedades hidrófugas.
           .col-8.col-md-4.col-lg-4
             figure
               img.mt-4(src='@/assets/curso/temas/tema3/tarjeta6/imagen1.png')
@@ -931,10 +931,10 @@
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Compresión
             p El objetivo principal de este es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos.
-            p  #[em Stretch confort ]: tejidos con un 2 % a 5 % de fibra de spandex, proporciona una compresión suave.
-            p  #[em Stretch fuerte ]: contiene un 14 % a 20 % de fibra de spandex, proporciona una compresión continua que resta silueta al cuerpo.
+            p  #[em Stretch confort ]: tejidos con un 2 % a 5 % de fibra de #[em spandex], proporciona una compresión suave.
+            p  #[em Stretch] fuerte: contiene un 14 % a 20 % de fibra de #[spandex], proporciona una compresión continua que resta silueta al cuerpo.
             p #[b Textiles ]
-            p Punto canalé - Pana  #[em stretch ] -  #[em Power lycra ] - Punto de algodón  #[em stretch ] - Doble punto -  #[em Power net ].
+            p Punto canalé - Pana  #[em stretch ] -  #[em Power] lycra - Punto de algodón  #[em stretch ] - Doble punto -  #[em Power net ].
           .col-8.col-md-4.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema3/tarjeta6/imagen4.png')

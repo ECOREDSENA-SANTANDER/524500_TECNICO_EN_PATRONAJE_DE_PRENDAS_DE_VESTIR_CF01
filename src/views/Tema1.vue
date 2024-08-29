@@ -242,7 +242,7 @@
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 #[b Estatus o clases sociales: ] está ligado con el poder adquisitivo y el presupuesto que invierta cada persona. Depende de esto se determina la cantidad de prendas y la calidad. Aspiracional: querer aparentar ser de una clase social - "wannabe". 
+                    span.mb-0 #[b #[em Estatus] o clases sociales: ] está ligado con el poder adquisitivo y el presupuesto que invierta cada persona. Depende de esto se determina la cantidad de prendas y la calidad. Aspiracional: querer aparentar ser de una clase social - #[em "wannabe"]. 
                   li 
                     i.lista-ul__vineta
                     span.mb-0 #[b Religión: ] existe en el mundo muchas clases de normas ortodoxas que imponen ciertas reglas de indumentaria que se deben respetar de acuerdo con dichas creencias. 
@@ -281,7 +281,6 @@
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center.bgblanco
                 p No solo depende de la orientación sexual sino también del lenguaje de sexualización de la indumentaria, el sentirse sexy o atractivo para otra persona. También hay prendas de vestir con una finalidad erótica. 
-                p También hay prendas de vestir con una finalidad erótica.
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen5.png', alt='Tres mujeres amigas')
 
           .row.align-items-center.justify-content-center(numero="e." titulo="Moda")
@@ -291,10 +290,10 @@
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
                   li 
                     i.lista-ul__vineta
-                    span.mb-0 #[b  Fashion victims: ] personas adictas al consumismo, al último grito de la moda, principales compradores del fast fashion. 
+                    span.mb-0 #[b #[em Fashion victims:] ] personas adictas al consumismo, al último grito de la moda, principales compradores del #[em fast fashion]. 
                   li
                     i.lista-ul__vineta
-                    span.mb-0 #[b  Fashionistas: ] personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo vintage, son compradores activos, que están al corriente de las tendencias actuales. 
+                    span.mb-0 #[b #[em Fashionistas:] ] personas que llevan a un extremo la moda, invierten en prendas costosas, únicas o de alta costura, para afirmar su identidad u originalidad; combinan lo nuevo con lo #[em vintage], son compradores activos, que están al corriente de las tendencias actuales. 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen6.png', alt='Mujer con bolsas de compra a cada lado de la mano')
 
     Separador 
