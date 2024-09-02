@@ -265,7 +265,7 @@
                   li 
                     i.lista-ul__vineta
                     span.mb-0 #[b Estado de ánimo: ] el estado de ánimo determina la manera de vestir al iniciar el día; poderoso, triste, feliz, deprimido, entre otros. 
-                p.ps-5 "Cuando estamos estresados, utilizamos solo un 90% de prendas que guardamos en nuestro guardarropa".(Harpersbazaar, 2019). 
+                p.ps-5 "Cuando estamos estresados, utilizamos solo un 90 % de prendas que guardamos en nuestro guardarropa".(Harpersbazaar, 2019). 
                 img(src='@/assets/curso/temas/tema1/acordeon1/imagen3.png', alt='Mujer en un vestier')
                 p.mt-4 #[b Desórdenes] 
                 ul.lista-ul--color.vamarillo.fa-ul.mt-4
@@ -566,7 +566,7 @@
             img(src='@/assets/curso/temas/tema1/acordeon2/imagen6.png', alt='Texto que describa la imagen')
       .row.justify-content-center(titulo="Informal - <em> Leisurewear </em>")
         .col-md-5.mb-4.mb-md-0
-          p Nuevo concepto que surge en el año 2000, parte del estilo freeLance, incluye desde la ropa de dormir hasta aquella diseñada para estar en casa.
+          p Nuevo concepto que surge en el año 2000, parte del estilo #[em FreeLance], incluye desde la ropa de dormir hasta aquella diseñada para estar en casa.
           ul.lista-ul--color.vmorada
             li.mb-0 
               i.lista-ul__vineta.mb-0
@@ -655,7 +655,6 @@
       br
       #t_1_3.titulo-segundo.color-primario.mb-4
         h2 1.3 Perfil y estilo de consumidor
-    h4 ¿Quién es el consumidor? 
     p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
     
     .row.justify-content-center.align-items-center.mb-4(style='background-color: #D1BCFF')(data-aos="zoom-in-left")
@@ -668,7 +667,7 @@
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Perfil del consumidor
-      p.mb-3 Es la descripción de las características de los consumidores de un producto o usuarios de un servicio determinado y un modelo de pensamiento. Es UNA de las variables para la definición de cualquier estrategia de marketing. El perfil NO se determina SÓLO por la edad NI por el segmento socio económico.
+      p.mb-3 Es la descripción de las características de los consumidores de un producto o usuarios de un servicio determinado y un modelo de pensamiento. Es UNA de las variables para la definición de cualquier estrategia de marketing. El perfil no se determina sólo por la edad ni por el segmento socio económico.
       p.mb-4 A continuación se describen los diferentes perfiles:
 
     .tarjeta.fondo.p-4
@@ -725,9 +724,6 @@
               li.mb-0 
                 i.lista-ul__vineta.mb-0
                 | Involucra fácilmente nuevos conceptos y productos innovadores.
-              li.mb-0
-                i.lista-ul__vineta.mb-0
-                | Busca siempre un sello de tradición y distinción.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Busca siempre un sello de tradición y distinción.
@@ -948,7 +944,7 @@
                 | Es original y no sigue tendencias.
               li.mb-0 
                 i.lista-ul__vineta.mb-0
-                | Mezclar prendas vintage elegidas con estilo individual.
+                | Mezclar prendas #[em vintage] elegidas con estilo individual.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Objetos antiguos elegidos con buen gusto y algo de audacia.
@@ -962,7 +958,7 @@
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estilo Nostálgico
-            p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques vintage y colores pasteles y empolvados.
+            p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques  y colores pasteles y empolvados.
             p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 

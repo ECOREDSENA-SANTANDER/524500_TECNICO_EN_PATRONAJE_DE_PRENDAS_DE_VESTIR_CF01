@@ -227,7 +227,7 @@ export default {
         'Hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
     {
-      termino: '<em> MoodBoard </em>',
+      termino: '<i>MoodBoard </i>',
       significado:
         'Su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
@@ -237,7 +237,7 @@ export default {
         'Ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
     },
     {
-      termino: '<em> Software </em>',
+      termino: '<i>Software</i>',
       significado:
         'Término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
@@ -323,25 +323,25 @@ export default {
       autores: [
         {
           nombre: 'Lizeth Maritza Rodríguez Beltrán',
-          cargo: 'Experta temática',
+          cargo: 'Experta Temática',
           centro:
             'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital',
         },
         {
           nombre: 'Adriana Lozano Zapata',
-          cargo: 'Correctora de estilo',
+          cargo: 'Correctora de Estilo',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

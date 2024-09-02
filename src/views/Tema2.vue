@@ -245,7 +245,7 @@
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mt-3.text-white Dibujo plano para prendas
-                  p.mb-0.text-white Revisa el documento que pueden resultar útil para aprender más sobre la creación de dibujos planos para prendas.
+                  p.mb-0.text-white Revisa los videos que pueden resultar útiles para aprender más sobre la creación de dibujos planos para prendas.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/rvq5vAoMdv4" target="_blank")
                     span.texto-negro Ir al sitio
@@ -266,7 +266,7 @@
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/6zVIePvn5Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Nota. Adaptado de Análisis de proporciones prendas superiores e inferiores.
+        figcaption Nota. Adaptado de Análisis de proporciones prendas superiores.
     .row.mb-4
       figure
         .video

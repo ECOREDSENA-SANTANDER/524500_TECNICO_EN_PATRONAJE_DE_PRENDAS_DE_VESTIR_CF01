@@ -274,21 +274,21 @@
     .row.justify-content-center.align-items-center.mt-4(data-aos="fade-down")
       .col-sm-12.col-md-10.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-12.col-md-4.col-lg-4
+          .col-12.col-md-12.col-lg-4
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/temas/tema3/avatar1/imagen1.png')
               .tarjeta.align-items-center.d-flex.borde-morado100
                 .p-4
                   h4.mb-3.mt-2.text-center Arder
-          .col-12.col-md-4.col-lg-4
+          .col-12.col-md-12.col-lg-4
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/temas/tema3/avatar1/imagen2.png')
               .tarjeta.align-items-center.d-flex.borde-morado100
                 .p-4
                   h4.mb-3.mt-2.text-center El olor desprendido
-          .col-12.col-md-4.col-lg-4
+          .col-12.col-md-12.col-lg-4
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/temas/tema3/avatar1/imagen3.png')
@@ -503,16 +503,16 @@
       p El tipo de torsión la define el sentido de rotación del huso al momento en que se está hilando, existiendo dos tipos:
 
     .row.justify-content-center.align-items-center.mb-5.mt-4
-      .col-10
+      .col-sm-12.col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-md-5.col-xl.mb-4.mb-xl-0
+          .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-primario.p-5.borde-morado100
               .tarjeta-numerada__numero.estilo500
                 .h2.texto-morado100 Z
               p.text-center 
                 h3 La torsión “Z” (derecha)
               p El huso en donde se está hilando gira en sentido a las manecillas del reloj.
-          .col-md-5.col-xl.mb-4.mb-xl-0
+          .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-primario.p-5.borde-morado100
               .tarjeta-numerada__numero.estilo500
                 .h2.texto-morado100 S
@@ -696,7 +696,7 @@
         h2 3.4 Clasificación de tejidos
       p Los tejidos son una composición de fibras o hilos que en su unión generan características como ancho, largo, grosor, resistencia, que permiten asignarle al tejido ciertas características, las cuales son primordiales en la segmentación o clasificación, como lo son los tejidos planos, tejidos de punto o aglomerados.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen9.png')})`}"
       )
@@ -961,19 +961,19 @@
       p Estas pueden ser agrupadas de acuerdo con la tela, aplicación y estiraje, dentro de estas se encuentra:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-md-9.col-lg-9
+      .col-sm-12.col-md-12.col-lg-9
         .row.align-items-center.justify-content-center(style='background-color: #FEF5E5')
-          .col-3
+          .col-sm-12.col-md-4.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0 
                 i.lista-ul__vineta.mb-0
                 | Entretelas tejidas.
-          .col-3
+          .col-sm-12.col-md-4.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 | Entretelas no tejidas.
-          .col-3     
+          .col-sm-12.col-md-4.col-lg-3
             ul.lista-ul--color.vmorada.fa-ul.mt-3.mb-3
               li.mb-0
                 i.lista-ul__vineta.mb-0
@@ -1068,7 +1068,7 @@
         h3(style="color: #673AB7") \\\ Tipos de operaciones
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-sm-12.col-md-4.col-lg-4
+      .col-sm-12.col-md-12.col-lg-4
         .row.borde-redondo.p-3(style='background-color: #673AB7')
           .col-3.position-relative.p-4
             .avatar
@@ -1076,7 +1076,7 @@
           p.text-white #[b Aprestos ]
           p.text-white(style="font-size: 18px") Cuando los efectos conseguidos se deben a la aplicación de productos químicos, tales como: rigidez, estabilidad, tactosidad, impermeabilizar o aumentar su peso.
       .col-sm-12.col-md-1.col-lg-1
-      .col-sm-12.col-md-4.col-lg-4
+      .col-sm-12.col-md-12.col-lg-4
         .row.borde-redondo.p-3(style='background-color: #D1BCFF')
           .col-3.position-relative.p-4
             .avatar
@@ -1092,22 +1092,21 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-md-8.col-lg-8
+      .col-sm-12.col-md-12.col-lg-8
         .row.justify-content-center.align-items-center(style='background-color: #FEF5E5')
-          .col-1
-          .col-4.align-items-center
+          .col-sm-12.col-md-4.col-lg-4.align-items-center.ps-5
             ol.lista-ol--cuadro.fa-ol.mb-3.mt-3
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
                   span.mb-0 1
                 p.mb-0 Apariencia.
-          .col-3.align-items-center
+          .col-sm-12.col-md-3.col-lg-3.align-items-center.ps-5
             ol.lista-ol--cuadro.fa-ol.mb-3.mt-3
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
                   span.mb-0 2
                 p.mb-0 Tacto.
-          .col-4.align-items-center
+          .col-sm-12.col-md-4.col-lg-4.align-items-center.ps-5
             ol.lista-ol--cuadro.fa-ol.mb-3.mt-3
               li.mb-0 
                 .lista-ol--cuadro__vineta(style='color: black')
@@ -1118,49 +1117,55 @@
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Clasificación de los acabados
 
-    .row.align-items-center.justify-content-center.p-2.pmb-5
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Acción que lo origine / modifica característica: ]
-          p #[b > Físico/estético ] 
-          p No modifica la estructura interna de la fibra, solo apariencia.
-          p #[b > Químico/funcional ]
-          p Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra.
-          p #[b > Químico-físico / estético-funcional ]
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Duración ]
-          p #[b > Temporal ] 
-          p Algunas lavadas.
-          p #[b > Permanente ]
-          p Acabados físicos, vida útil de la prenda.
-          p #[b > Renovable ]
-          p Puede renovarse en el hogar o tintorería.
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Limpieza ]
-          p #[b > Desgomado de la seda ] 
-          p #[b > Descrude del algodón ] 
-          p #[b > Lavado de lana ] 
-          br
-          br
-          br
-          br
-          br
+    .row.align-items-center.justify-content-center.mb-3
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-acento-contenido.p-3
+          .row.align-items-center.justify-content-center
+            .col-sm-12.col-md-12.col-lg-8
+              h3.text-center.mb-4.mt-4(style="color: #673AB7") Acción que lo origine / modifica característica:
+              h3 > Físico/estético 
+              p No modifica la estructura interna de la fibra, solo apariencia.
+              h3 > Químico/funcional
+              p Modifica propiedades estéticas y/o funcionales de la estructura interna de la fibra.
+              h3 > Químico-físico / estético-funcional
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-primario.p-3
+          .row.align-items-center.justify-content-center
+            .col-sm-12.col-md-12.col-lg-8
+              h3.text-center.text-white.mb-4.mt-4 Duración
+              h3.text-white > Temporal
+              p.text-white Algunas lavadas.
+              h3.text-white > Permanente
+              p.text-white Acabados físicos, vida útil de la prenda.
+              h3.text-white > Renovable
+              p.mb-4.text-white Puede renovarse en el hogar o tintorería.
+          .row.mb-4.mt-4
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-acento-contenido.p-3
+          .row.justify-content-center.align-items-center
+            .col-sm-12.col-md-12.col-lg-8
+              h3.text-center.mb-4.mt-4(style="color: #673AB7") Limpieza
+              h3.mb-4 > Desgomado de la seda
+              h3.mb-4 > Descrude del algodón 
+              h3.mb-4 > Lavado de lana
+          .row.mb-5.mt-5
+          .row.mb-5.mt-5
+          .row.mb-5.mt-5
 
-    .row.align-items-center.justify-content-center.p-2.mb-5
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Diseño y color ]
-          p El uso de tintes que penetran y dan color a las fibras. Se usa para dar color y crear grafías.
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Textura ]
-          p Se utiliza para mejorar la textura de su superficie y el tacto.
-      .col-sm-12.col-md-4.col-lg-4
-        .bloque-texto-c.borde-redondo.color-acento-contenido.p-4
-          p.text-center(style="color: #673AB7") #[b Desempeño ]
-          p Se utiliza para mejorar el desempeño y utilidad de la tela.
+
+    .row.align-items-center.justify-content-center.mb-5
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-primario.p-5
+          h3.text-center.text-white.mb-4 Diseño y color
+          p.mb-1.text-white El uso de tintes que penetran y dan color a las fibras. Se usa para dar color y crear grafías.
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-acento-contenido.p-5
+          h3.text-center.mb-4(style="color: #673AB7") Textura
+          p.mb-4 Se utiliza para mejorar la textura de su superficie y el tacto.
+      .col-sm-12.col-md-12.col-lg-4
+        .bloque-texto-c.borde-redondo.color-primario.p-5
+          h3.text-center.text-white.mb-4 Desempeño
+          p.mb-4.text-white Se utiliza para mejorar el desempeño y utilidad de la tela.
 
     .row
       .titulo-segundo.color-acento-contenido
