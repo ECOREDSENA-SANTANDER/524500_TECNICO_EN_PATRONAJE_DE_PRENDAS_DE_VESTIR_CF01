@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="El diagrama de flujo presenta los conceptos tratados  dentro del componente: dibujo técnico y diseño CAD, Fundamentación textil, clasificación y características de las fibras. adicionalmente se mencionan los universos de vestuario y su relación con el perfil estilo del consumidor.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

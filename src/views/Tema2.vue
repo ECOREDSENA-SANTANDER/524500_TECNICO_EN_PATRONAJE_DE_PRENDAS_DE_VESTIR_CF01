@@ -206,7 +206,7 @@
     .row.mb-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/VOv7-uNj-6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/9dFHVp0cC2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de  Técnica de achurados y acabados.
 
     Separador
@@ -324,7 +324,7 @@
           span
             | Tipos de ficha técnica
         figure
-          img(src='@/assets/curso/temas/tema2/imagen11.svg')
+          img(src='@/assets/curso/temas/tema2/imagen11.svg' alt=" La figura presenta un diagrama enunciando los siguientes tipos: ficha técnica de diseño, ficha técnica de patronaje, ficha técnica de insumos, ficha técnica de escalado, ficha técnica de corte, ficha técnica de confección, ficha técnica de empaque")
 
     .row.mt-5
       .titulo-segundo.color-acento-contenido
