@@ -1145,22 +1145,13 @@
         p #[b La clave es: ] identifiquemos los principales factores que afectan el pronóstico de las tendencias. <br>
         p #[b Estaciones: ] las tendencias se basan en las estaciones de primavera ( #[em Spring ]), verano ( #[em Summer ]), otoño ( #[em Autumn ]) e invierno ( #[em Winter ]). 
 
-    .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-md-10.col-lg-10
-        .tarjeta.p-3(style='background-color: #673AB7')
-          .row.justify-content-center.align-items-center
-            .col-auto
-              img(src="@/assets/curso/temas/tema1/revista.png")
-            .col
-              .row.justify-content-center.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mt-3.text-white Tendencias
-                  p.mb-0.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de las tendencias.
-                .col-sm-auto
-                  a.boton.color-boton(href="https://youtu.be/cjhRls-yhvY" target="_blank")
-                    span.texto-negro Ir al sitio
-                    i.fas.fa-video
-
+    .row.justify-content-center.align-items-center.mb-5
+      p.mb-4 Revisa el siguiente video que puede resultar útil para aprender más sobre el entorno de las tendencias.
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/cjhRls-yhvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Tendencias.
+    
     Separador
 
     .row
