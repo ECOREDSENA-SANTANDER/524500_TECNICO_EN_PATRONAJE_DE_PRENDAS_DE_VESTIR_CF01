@@ -361,7 +361,7 @@ export default {
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrolladora <em>Full-Stack</em> Junior',
+          cargo: 'Desarrolladora <i>full-stack</i> Junior',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {

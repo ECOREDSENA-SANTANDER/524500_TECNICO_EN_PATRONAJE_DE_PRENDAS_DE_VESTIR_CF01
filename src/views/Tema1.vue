@@ -667,7 +667,7 @@
     .row.mt-5
       .titulo-segundo.color-acento-contenido
         h3(style="color: #673AB7") \\\ Perfil del consumidor
-      p.mb-3 Es la descripción de las características de los consumidores de un producto o usuarios de un servicio determinado y un modelo de pensamiento. Es UNA de las variables para la definición de cualquier estrategia de marketing. El perfil no se determina sólo por la edad ni por el segmento socio económico.
+      p.mb-3 Es la descripción de las características de los consumidores de un producto o usuarios de un servicio determinado y un modelo de pensamiento. Es una de las variables para la definición de cualquier estrategia de #[em marketing]. El perfil no se determina sólo por la edad ni por el segmento socio económico.
       p.mb-4 A continuación se describen los diferentes perfiles:
 
     .tarjeta.fondo.p-4
@@ -941,13 +941,13 @@
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
                 i.lista-ul__vineta.mb-0
-                | Es original y no sigue tendencias.
+                span.mb-0 Es original y no sigue tendencias.
               li.mb-0 
                 i.lista-ul__vineta.mb-0
-                | Mezclar prendas #[em vintage] elegidas con estilo individual.
+                span.mb-0 Mezclar prendas #[em vintage] elegidas con estilo individual.
               li.mb-0
                 i.lista-ul__vineta.mb-0
-                | Objetos antiguos elegidos con buen gusto y algo de audacia.
+                span.mb-0 Objetos antiguos elegidos con buen gusto y algo de audacia.
               li.mb-0
                 i.lista-ul__vineta.mb-0
                 span.mb-0 Se pueden incorporar objetos exóticos, prendas de otras décadas, accesorios de todo de todo tipo, como si se tratara de un collage.
@@ -958,7 +958,7 @@
         .row.ps-3
           .col-sm-12.col-md-7.col-lg-7.mb-4.mb-md-0
             h3 Estilo Nostálgico
-            p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques  y colores pasteles y empolvados.
+            p Es un estilo que vive del recuerdo, del pasado. Es romántico y tiene en su esencia toques #[em vintage]  y colores pasteles y empolvados.
             p.mb-2 #[b Características: ]
             ul.lista-ul--color.vmorada.fa-ul
               li.mb-0 
